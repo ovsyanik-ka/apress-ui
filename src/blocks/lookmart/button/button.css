@@ -1,0 +1,4 @@
+.aui-button { background: var(--light-pink); }
+
+.aui-button:hover { background: var(--pink); }
+.aui-button:active { background: var(--dark-pink); }

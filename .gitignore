@@ -1,0 +1,7 @@
+# ignore vim swap
+*.swp
+
+# ignore some dirs
+node_modules/
+tmp/
+dist/

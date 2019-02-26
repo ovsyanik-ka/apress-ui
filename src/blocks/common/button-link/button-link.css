@@ -1,0 +1,8 @@
+.aui-button-link {
+  background: none;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  text-decoration: underline;
+}
