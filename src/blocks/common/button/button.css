@@ -1,0 +1,17 @@
+.aui-button {
+  display: inline-block;
+  cursor: pointer;
+
+  background: #bbb;
+  color: #fff;
+
+  outline: none;
+  border: none;
+  border-radius: 3px;
+
+  padding: 12px 24px;
+
+  transition: background 0.5s;
+}
+
+.aui-button:hover { background: #aaa; }

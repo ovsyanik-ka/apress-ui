@@ -1,0 +1,4 @@
+.aui-button { background: var(--light-blue); }
+
+.aui-button:hover { background: var(--blue); }
+.aui-button:active { background: var(--dark-blue); }

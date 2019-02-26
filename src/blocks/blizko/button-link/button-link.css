@@ -1,0 +1,6 @@
+.aui-button-link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.aui-button-link:hover { text-decoration: underline; }

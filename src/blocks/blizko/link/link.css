@@ -1,0 +1,2 @@
+.aui-link { color: var(--blue); text-decoration: none; }
+.aui-link:hover { text-decoration: underline; }
