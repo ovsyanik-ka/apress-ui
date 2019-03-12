@@ -28,5 +28,8 @@
   "directories": {
     "doc": "docs"
   },
-  "description": "apress ui"
+  "description": "apress ui",
+  "publishConfig": {
+    "registry": "https://registry.railsc.ru"
+  }
 }
