@@ -1,0 +1,15 @@
+# ignore vim swap
+*.swp
+
+# ignore some dirs
+node_modules/
+scripts/
+tmp/
+docs/
+src/
+configs/
+
+# ignore dev files
+fabler.js
+run-fabler.js
+watcher.js
