@@ -1,0 +1,27 @@
+.aui-button {
+  display: inline-block;
+  cursor: pointer;
+
+  background: #bbb;
+  color: #fff;
+
+  outline: none;
+  border: none;
+  border-radius: 3px;
+
+  padding: 12px 24px;
+
+  transition: background 0.5s;
+}
+
+.aui-button:hover { background: #aaa; }
+
+.aui-button_small { padding: 6px 12px; }
+
+.aui-button_wide { width: 100%; }
+
+.aui-button { background: var(--light-blue); }
+
+.aui-button:hover { background: var(--blue); }
+.aui-button:active { background: var(--dark-blue); }
+
