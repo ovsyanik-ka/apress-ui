@@ -128,7 +128,9 @@ const buildStories = project => {
     const examples = fs.readdirSync(__dirname + '/src/blocks/' + project + '/' + block + '/example');
 
     const examplesImport = examples.map(example =>
-      `import ${example.slice(0, -5)}Example from '../../src/blocks/${project}/${block}/example/${example}';`
+      example.substr(-5) === '.html'
+        ? `import ${example.slice(0, -5)}Example from '../../src/blocks/${project}/${block}/example/${example}';`
+        : ' '
     );
 
     const getStoryContent = exampleName => `
@@ -142,7 +144,9 @@ const buildStories = project => {
     `;
 
     const stories = examples.map(example =>
-      `.add('${example.slice(0, -5)}', () => ${getStoryContent(example)},{notes: ${generateNotes(example, project, block)} })`
+      example.substr(-5) === '.html'
+        ? `.add('${example.slice(0, -5)}', () => ${getStoryContent(example)},{notes: ${generateNotes(example, project, block)} })`
+        : ''
     );
 
 

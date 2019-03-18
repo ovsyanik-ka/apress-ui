@@ -1,0 +1,5 @@
+.aui-link {}
+
+.aui-link { color: var(--gray); text-decoration: none; }
+.aui-link:hover { color: var(--blue); }
+
