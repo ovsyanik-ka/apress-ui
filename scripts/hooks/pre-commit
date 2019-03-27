@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo trying to build project before commit;
+npm run build;
+git add -A;
