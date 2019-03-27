@@ -112,7 +112,7 @@ const generateNotes = (exampleName, project, block) => {
 <details>
 <summary>HTML</summary>
 <code>
-<xmp style="padding: 1em; font-weight: bold; background: #555; color: #fff">
+<xmp style="padding: 1em; font-weight: bold; background: #555; color: #fff; white-space: pre-wrap; word-wrap: break-word;">
 \$\{${exampleName.slice(0, -5)}Example\}</xmp>
 </code>
 </details>
