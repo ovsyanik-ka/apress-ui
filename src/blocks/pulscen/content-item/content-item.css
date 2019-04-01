@@ -1,0 +1,16 @@
+.aui-content-item {
+  margin: var(--indent-m) 0;
+  background: var(--white);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, .06);
+  border-radius: 3px;
+  padding: var(--indent-m);
+}
+.aui-content-item + .aui-content-item {
+  margin-top: var(--indent-s);
+}
+.aui-content-item__header-h1 {
+  margin-bottom: var(--indent-s);
+}
+.aui-content-item__breadcrumbs {
+  margin-bottom: var(--indent-m);
+}

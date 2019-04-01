@@ -1,0 +1,6 @@
+.aui-button_transparent {
+  background: transparent;
+  border: 1px solid #bbb;
+  color: #bbb;
+}
+.aui-button_transparent:hover { color: #fff; }

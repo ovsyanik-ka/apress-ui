@@ -1,0 +1,1 @@
+{"version":3,"file":"main.3b15529f8c8a48ad91ac.bundle.js","sources":["webpack:///./src/blocks/common/button/example/wide.html"],"sourcesContent":["module.exports = \"<button class=\\\"aui-button aui-button_wide\\\">Написать</button>\\n\";"],"mappings":"AAAA","sourceRoot":""}

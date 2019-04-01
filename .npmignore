@@ -8,6 +8,7 @@ tmp/
 docs/
 src/
 configs/
+.idea/
 
 # ignore dev files
 fabler.js

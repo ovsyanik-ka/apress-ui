@@ -20,8 +20,21 @@
 
 .aui-button_wide { width: 100%; }
 
+.aui-button_transparent {
+  background: transparent;
+  border: 1px solid #bbb;
+  color: #bbb;
+}
+.aui-button_transparent:hover { color: #fff; }
+
 .aui-button { background: var(--light-blue); }
 
 .aui-button:hover { background: var(--blue); }
 .aui-button:active { background: var(--dark-blue); }
+
+.aui-button_transparent {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
 

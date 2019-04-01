@@ -1,0 +1,5 @@
+.aui-button_transparent {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
