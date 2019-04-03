@@ -29,8 +29,8 @@
   }
 
   function _listener() {
-    $(document).ready(_loadMainModules.bind(null, 'ready'));
-    $(window).load(_onWindowLoad);
+    $doc.ready(_loadMainModules.bind(null, 'ready'));
+    $win.load(_onWindowLoad);
   }
 
   app.modules && _listener();

@@ -20,7 +20,6 @@ app.modules.yandexShare = (function(self) {
     })
   }
 
-
   self.load = function() {
     $.getScript('https://yastatic.net/share2/share.js')
       .done(function() {
