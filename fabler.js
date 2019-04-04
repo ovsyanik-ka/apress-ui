@@ -35,8 +35,8 @@ const generateColorsBlocks = () => {
             outline: solid black 1px;
             position: relative;
             font-family: monospace;
-            width: 100px;
-            height: 100px;
+            width: 130px;
+            height: 130px;
             line-height: 50px;
             display: inline-block;
             padding: 1em;
