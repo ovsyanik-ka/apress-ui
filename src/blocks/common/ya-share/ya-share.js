@@ -5,13 +5,14 @@ app.modules.yandexShare = (function(self) {
     _yaShareConfig = {
       theme: {
         lang: 'ru',
-        services: app.config.yaShare.services || 'vkontakte,facebook,twitter,odnoklassniki,moimir,lj',
-        size: app.config.yaShare.size || 's',
+        services: app.config.yaShare && app.config.yaShare.services || 'vkontakte,facebook,twitter,odnoklassniki,moimir,lj',
+        size: app.config.yaShare && app.config.yaShare.size || 's',
       }
-    };
+    },
+    $yaShareContainer = $('.js-ui-ya-share');
 
   function _initYaShare() {
-    $('.js-ui-ya-share').each(function() {
+    $yaShareContainer.each(function() {
       var id = $(this).attr('id');
 
       app.config.yaShare[id] && (_yaShareConfig.content = app.config.yaShare[id].content);
@@ -21,10 +22,12 @@ app.modules.yandexShare = (function(self) {
   }
 
   self.load = function() {
-    $.getScript('https://yastatic.net/share2/share.js')
-      .done(function() {
-        _initYaShare();
-      });
+    if ($yaShareContainer.length) {
+      $.getScript('https://yastatic.net/share2/share.js')
+        .done(function() {
+          _initYaShare();
+        });
+    }
   };
 
   return self;
