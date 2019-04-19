@@ -12,6 +12,8 @@
   padding: 12px 24px;
 
   transition: background 0.5s;
+
+  font-size: 14px;
 }
 
 .aui-button:hover { background: #aaa; }

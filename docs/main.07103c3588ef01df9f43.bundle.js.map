@@ -1,0 +1,1 @@
+{"version":3,"file":"main.07103c3588ef01df9f43.bundle.js","sources":["webpack:///./src/blocks/common/button/example/transparent.html"],"sourcesContent":["module.exports = \"<button class=\\\"aui-button aui-button_transparent\\\">Написать</button>\\n\";"],"mappings":"AAAA","sourceRoot":""}
