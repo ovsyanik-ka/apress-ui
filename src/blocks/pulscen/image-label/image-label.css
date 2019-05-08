@@ -1,0 +1,11 @@
+.aui-image-label {
+  background: url('image-label.svg') no-repeat;
+  color: var(--dark-dark);
+  padding-left: var(--indent-s);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  width: 89px;
+  height: 21px;
+  box-sizing: border-box;
+}

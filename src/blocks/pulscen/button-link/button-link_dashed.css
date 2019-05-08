@@ -1,0 +1,3 @@
+.aui-button-link_dashed { border-bottom: 1px dashed; }
+
+.aui-button-link_dashed:hover { color: var(--orange); }

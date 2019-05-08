@@ -1,0 +1,6 @@
+.aui-link_highlighted {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+.aui-link_highlighted:hover { color: var(--orange); }

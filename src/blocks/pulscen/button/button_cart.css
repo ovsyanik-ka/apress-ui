@@ -1,0 +1,22 @@
+.aui-button_cart {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.aui-button_cart:before {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  width: 18px;
+  height: 17px;
+  margin-right: var(--indent-s);
+  -webkit-mask-image: url('button_cart.svg');
+  mask-image: url('button_cart.svg');
+  background-color: var(--blue);
+}
+.aui-button_cart:hover {
+  color: var(--white);
+}
+.aui-button_cart:hover:before {
+  background-color: var(--white);
+}

@@ -1,0 +1,9 @@
+.aui-rating-label_simple-negative {
+  background-color: var(--white);
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  border-radius: 30px;
+  -webkit-mask-image: none;
+  mask-image: none;
+  text-shadow: none;
+}

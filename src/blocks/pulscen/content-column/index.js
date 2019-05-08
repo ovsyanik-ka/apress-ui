@@ -1,0 +1,1 @@
+import './content-column.css';

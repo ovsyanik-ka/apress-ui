@@ -30,3 +30,14 @@
 .aui-breadcrumbs__current-item {
   color: var(--light-blue-dark);
 }
+
+@media all and (max-width: 767px) {
+  .aui-breadcrumbs__item:before,
+  .aui-breadcrumbs__item {
+    display: none;
+  }
+  .aui-breadcrumbs__item:last-child {
+    display: inline-block;
+    padding-left: 0;
+  }
+}

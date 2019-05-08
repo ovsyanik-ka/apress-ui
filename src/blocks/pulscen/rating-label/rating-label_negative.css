@@ -1,0 +1,6 @@
+.aui-rating-label_negative {
+  background-image: linear-gradient(#ffbb11, #ff285c);
+}
+.aui-rating-label_negative:hover {
+  background-image: linear-gradient(#ff285c, #ffbb11);
+}

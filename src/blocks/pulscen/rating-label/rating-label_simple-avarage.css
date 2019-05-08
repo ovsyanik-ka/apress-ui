@@ -1,0 +1,9 @@
+.aui-rating-label_simple-avarage {
+  background-color: var(--white);
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+  border-radius: 30px;
+  -webkit-mask-image: none;
+  mask-image: none;
+  text-shadow: none;
+}

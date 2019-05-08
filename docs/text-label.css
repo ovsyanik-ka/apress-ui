@@ -1,0 +1,43 @@
+.aui-text-label {
+  display: inline-block;
+  background: var(--light-yellow);
+  color: var(--dark-yellow);
+  padding: 0 var(--indent-s);
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: bold;
+  height: 24px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.aui-text-label_positive {
+  background: var(--light-green);
+  color: var(--green);
+}
+
+.aui-text-label_neutral {
+  background: var(--light-gray);
+  color: var(--light-blue-dark);
+}
+
+.aui-text-label_highlighted {
+  background: var(--light-gray);
+  border: solid 1px var(--medium-gray);
+  color: var(--light-blue-dark);
+}
+.aui-text-label_highlighted:hover {
+  background: var(--very-light-blue);
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.aui-text-label_support {
+  background: var(--medium-gray);
+  color: var(--light-blue-dark);
+}
+.aui-text-label_support:hover {
+  background: var(--violet-gray);
+}
+

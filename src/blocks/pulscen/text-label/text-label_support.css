@@ -1,0 +1,7 @@
+.aui-text-label_support {
+  background: var(--medium-gray);
+  color: var(--light-blue-dark);
+}
+.aui-text-label_support:hover {
+  background: var(--violet-gray);
+}
