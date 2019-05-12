@@ -21,6 +21,10 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif|eot|woff|ttf)$/,
         use: [ 'file-loader' ]
+      },
+      {
+        test: /\.handlebars$/,
+        loader: 'handlebars-loader'
       }
     ]
   },
