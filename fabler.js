@@ -135,7 +135,7 @@ const buildStories = project => {
 
     const getStoryContent = exampleName => `
       \`<style>
-        ${fs.readFileSync(`dist/${project}/${block}.css`)}
+        ${fs.existsSync(`dist/${project}/${block}.css`) && fs.readFileSync(`dist/${project}/${block}.css`)}
         ${fs.existsSync(`dist/${project}/colors.css`) && fs.readFileSync(`dist/${project}/colors.css`)}
       </style>
       <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` + 

@@ -1,6 +1,6 @@
 {
   "name": "@apress/apress-ui",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "scripts": {
     "dev": "NPM_SCRIPT=dev ./scripts/npm-script.sh",
     "build": "NPM_SCRIPT=build ./scripts/npm-script.sh",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@apress/handlebars-helpers": "^1.0.2",
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
