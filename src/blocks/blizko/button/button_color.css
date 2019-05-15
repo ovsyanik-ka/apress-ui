@@ -1,0 +1,23 @@
+.aui-button_color_blue { background: var(--blue-l10); }
+.aui-button_color_blue:hover { background: var(--blue); }
+
+.aui-button_color_clear-blue {
+  border-color: var(--blue-l10);
+  color: var(--blue-l10);
+}
+.aui-button_color_clear-blue:hover {
+  background: var(--blue-l10);
+  color: var(--white);
+}
+
+.aui-button_color_orange { background: var(--orange-l10); }
+.aui-button_color_orange:hover { background: var(--orange); }
+
+.aui-button_color_clear-orange {
+  border-color: var(--orange-l10);
+  color: var(--orange-l10);
+}
+.aui-button_color_clear-orange:hover {
+  background: var(--orange-l10);
+  color: var(--white);
+}

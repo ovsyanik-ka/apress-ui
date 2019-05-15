@@ -17,3 +17,9 @@
 }
 
 .aui-button:hover { background: #aaa; }
+
+.aui-button:disabled,
+.aui-button:hover:disabled {
+  background: #a6a6a6;
+  cursor: auto;
+}

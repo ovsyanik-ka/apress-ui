@@ -1,4 +1,5 @@
-.aui-button { background: var(--orange-l10); }
-
-.aui-button:hover { background: var(--orange); }
-.aui-button:active { background: var(--orange-d10); }
+.aui-button {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 11px 24px;
+}
