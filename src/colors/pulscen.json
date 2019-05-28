@@ -12,11 +12,28 @@
   "medium-dark": "#424b5e",
   "dark-dark": "#2f3644",
 
+  "violet-gray": "#c8d0e8",
+
   "blue": "#028dd8",
   "light-blue": "#03a5fc",
+  "very-light-blue": "#e3f5ff",
   "dark-blue": "#0277bd",
 
+  "light-dim-blue": "#e9f4fe",
   "light-gray-blue": "#e5eaf1",
 
-  "orange": "#ff7043"
+  "orange": "#ff7043",
+
+  "yellow": "#ffb600",
+  "light-yellow": "#f9efc8",
+  "dark-yellow": "#ba8c4a",
+
+  "green": "#829a3a",
+  "medium-green": "#a3bd49",
+  "light-green": "#eef6d2",
+
+  "dim-red": "#dc6263",
+  "red": "#ea5757",
+
+  "brown": "#906a09"
 }

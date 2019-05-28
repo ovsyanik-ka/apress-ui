@@ -1,0 +1,24 @@
+.aui-content-column {
+  margin: 0;
+  display: flex;
+}
+
+.aui-content-column__left-col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.aui-content-column__right-col {
+  display: flex;
+  margin-left: var(--indent-s);
+}
+
+@media screen and (max-width: 1365px) {
+  .aui-content-column__right-col {
+    margin-left: 0;
+  }
+  .aui-content-column {
+    flex-direction: column;
+  }
+}
+
