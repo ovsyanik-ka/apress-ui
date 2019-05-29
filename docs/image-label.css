@@ -1,0 +1,19 @@
+.aui-img-label {
+  background: url(7da5e831c15a33e1f55baee572a34d31.svg) no-repeat;
+  color: var(--dark-dark);
+  padding-left: var(--indent-s);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  width: 89px;
+  height: 21px;
+  box-sizing: border-box;
+}
+
+.aui-img-label_discount {
+  background: url(fd8c9a6ca109bc19fbf88b8053606f32.svg) no-repeat;
+  color: var(--white);
+  width: 58px;
+  height: 21px;
+}
+
