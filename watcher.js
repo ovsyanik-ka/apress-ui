@@ -1,10 +1,12 @@
 const chokidar = require('chokidar');
-const fabler = require('./fabler');
+const { execSync }  = require('child_process');
 
 
 const run = () => {
   console.log('fabler is running...');
-  fabler();
+  try {
+    execSync('node run-fabler.js', {stdio: 'inherit'});
+  } catch(err) {}
 }
 
 run();

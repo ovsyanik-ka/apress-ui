@@ -87,9 +87,21 @@ const runWebpack = project => {
   commonWebpackConfig.output.path = __dirname + '/dist/' + project;
   commonWebpackConfig.entry = entries;
 
-  webpack(commonWebpackConfig, () => {
-    console.log(`webpack build for ${project} blocks completed`)
+  webpack(commonWebpackConfig, (err, stats) => {
+    const error = stats.hasErrors() ? stats.toString({ chunks: false, colors: true, all: false, errors: true }) : err;
+    if (error) {
+      console.error(`webpack build for ${project} blocks error: ${error}`);
+      return process.exit(-1);
+    };
+
+    console.log(`webpack build for ${project} blocks completed`);
     buildStories(project);
+
+    console.log();
+    console.log();
+    console.log('=================================================================');
+    console.log();
+    console.log();
   });
 }
 
