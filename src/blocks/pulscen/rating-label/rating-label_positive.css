@@ -1,0 +1,6 @@
+.aui-rating-label_positive {
+  background-image: linear-gradient(180deg, #bfda60 0%, var(--green) 100%);
+}
+.aui-rating-label_positive:hover {
+  background-image: linear-gradient(180deg, var(--green) 0%, #bfda60 100%);
+}

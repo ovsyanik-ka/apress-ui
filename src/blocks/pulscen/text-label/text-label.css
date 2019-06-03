@@ -1,0 +1,13 @@
+.aui-text-label {
+  display: inline-block;
+  background: var(--light-yellow);
+  color: var(--dark-yellow);
+  padding: 0 var(--indent-s);
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: bold;
+  height: 24px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-transform: uppercase;
+}

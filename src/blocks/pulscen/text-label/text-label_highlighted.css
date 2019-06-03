@@ -1,0 +1,10 @@
+.aui-text-label_highlighted {
+  background: var(--light-gray);
+  border: solid 1px var(--medium-gray);
+  color: var(--light-blue-dark);
+}
+.aui-text-label_highlighted:hover {
+  background: var(--very-light-blue);
+  border-color: var(--blue);
+  color: var(--blue);
+}

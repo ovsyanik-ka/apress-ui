@@ -3,3 +3,12 @@
 .aui-link { color: var(--gray); text-decoration: none; }
 .aui-link:hover { color: var(--blue); }
 
+.aui-link_highlighted {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+.aui-link_highlighted:hover { color: var(--orange); }
+
+.aui-link_dashed { border-bottom: dashed 1px; }
+

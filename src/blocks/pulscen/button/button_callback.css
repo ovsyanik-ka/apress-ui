@@ -1,0 +1,31 @@
+.aui-button_callback {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.aui-button_callback:before {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  width: 10px;
+  height: 15px;
+  -webkit-mask-image: url('button_callback.svg');
+  mask-image: url('button_callback.svg');
+  margin-right: var(--indent-s);
+  background-color: var(--blue);
+}
+.aui-button_callback:hover {
+  color: var(--white);
+}
+.aui-button_callback:hover:before {
+  background-color: var(--white);
+}
+@media screen and (max-width: 1365px) {
+  .aui-button_callback {
+    padding: var(--indent-s);
+    font-size: 0;
+  }
+  .aui-button_callback:before {
+    margin: 5px 9px;
+  }
+}

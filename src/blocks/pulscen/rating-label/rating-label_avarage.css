@@ -1,0 +1,6 @@
+.aui-rating-label_avarage {
+  background-image: linear-gradient(#ffcd50, #ee8100);
+}
+.aui-rating-label_avarage:hover {
+  background-image: linear-gradient(#ee8100, #ffcd50);
+}
