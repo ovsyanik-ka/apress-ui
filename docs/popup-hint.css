@@ -2,7 +2,7 @@
   position: relative;
 }
 
-:after {
+.aui-popup-hint:after {
   position: absolute;
   max-width: 228px;
   padding: var(--indent-s);
