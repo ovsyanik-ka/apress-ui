@@ -43,6 +43,7 @@
   -webkit-mask-image: none;
   mask-image: none;
   text-shadow: none;
+  line-height: 21px;
 }
 
 .aui-rating-label_simple-negative {
@@ -53,6 +54,7 @@
   -webkit-mask-image: none;
   mask-image: none;
   text-shadow: none;
+  line-height: 21px;
 }
 
 .aui-rating-label_simple-positive {
@@ -63,5 +65,6 @@
   -webkit-mask-image: none;
   mask-image: none;
   text-shadow: none;
+  line-height: 21px;
 }
 
