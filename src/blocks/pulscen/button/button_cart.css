@@ -1,15 +1,17 @@
 .aui-button_cart {
+  position: relative;
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
+  padding: 15px var(--indent-l) 15px 60px;
 }
 .aui-button_cart:before {
   content: '';
-  display: inline-block;
-  vertical-align: top;
+  position: absolute;
   width: 18px;
   height: 17px;
-  margin-right: var(--indent-s);
+  left: 30px;
+  top: 16px;
   -webkit-mask-image: url('button_cart.svg');
   mask-image: url('button_cart.svg');
   background-color: var(--blue);
@@ -19,4 +21,11 @@
 }
 .aui-button_cart:hover:before {
   background-color: var(--white);
+}
+
+@media all and (max-width: 767px) {
+  .aui-button_cart {
+    padding-right: var(--indent-m);
+    box-sizing: border-box;
+  }
 }

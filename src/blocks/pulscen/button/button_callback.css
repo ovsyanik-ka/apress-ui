@@ -2,6 +2,7 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
+  padding: 15px var(--indent-l);
 }
 .aui-button_callback:before {
   content: '';
@@ -22,7 +23,7 @@
 }
 @media screen and (max-width: 1365px) {
   .aui-button_callback {
-    padding: var(--indent-s);
+    padding: 10px var(--indent-s);
     font-size: 0;
   }
   .aui-button_callback:before {

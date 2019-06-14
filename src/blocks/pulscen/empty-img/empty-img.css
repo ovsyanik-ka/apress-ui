@@ -1,0 +1,5 @@
+.aui-empty-img {
+  width: 60px;
+  height: 60px;
+  background: url('./empty-img.svg') center no-repeat;
+}

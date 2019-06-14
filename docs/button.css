@@ -55,21 +55,29 @@
 }
 
 .aui-button_big {
-  padding: 16px 24px;
+  padding: 16px var(--indent-l);
+}
+
+@media all and (max-width: 767px) {
+  .aui-button_big {
+    padding: 16px var(--indent-m);
+  }
 }
 
 .aui-button_cart {
+  position: relative;
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
+  padding: 15px var(--indent-l) 15px 60px;
 }
 .aui-button_cart:before {
   content: '';
-  display: inline-block;
-  vertical-align: top;
+  position: absolute;
   width: 18px;
   height: 17px;
-  margin-right: var(--indent-s);
+  left: 30px;
+  top: 16px;
   -webkit-mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);
   mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);
   background-color: var(--blue);
@@ -81,10 +89,18 @@
   background-color: var(--white);
 }
 
+@media all and (max-width: 767px) {
+  .aui-button_cart {
+    padding-right: var(--indent-m);
+    box-sizing: border-box;
+  }
+}
+
 .aui-button_callback {
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
+  padding: 15px var(--indent-l);
 }
 .aui-button_callback:before {
   content: '';
@@ -105,7 +121,7 @@
 }
 @media screen and (max-width: 1365px) {
   .aui-button_callback {
-    padding: var(--indent-s);
+    padding: 10px var(--indent-s);
     font-size: 0;
   }
   .aui-button_callback:before {
