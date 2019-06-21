@@ -2,3 +2,6 @@
 
 .aui-button:hover,
 .aui-button:active { background: var(--dark-blue); }
+
+.aui-button:disabled,
+.aui-button:hover:disabled { background: var(--blue); opacity: .33; }

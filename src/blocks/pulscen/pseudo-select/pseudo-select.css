@@ -1,0 +1,8 @@
+.aui-pseudo-select {
+  color: var(--medium-dark);
+  border: 1px solid var(--medium-gray);
+  background: var(--light-gray);
+}
+.aui-pseudo-select:before { border-color: var(--extra-light-dark); }
+
+.aui-pseudo-select:after { background: var(--medium-gray); }

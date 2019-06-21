@@ -1,0 +1,9 @@
+.aui-button_transparent-yellow {
+  background: transparent;
+  border: 1px solid var(--dark-yellow);
+  color: var(--dark-yellow);
+}
+.aui-button_transparent-yellow:hover {
+  color: var(--white);
+  background: var(--dark-yellow);
+}

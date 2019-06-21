@@ -1,0 +1,12 @@
+.aui-pseudo-button__label {
+  padding: 0 var(--indent-s);
+  color: var(--light-blue-dark);
+  border: 2px dashed var(--medium-gray);
+  background: var(--very-light-gray);
+}
+.aui-pseudo-button__label:hover,
+.aui-pseudo-button__radio:checked + .aui-pseudo-button__label {
+  color: var(--blue);
+  background: var(--very-light-blue);
+  border-color: var(--blue);
+}

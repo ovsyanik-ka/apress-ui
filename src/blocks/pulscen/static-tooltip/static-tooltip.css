@@ -1,0 +1,13 @@
+.aui-static-tooltip { color: var(--medium-dark); }
+
+.aui-static-tooltip__body {
+  border: 1px solid var(--medium-gray);
+  background: var(--white);
+  padding: var(--indent-s);
+}
+.aui-static-tooltip__body:after,
+.aui-static-tooltip__body:before { border-bottom-color: var(--medium-gray); }
+
+.aui-static-tooltip__body:after { border-bottom-color: var(--white); }
+
+.aui-static-tooltip__icon:before { background: var(--light-blue-dark); }

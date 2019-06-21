@@ -1,0 +1,15 @@
+.aui-spinner .aui-spinner__input,
+.aui-spinner .ui-spinner-button {
+  border: 1px var(--medium-gray) solid;
+  color: var(--medium-dark);
+}
+
+.aui-spinner .ui-spinner-button { border-color: var(--medium-gray) !important; }
+
+.aui-spinner .ui-spinner-button:hover { background: var(--light-gray) !important; }
+
+.aui-spinner .ui-spinner-button .ui-icon { color: var(--extra-light-dark); }
+
+.aui-spinner .ui-spinner-button:hover .ui-icon { color: var(--light-blue-dark); }
+
+.aui-spinner_error .ui-spinner { border: 1px solid var(--red); }
