@@ -1,6 +1,9 @@
 .aui-button_color_blue { background: var(--blue-l10); }
 .aui-button_color_blue:hover { background: var(--blue); }
 
+a.aui-button_color_blue { color: var(--white); }
+a.aui-button_color_blue:hover { color: var(--white); }
+
 .aui-button_color_clear-blue {
   border-color: var(--blue-l10);
   color: var(--blue-l10);
@@ -10,8 +13,14 @@
   color: var(--white);
 }
 
+a.aui-button_color_clear-blue { color: var(--blue-l10); }
+a.aui-button_color_clear-blue:hover { color: var(--white); }
+
 .aui-button_color_orange { background: var(--orange-l10); }
 .aui-button_color_orange:hover { background: var(--orange); }
+
+a.aui-button_color_orange { color: var(--white);}
+a.aui-button_color_orange:hover { color: var(--white); }
 
 .aui-button_color_clear-orange {
   border-color: var(--orange-l10);
@@ -21,3 +30,6 @@
   background: var(--orange-l10);
   color: var(--white);
 }
+
+a.aui-button_color_clear-orange { color: var(--orange-l10); }
+a.aui-button_color_clear-orange:hover { color: var(--white); }
