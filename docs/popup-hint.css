@@ -20,3 +20,10 @@
   content: attr(data-popup-hint);
 }
 
+.aui-popup-hint_static-width:after {
+  width: 228px;
+  box-sizing: border-box;
+  left: auto;
+  right: -12px;
+}
+
