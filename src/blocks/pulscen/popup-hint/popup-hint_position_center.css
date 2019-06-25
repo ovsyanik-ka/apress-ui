@@ -1,0 +1,4 @@
+.aui-popup-hint_position_center:after {
+  left: 50%;
+  transform: translateX(-50%);
+}

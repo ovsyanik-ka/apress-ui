@@ -1,5 +1,6 @@
 .aui-popup-hint {
   position: relative;
+  cursor: pointer;
 }
 
 .aui-popup-hint:after {
@@ -20,10 +21,18 @@
   content: attr(data-popup-hint);
 }
 
-.aui-popup-hint_static-width:after {
+.aui-popup-hint_width_static:after {
   width: 228px;
   box-sizing: border-box;
+}
+
+.aui-popup-hint_position_right:after {
   left: auto;
-  right: -12px;
+  right: 0;
+}
+
+.aui-popup-hint_position_center:after {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
