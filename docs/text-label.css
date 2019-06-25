@@ -17,6 +17,11 @@
   color: var(--green);
 }
 
+.aui-text-label_negative {
+  background: var(--light-pink);
+  color: var(--dim-red);
+}
+
 .aui-text-label_neutral {
   background: var(--light-gray);
   color: var(--light-blue-dark);
