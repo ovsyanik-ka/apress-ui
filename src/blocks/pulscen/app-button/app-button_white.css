@@ -1,0 +1,14 @@
+.aui-app-button_white {
+  border-color: var(--white);
+}
+
+.aui-app-button_white:hover,
+.aui-app-button_white:focus,
+.aui-app-button_white:before {
+  background-color: var(--white);
+}
+
+.aui-app-button_white:hover:before,
+.aui-app-button_white:focus:before {
+  background-color: var(--blue);
+}

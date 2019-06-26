@@ -2,14 +2,11 @@
   border: 1px solid var(--blue);
 }
 .aui-app-button:hover,
-.aui-app-button:focus {
+.aui-app-button:focus,
+.aui-app-button:before {
   background-color: var(--blue);
 }
-
-.aui-app-button_white {
-  border-color: var(--white);
-}
-.aui-app-button_white:hover,
-.aui-app-button_white:focus {
+.aui-app-button:hover:before,
+.aui-app-button:focus:before {
   background-color: var(--white);
 }

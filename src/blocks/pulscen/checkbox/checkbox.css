@@ -1,0 +1,12 @@
+.aui-checkbox__checkbox:checked + .aui-checkbox__label:after {
+  background-color: var(--medium-dark);
+  color: var(--medium-dark);
+}
+
+.aui-checkbox__label {
+  color: var(--light-blue-dark);
+}
+.aui-checkbox__label:before {
+  border: 2px solid var(--medium-gray);
+  background: var(--white);
+}
