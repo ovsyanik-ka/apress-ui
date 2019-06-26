@@ -1,0 +1,36 @@
+.aui-radio__radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 7px;
+}
+.aui-radio__radio + .aui-radio__label {
+  position: relative;
+  padding: 0 0 0 30px;
+  cursor: pointer;
+}
+.aui-radio__radio + .aui-radio__label:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #e6e6e6;
+}
+.aui-radio__radio + .aui-radio__label:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f60;
+  opacity: 0;
+  transition: .3s;
+}
+.aui-radio__radio:checked + .aui-radio__label:after {
+  opacity: 1;
+}
