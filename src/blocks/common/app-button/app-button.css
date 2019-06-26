@@ -1,0 +1,50 @@
+.aui-app-button {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 48px;
+  border: 1px solid #028dd8;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: .2s;
+}
+.aui-app-button:hover,
+.aui-app-button:focus,
+.aui-app-button:before {
+  background-color: #028dd8;
+}
+.aui-app-button:before {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.aui-app-button:hover:before,
+.aui-app-button:focus:before {
+  background-color: #fff;
+}
+.aui-app-button_google-play:after {
+  content: '';
+  position: absolute;
+  background: url('google-play-logo.svg') 50% / contain no-repeat;
+  width: 24px;
+  height: 27px;
+  top: 9px;
+  left: 35px;
+}
+.aui-app-button_google-play:before {
+  -webkit-mask-box-image: url('google-play.svg');
+  mask-image: url('google-play.svg');
+  width: 81px;
+  height: 29px;
+  top: 10px;
+  right: 32px;
+}
+.aui-app-button_app-store:before {
+  -webkit-mask-box-image: url('app-store.svg');
+  mask-image: url('app-store.svg');
+  width: 110px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

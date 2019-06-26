@@ -1,6 +1,2 @@
-.aui-link {
-  color: var(--gray);
-  text-decoration: none;
-  cursor: pointer;
-}
-.aui-link:hover { color: var(--blue); }
+.aui-link { color: var(--blue); text-decoration: none; cursor: pointer; }
+.aui-link:hover { color: var(--orange); }

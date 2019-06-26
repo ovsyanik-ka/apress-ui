@@ -1,0 +1,14 @@
+.aui-button_transparent-grey {
+  background: transparent;
+  border: 1px solid #a2a9b4;
+  color: #5e7491;
+}
+.aui-button_transparent-grey:hover {
+  color: #fff;
+  background: #a2a9b4;
+}
+
+.aui-button_transparent-grey:disabled,
+.aui-button_transparent-grey:hover:disabled {
+  opacity: .33;
+}

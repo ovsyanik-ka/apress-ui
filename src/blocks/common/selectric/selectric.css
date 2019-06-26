@@ -1,0 +1,57 @@
+.aui-selectric .selectric { background: #fff; }
+
+.aui-selectric .selectric,
+.aui-selectric .selectric-hover .selectric,
+.aui-selectric .selectric-focus .selectric,
+.aui-selectric .selectric-open .selectric {
+  border-color: #dde1ed;
+}
+.aui-selectric .selectric .label,
+.aui-selectric .selectric .button {
+  height: 46px;
+  line-height: 48px;
+  color: #a2a9b4;
+  box-sizing: border-box;
+}
+.aui-selectric .selectric .button:after,
+.selectric-hover .aui-selectric .selectric .button:after {
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  border: 1px solid #a2a9b4;
+  border-top: 0;
+  border-left: 0;
+}
+.aui-selectric .selectric .label {
+  font-size: 14px;
+  font-weight: normal;
+  color: #424b5e;
+  margin: 0 48px 0 12px;
+}
+.aui-selectric .selectric .button {
+  width: 47px;
+  background: #fff;
+  border-left: 1px solid #dde1ed;
+}
+.aui-selectric .selectric .button:hover {
+  background: #f2f4f7 !important;
+}
+.aui-selectric .selectric .button:hover:after {
+  border-color: #5e7491;
+}
+.aui-selectric .selectric-items {
+  border-color: #dde1ed;
+  background: #fff;
+  outline: none;
+}
+.aui-selectric .selectric-items li {
+  color: #424b5e;
+  padding: 12px 24px;
+}
+.aui-selectric .selectric-items li:hover {
+  background: #f2f4f7;
+}
+
+.aui-selectric .selectric-group-label {
+  padding: 12px 24px;
+}

@@ -1,0 +1,35 @@
+.aui-checkbox__checkbox {
+  display: none;
+}
+.aui-checkbox__checkbox:checked + .aui-checkbox__label:after {
+  content: '';
+  width: 15px;
+  height: 10px;
+  -webkit-mask-box-image: url('checkbox.svg');
+  mask-image: url('checkbox.svg');
+  background-color: #424b5e;
+  color: #424b5e;
+  font-weight: bold;
+  top: 4px;
+  left: 3px;
+  position: absolute;
+}
+
+.aui-checkbox__label {
+  position: relative;
+  font-size: 14px;
+  color: #5e7491;
+}
+.aui-checkbox__label:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #dde1ed;
+  border-radius: 20%;
+  background: #fff;
+  margin-right: 8px;
+}

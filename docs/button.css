@@ -43,15 +43,68 @@
   color: #a6a6a6;
 }
 
+.aui-button_transparent-grey {
+  background: transparent;
+  border: 1px solid #a2a9b4;
+  color: #5e7491;
+}
+.aui-button_transparent-grey:hover {
+  color: #fff;
+  background: #a2a9b4;
+}
+
+.aui-button_transparent-grey:disabled,
+.aui-button_transparent-grey:hover:disabled {
+  opacity: .33;
+}
+
+.aui-button_transparent-yellow {
+  background: transparent;
+  border: 1px solid #ba8c4a;
+  color: #ba8c4a;
+}
+.aui-button_transparent-yellow:hover {
+  color: #fff;
+  background: #ba8c4a;
+}
+
+.aui-button_transparent-yellow:disabled,
+.aui-button_transparent-yellow:hover:disabled {
+  opacity: .33;
+}
+
 .aui-button { background: var(--blue); }
 
 .aui-button:hover,
 .aui-button:active { background: var(--dark-blue); }
 
+.aui-button:disabled,
+.aui-button:hover:disabled { background: var(--blue); opacity: .33; }
+
 .aui-button_transparent {
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
+}
+
+.aui-button_transparent-grey {
+  background: transparent;
+  border: 1px solid var(--extra-light-dark);
+  color: var(--light-blue-dark);
+}
+.aui-button_transparent-grey:hover {
+  color: var(--white);
+  background: var(--extra-light-dark);
+}
+
+.aui-button_transparent-yellow {
+  background: transparent;
+  border: 1px solid var(--dark-yellow);
+  color: var(--dark-yellow);
+}
+.aui-button_transparent-yellow:hover {
+  color: var(--white);
+  background: var(--dark-yellow);
 }
 
 .aui-button_big {

@@ -1,0 +1,9 @@
+.aui-button_transparent-grey {
+  background: transparent;
+  border: 1px solid var(--extra-light-dark);
+  color: var(--light-blue-dark);
+}
+.aui-button_transparent-grey:hover {
+  color: var(--white);
+  background: var(--extra-light-dark);
+}
