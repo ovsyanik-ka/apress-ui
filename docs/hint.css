@@ -1,0 +1,13 @@
+.aui-hint {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -webkit-mask-image: url(1baec94d38b092ad525666a275fc9c6a.svg);
+  mask-image: url(1baec94d38b092ad525666a275fc9c6a.svg);
+  background-color: var(--extra-light-dark);
+  cursor: pointer;
+}
+.aui-hint:hover {
+  background-color: var(--blue);
+}
+

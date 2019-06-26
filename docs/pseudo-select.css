@@ -1,0 +1,45 @@
+.aui-pseudo-select {
+  position: relative;
+  font-size: 14px;
+  color: #424b5e;
+  border: 1px solid #dde1ed;
+  background: #f2f4f7;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 48px 0 12px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.aui-pseudo-select:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  border: 1px solid #a2a9b4;
+  border-top: 0;
+  border-left: 0;
+}
+.aui-pseudo-select:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  right: 46px;
+  background: #dde1ed;
+}
+
+.aui-pseudo-select {
+  color: var(--medium-dark);
+  border: 1px solid var(--medium-gray);
+  background: var(--light-gray);
+}
+.aui-pseudo-select:before { border-color: var(--extra-light-dark); }
+
+.aui-pseudo-select:after { background: var(--medium-gray); }
+
