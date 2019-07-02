@@ -74,6 +74,7 @@
 }
 
 .aui-button,
+.aui-button:visited,
 .aui-button:link { background: var(--blue); color: var(--white); }
 
 .aui-button:hover,
@@ -82,13 +83,19 @@
 .aui-button:disabled,
 .aui-button:hover:disabled { background: var(--blue); opacity: .33; }
 
-.aui-button_transparent {
+.aui-button_transparent,
+.aui-button_transparent:visited,
+.aui-button_transparent:link {
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
 }
 
-.aui-button_transparent-grey {
+.aui-button_transparent:hover { background: var(--dark-blue); color: var(--white); }
+
+.aui-button_transparent-grey,
+.aui-button_transparent-grey:link,
+.aui-button_transparent-grey:visited {
   background: transparent;
   border: 1px solid var(--extra-light-dark);
   color: var(--light-blue-dark);
@@ -98,7 +105,9 @@
   background: var(--extra-light-dark);
 }
 
-.aui-button_transparent-yellow {
+.aui-button_transparent-yellow,
+.aui-button_transparent-yellow:link,
+.aui-button_transparent-yellow:visited {
   background: transparent;
   border: 1px solid var(--dark-yellow);
   color: var(--dark-yellow);
