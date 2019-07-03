@@ -1,5 +1,9 @@
-.aui-button_transparent {
+.aui-button_transparent,
+.aui-button_transparent:visited,
+.aui-button_transparent:link {
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
 }
+
+.aui-button_transparent:hover { background: var(--dark-blue); color: var(--white); }

@@ -1,4 +1,5 @@
 .aui-button,
+.aui-button:visited,
 .aui-button:link { background: var(--blue); color: var(--white); }
 
 .aui-button:hover,

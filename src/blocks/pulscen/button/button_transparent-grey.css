@@ -1,4 +1,6 @@
-.aui-button_transparent-grey {
+.aui-button_transparent-grey,
+.aui-button_transparent-grey:link,
+.aui-button_transparent-grey:visited {
   background: transparent;
   border: 1px solid var(--extra-light-dark);
   color: var(--light-blue-dark);

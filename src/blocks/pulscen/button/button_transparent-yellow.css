@@ -1,4 +1,6 @@
-.aui-button_transparent-yellow {
+.aui-button_transparent-yellow,
+.aui-button_transparent-yellow:link,
+.aui-button_transparent-yellow:visited {
   background: transparent;
   border: 1px solid var(--dark-yellow);
   color: var(--dark-yellow);
