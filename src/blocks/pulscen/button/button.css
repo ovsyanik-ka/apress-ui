@@ -1,6 +1,13 @@
 .aui-button,
 .aui-button:visited,
-.aui-button:link { background: var(--blue); color: var(--white); }
+.aui-button:link {
+  background: var(--blue);
+  color: var(--white);
+  height: 36px;
+  line-height: 36px;
+  padding: 0 var(--indent-m);
+  box-sizing: border-box;
+}
 
 .aui-button:hover,
 .aui-button:active { background: var(--dark-blue); }

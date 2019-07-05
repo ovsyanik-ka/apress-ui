@@ -3,7 +3,7 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 15px var(--indent-l) 15px 60px;
+  padding: 0 var(--indent-l) 0 60px;
 }
 .aui-button_cart:before {
   content: '';
@@ -11,7 +11,8 @@
   width: 18px;
   height: 17px;
   left: 30px;
-  top: 16px;
+  top: 50%;
+  transform: translateY(-50%);
   -webkit-mask-image: url('button_cart.svg');
   mask-image: url('button_cart.svg');
   background-color: var(--blue);

@@ -1,9 +1,11 @@
 .aui-button_big {
-  padding: 16px var(--indent-l);
+  padding: 0 var(--indent-l);
+  height: 48px;
+  line-height: 48px;
 }
 
 @media all and (max-width: 767px) {
   .aui-button_big {
-    padding: 16px var(--indent-m);
+    padding: 0 var(--indent-m);
   }
 }
