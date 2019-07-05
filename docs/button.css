@@ -75,7 +75,14 @@
 
 .aui-button,
 .aui-button:visited,
-.aui-button:link { background: var(--blue); color: var(--white); }
+.aui-button:link {
+  background: var(--blue);
+  color: var(--white);
+  height: 36px;
+  line-height: 36px;
+  padding: 0 var(--indent-m);
+  box-sizing: border-box;
+}
 
 .aui-button:hover,
 .aui-button:active { background: var(--dark-blue); }
@@ -118,12 +125,14 @@
 }
 
 .aui-button_big {
-  padding: 16px var(--indent-l);
+  padding: 0 var(--indent-l);
+  height: 48px;
+  line-height: 48px;
 }
 
 @media all and (max-width: 767px) {
   .aui-button_big {
-    padding: 16px var(--indent-m);
+    padding: 0 var(--indent-m);
   }
 }
 
@@ -132,7 +141,7 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 15px var(--indent-l) 15px 60px;
+  padding: 0 var(--indent-l) 0 60px;
 }
 .aui-button_cart:before {
   content: '';
@@ -140,7 +149,8 @@
   width: 18px;
   height: 17px;
   left: 30px;
-  top: 16px;
+  top: 50%;
+  transform: translateY(-50%);
   -webkit-mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);
   mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);
   background-color: var(--blue);
@@ -160,20 +170,22 @@
 }
 
 .aui-button_callback {
+  position: relative;
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 15px var(--indent-l);
+  padding: 0 var(--indent-l) 0 60px;
 }
 .aui-button_callback:before {
   content: '';
-  display: inline-block;
-  vertical-align: top;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 10px;
   height: 15px;
   -webkit-mask-image: url(89aadacfe8ce3cbedbec0cdc7a3f23cc.svg);
   mask-image: url(89aadacfe8ce3cbedbec0cdc7a3f23cc.svg);
-  margin-right: var(--indent-s);
   background-color: var(--blue);
 }
 .aui-button_callback:hover {
@@ -184,11 +196,13 @@
 }
 @media screen and (max-width: 1365px) {
   .aui-button_callback {
-    padding: 10px var(--indent-s);
+    padding: 0;
     font-size: 0;
+    width: 54px;
   }
   .aui-button_callback:before {
-    margin: 5px 9px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
