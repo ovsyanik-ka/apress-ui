@@ -22,7 +22,7 @@
 .aui-form__label_required:after {
   content: '*';
   position: absolute;
-  right: 0;
+  right: -3px;
 }
 
 .aui-form__text-field,
@@ -64,20 +64,22 @@
 
 .aui-form__clean-field {
   position: absolute;
+  display: inline-block;
+  height: 100%;
+  padding: 0 13px;
   top: 0;
   right: 0;
   cursor: pointer;
-  padding: 0 12px;
-  height: 100%;
 }
-
 .aui-form__clean-field:before {
-  content: '×';
-  font-size: 22px;
-  color: #5e7491;
-  display: inline-block;
-  line-height: 48px;
-  opacity: .7;
+  content: '';
+  -webkit-mask-box-image: url('close-icon.svg');
+  mask-image: url('close-icon.svg');
+  background-color: var(--gray);
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
 }
-
-.aui-form__clean-field:hover:before { opacity: 1; }

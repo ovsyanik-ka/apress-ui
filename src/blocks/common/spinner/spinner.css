@@ -22,9 +22,7 @@
   top: 0;
   margin: 0;
 }
-.aui-spinner .ui-spinner-button:hover {
-  background: #f2f4f7 !important;
-}
+
 .aui-spinner .ui-spinner-button.ui-spinner-down {
   right: 47px;
 }
@@ -56,7 +54,5 @@
   font-weight: bold;
   color: #a2a9b4;
 }
-.aui-spinner .ui-spinner-button:hover .ui-icon {
-  color: #5e7491;
-}
+
 .aui-spinner_error .ui-spinner { border: 1px solid #ea5757; }

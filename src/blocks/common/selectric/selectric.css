@@ -47,6 +47,7 @@
 .aui-selectric .selectric-items li {
   color: #424b5e;
   padding: 12px 24px;
+  font-size: 14px;
 }
 .aui-selectric .selectric-items li:hover {
   background: #f2f4f7;
