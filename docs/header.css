@@ -1,21 +1,29 @@
-.aui-header-h1 {
+.aui-header_l {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.03em;
-  color: var(--dark-dark);
+  color: #2f3644;
 }
-.aui-header-h2 {
+.aui-header_m {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--medium-dark);
+  color: #424b5e;
 }
 
 @media all and (max-width: 767px) {
-  .aui-header-h1 {
+  .aui-header_l {
     font-size: 18px;
     line-height: 24px;
   }
 }
+
+.aui-header_l {
+  color: var(--dark-dark);
+}
+.aui-header_m {
+  color: var(--medium-dark);
+}
+
