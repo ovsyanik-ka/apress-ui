@@ -141,14 +141,15 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 0 var(--indent-l) 0 60px;
+  padding: 0;
+  width: 48px;
 }
 .aui-button_cart:before {
   content: '';
   position: absolute;
   width: 18px;
   height: 17px;
-  left: 30px;
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   -webkit-mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);

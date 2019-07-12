@@ -6,8 +6,9 @@ app.modules.yandexShare = (function(self) {
       theme: {
         lang: 'ru',
         services: app.config.yaShare && app.config.yaShare.services || 'vkontakte,facebook,twitter,odnoklassniki,moimir,lj',
-        size: app.config.yaShare && app.config.yaShare.size || 's',
-      }
+        size: app.config.yaShare && app.config.yaShare.size || 's'
+      },
+      hooks: app.config.yaShare && app.config.yaShare.hooks
     },
     $yaShareContainer = $('.js-ui-ya-share');
 
