@@ -1,7 +1,8 @@
 .aui-checkbox__checkbox {
   display: none;
 }
-.aui-checkbox__checkbox:checked + .aui-checkbox__label:after {
+.aui-checkbox__checkbox:checked + .aui-checkbox__label:after,
+.aui-checkbox__checkbox:checked + .aui-checkbox__label .aui-checkbox__box:after {
   content: '';
   width: 15px;
   height: 10px;
@@ -33,7 +34,18 @@
   background: #fff;
   margin-right: 8px;
 }
-
+.aui-checkbox__box {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #dde1ed;
+  border-radius: 20%;
+  background: #fff;
+  margin-right: 8px;
+}
 .aui-checkbox__checkbox:checked + .aui-checkbox__label:after {
   background-color: var(--medium-dark);
   color: var(--medium-dark);
