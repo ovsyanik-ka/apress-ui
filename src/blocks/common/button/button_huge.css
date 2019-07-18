@@ -1,0 +1,8 @@
+.aui-button_huge,
+.aui-button_huge:link,
+.aui-button_huge:visited {
+  padding: 0 36px;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 600;
+}
