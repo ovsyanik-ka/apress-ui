@@ -1,6 +1,8 @@
 .aui-link {}
 
-.aui-link { color: var(--blue); text-decoration: none; cursor: pointer; }
+.aui-link,
+.aui-link:link,
+.aui-link:visited { color: var(--blue); text-decoration: none; cursor: pointer; }
 .aui-link:hover { color: var(--orange); }
 
 .aui-link_highlighted {

@@ -1,7 +1,9 @@
-.aui-button_big {
+.aui-button_big,
+.aui-button_big:link,
+.aui-button_big:visited {
   padding: 0 var(--indent-l);
-  height: 48px;
-  line-height: 48px;
+  height: var(--indent-xl);
+  line-height: var(--indent-xl);
 }
 
 @media all and (max-width: 767px) {

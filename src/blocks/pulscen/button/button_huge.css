@@ -1,0 +1,7 @@
+.aui-button_huge,
+.aui-button_huge:link,
+.aui-button_huge:visited {
+  padding: 0 var(--indent-l);
+  height: var(--indent-xxl);
+  line-height: var(--indent-xxl);
+}
