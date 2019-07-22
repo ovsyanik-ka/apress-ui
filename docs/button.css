@@ -139,7 +139,7 @@
 .aui-button_big:link,
 .aui-button_big:visited {
   padding: 0 var(--indent-l);
-  height:var(--indent-xl);
+  height: var(--indent-xl);
   line-height: var(--indent-xl);
 }
 
