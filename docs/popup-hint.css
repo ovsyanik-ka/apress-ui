@@ -59,6 +59,7 @@
   padding: var(--indent-s);
   color: var(--white);
   background: var(--medium-dark);
+  z-index: 1;
 }
 
 .aui-popup-hint_width_static:after {
