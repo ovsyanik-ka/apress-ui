@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo trying to build project before commit;
-npm run build;
+npm run build || exit 1;
+
 echo clear the build artifacts;
 git clean -fd docs/;
 git checkout -- docs/;
