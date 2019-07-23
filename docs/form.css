@@ -76,6 +76,8 @@
   content: '';
   -webkit-mask-box-image: url(f803e621d52d0377411d39bb1c8bee38.svg);
   mask-image: url(f803e621d52d0377411d39bb1c8bee38.svg);
+  -webkit-mask-size: contain;
+  mask-size: contain;
   background-color: var(--gray);
   position: absolute;
   width: 9px;
