@@ -76,6 +76,8 @@
   content: '';
   -webkit-mask-box-image: url('close-icon.svg');
   mask-image: url('close-icon.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
   background-color: var(--gray);
   position: absolute;
   width: 9px;

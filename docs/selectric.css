@@ -101,3 +101,28 @@
 
 .aui-selectric .selectric-group-label { padding: var(--indent-s) var(--indent-m); }
 
+.aui-selectric_thin .selectric { border-radius: 3px; }
+
+.aui-selectric_thin .selectric .label,
+.aui-selectric_thin .selectric .button {
+  line-height: var(--indent-l);
+  height: var(--indent-l);
+  color: var(--medium-dark);
+}
+
+.aui-selectric_thin .selectric .label { margin: 0 var(--indent-m) 0 var(--indent-s); }
+
+.aui-selectric_thin .selectric .button { width: var(--indent-l); }
+
+.aui-selectric_thin .selectric .button:after,
+.aui-selectric_thin .selectric .button:hover:after {
+  border-width: 2px;
+}
+
+.aui-selectric_thin .selectric-items li {
+  padding: 6px var(--indent-s);
+  font-size: 14px;
+}
+
+.aui-selectric_thin .selectric-group-label { padding: var(--indent-s) var(--indent-m); }
+
