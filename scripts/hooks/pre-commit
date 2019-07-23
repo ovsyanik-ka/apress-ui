@@ -2,4 +2,7 @@
 
 echo trying to build project before commit;
 npm run build;
+echo clear the build artifacts;
+git clean -fd docs/;
+git checkout -- docs/;
 git add -A;

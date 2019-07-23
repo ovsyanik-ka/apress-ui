@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "NPM_SCRIPT=dev ./scripts/npm-script.sh",
     "build": "NPM_SCRIPT=build ./scripts/npm-script.sh",
-    "provision": "NPM_SCRIPT=provision ./scripts/npm-script.sh"
+    "provision": "NPM_SCRIPT=provision ./scripts/npm-script.sh",
+    "release": "./scripts/release.sh"
   },
   "author": "idbolshakov@gmail.com",
   "license": "ISC",
