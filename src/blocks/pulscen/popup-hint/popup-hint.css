@@ -2,4 +2,5 @@
   padding: var(--indent-s);
   color: var(--white);
   background: var(--medium-dark);
+  z-index: 1;
 }

@@ -1,0 +1,6 @@
+.aui-actual-price-label {
+  display: inline-block;
+  background: url('./actual-price-label.svg');
+  width: 29px;
+  height: 24px;
+}

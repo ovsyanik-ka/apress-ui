@@ -1,16 +1,7 @@
 .aui-availability-label {
-  width: 48px;
-  height: 48px;
-  background: var(--medium-green);
-  border-radius: 0 0 0 100%;
-  position: absolute;
-}
-.aui-availability-label:before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: url(ef04f3539f60a846e05d4850a44e4602.svg);
-  margin: 13px 0 0 18px;
+  display: inline-block;
+  background: url(7a36cc6f0246a954538b5916199e307c.svg);
+  width: 29px;
+  height: 24px;
 }
 
