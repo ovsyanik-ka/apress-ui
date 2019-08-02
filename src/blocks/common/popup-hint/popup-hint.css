@@ -1,6 +1,7 @@
 .aui-popup-hint {
   position: relative;
   cursor: pointer;
+  z-index: 10;
 }
 
 .aui-popup-hint:after {
@@ -15,7 +16,7 @@
   border-radius: 3px;
   font-size: 12px;
   line-height: 16px;
-  z-index: 1;
+  font-weight: normal;
 }
 .aui-popup-hint:hover:after {
   content: attr(data-popup-hint);
