@@ -41,7 +41,7 @@
   line-height: 48px;
 }
 
-.aui-form__text-area { padding: 12px; }
+.aui-form__text-area { padding: 12px; resize: none; }
 
 .aui-form__text-field:focus,
 .aui-form__text-area:focus { border-color: #028dd8; outline: none; }
@@ -88,7 +88,7 @@
 }
 
 .aui-form__section {
-  padding: var(--indent-m) 0;
+  padding: var(--indent-s) 0;
   border-top: solid 1px var(--medium-gray);
 }
 

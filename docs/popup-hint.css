@@ -1,7 +1,6 @@
 .aui-popup-hint {
   position: relative;
   cursor: pointer;
-  z-index: 10;
 }
 
 .aui-popup-hint:after {
@@ -31,6 +30,9 @@
   background: #5e7491;
   -webkit-mask-box-image: url(d1af00103640e43844b0db55dbb1814c.svg);
   mask-image: url(d1af00103640e43844b0db55dbb1814c.svg);
+}
+.aui-popup-hint_with-icon:hover:before {
+  background: #028dd8;
 }
 
 .aui-popup-hint_width_static:after {
