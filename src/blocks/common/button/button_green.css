@@ -1,0 +1,13 @@
+.aui-button_green {
+  background: #a3bd49;
+  color: #fff;
+}
+.aui-button_green:hover {
+  background: #829a3a;
+}
+
+.aui-button_green:disabled,
+.aui-button_green:hover:disabled {
+  background: #a3bd49;
+  opacity: .33;
+}

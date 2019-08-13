@@ -1,7 +1,6 @@
 .aui-popup-hint {
   position: relative;
   cursor: pointer;
-  z-index: 10;
 }
 
 .aui-popup-hint:after {
