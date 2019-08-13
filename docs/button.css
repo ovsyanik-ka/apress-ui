@@ -84,6 +84,20 @@
   opacity: .33;
 }
 
+.aui-button_green {
+  background: #a3bd49;
+  color: #fff;
+}
+.aui-button_green:hover {
+  background: #829a3a;
+}
+
+.aui-button_green:disabled,
+.aui-button_green:hover:disabled {
+  background: #a3bd49;
+  opacity: .33;
+}
+
 .aui-button,
 .aui-button:visited,
 .aui-button:link {
@@ -289,5 +303,18 @@
 @keyframes chat-button-blinking-active {
   0% { box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0); }
   100% { box-shadow: 0 0 0 3px rgba(255, 255, 255, .5), 0 0 0 6px rgba(255, 255, 255, .2); }
+}
+
+.aui-button_green {
+  background: var(--medium-green);
+  color: var(--white);
+}
+.aui-button_green:hover {
+  background: var(--green);
+}
+
+.aui-button_green:disabled,
+.aui-button_green:hover:disabled {
+  background: var(--medium-green);
 }
 

@@ -1,1 +1,0 @@
-{"version":3,"file":"main.924b11422c82a8eac7a6.bundle.js","sources":["webpack:///./src/blocks/blizko/button-link/example/common.html"],"sourcesContent":["module.exports = \"<button class=\\\"aui-button-link\\\">показать на карте</button>\\n\";"],"mappings":"AAAA","sourceRoot":""}
