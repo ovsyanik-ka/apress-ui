@@ -1,0 +1,8 @@
+.aui-button_only-icon {
+  width: 48px;
+}
+.aui-button_only-icon:before {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
