@@ -3,15 +3,15 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 0;
-  width: 48px;
+  padding-left: 60px;
+  white-space: nowrap;
 }
 .aui-button_cart:before {
   content: '';
   position: absolute;
   width: 18px;
   height: 17px;
-  left: 14px;
+  left: 30px;
   top: 50%;
   transform: translateY(-50%);
   -webkit-mask-image: url('button_cart.svg');
@@ -27,7 +27,12 @@
 
 @media all and (max-width: 767px) {
   .aui-button_cart {
-    padding-right: var(--indent-m);
-    box-sizing: border-box;
+    padding: 0;
+    width: 54px;
+    font-size: 0;
+  }
+  .aui-button_cart:before {
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

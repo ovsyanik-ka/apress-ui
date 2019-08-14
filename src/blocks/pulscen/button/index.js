@@ -3,6 +3,7 @@ import './button.css';
 import './button_transparent.css';
 import './button_transparent-grey.css';
 import './button_transparent-yellow.css';
+import './button_only-icon.css';
 import './button_big.css';
 import './button_cart.css';
 import './button_callback.css';
