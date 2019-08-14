@@ -149,6 +149,15 @@
   background: var(--dark-yellow);
 }
 
+.aui-button_only-icon {
+  width: 48px;
+}
+.aui-button_only-icon:before {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .aui-button_big,
 .aui-button_big:link,
 .aui-button_big:visited {
@@ -168,15 +177,15 @@
   background: transparent;
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 0;
-  width: 48px;
+  padding-left: 60px;
+  white-space: nowrap;
 }
 .aui-button_cart:before {
   content: '';
   position: absolute;
   width: 18px;
   height: 17px;
-  left: 14px;
+  left: 30px;
   top: 50%;
   transform: translateY(-50%);
   -webkit-mask-image: url(2bc2f472b09bfde29e76b67b304bbea8.svg);
@@ -192,8 +201,13 @@
 
 @media all and (max-width: 767px) {
   .aui-button_cart {
-    padding-right: var(--indent-m);
-    box-sizing: border-box;
+    padding: 0;
+    width: 54px;
+    font-size: 0;
+  }
+  .aui-button_cart:before {
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
