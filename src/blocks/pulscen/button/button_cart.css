@@ -24,15 +24,3 @@
 .aui-button_cart:hover:before {
   background-color: var(--white);
 }
-
-@media all and (max-width: 767px) {
-  .aui-button_cart {
-    padding: 0;
-    width: 54px;
-    font-size: 0;
-  }
-  .aui-button_cart:before {
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
