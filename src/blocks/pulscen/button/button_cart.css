@@ -24,3 +24,12 @@
 .aui-button_cart:hover:before {
   background-color: var(--white);
 }
+
+@media all and (max-width: 767px) {
+  .aui-button_cart {
+    padding-left: var(--indent-xl);
+  }
+  .aui-button_cart:before {
+    left: 22px;
+  }
+}
