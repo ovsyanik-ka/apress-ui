@@ -13,4 +13,10 @@
 .aui-button:active { background: var(--dark-blue); }
 
 .aui-button:disabled,
-.aui-button:hover:disabled { background: var(--blue); opacity: .33; }
+.aui-button:hover:disabled,
+.aui-button_disabled,
+.aui-button_disabled:hover {
+  background: var(--blue);
+  opacity: .33;
+  cursor: default;
+}
