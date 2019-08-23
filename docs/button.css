@@ -122,10 +122,8 @@
 }
 
 .aui-button_small {
-  padding: 9px 18px;
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: bold;
+  padding: 0 18px;
+  font-size: 12px;
 }
 
 .aui-button_big,
@@ -328,6 +326,7 @@
 
 .aui-button_only-icon {
   width: 48px;
+  padding: 0;
 }
 .aui-button_only-icon:before {
   left: 50%;
