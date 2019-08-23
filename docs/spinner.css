@@ -21,6 +21,7 @@
   box-sizing: border-box;
   top: 0;
   margin: 0;
+  text-align: center;
 }
 
 .aui-spinner .ui-spinner-button.ui-spinner-down {
@@ -53,6 +54,9 @@
   font-size: 15px;
   font-weight: bold;
   color: #a2a9b4;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
 }
 
 .aui-spinner_error .ui-spinner { border: 1px solid #ea5757; }
