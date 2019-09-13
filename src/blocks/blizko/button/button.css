@@ -4,6 +4,7 @@
   padding: 11px 24px;
   transition: background 0.3s, color 0.3s;
   text-align: center;
+  box-sizing: border-box;
 }
 
 a.aui-button:hover {
