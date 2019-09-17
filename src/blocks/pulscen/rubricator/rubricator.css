@@ -1,0 +1,90 @@
+.aui-rubricator {
+  overflow: hidden;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: .03em;
+}
+.aui-rubricator__list {
+  list-style: none;
+}
+.aui-rubricator__list-item {
+  margin-bottom: var(--indent-xs);
+}
+.aui-rubricator__list-item:last-child {
+  margin: 0;
+}
+.aui-rubricator__list-item_level-5 .aui-rubricator__item-link {
+  padding-left: var(--indent-xxl);
+}
+.aui-rubricator__item-cover {
+  position: relative;
+}
+.aui-rubricator__toggler {
+  position: absolute;
+  display: inline-block;
+  width: 36px;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.aui-rubricator__toggler:hover:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: var(--light-gray);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  left: var(--indent-xs);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.aui-rubricator__toggler:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 5px;
+  transition: .2s;
+  border: 1px solid var(--extra-light-dark);
+  border-top: 0;
+  border-left: 0;
+  top: 50%;
+  left: 11px;
+  transform: rotate(225deg);
+}
+.aui-rubricator__toggler_toggled:after {
+  left: 7px;
+  transform: rotate(45deg) translateY(-80%);
+}
+.aui-rubricator__item-link {
+  display: flex;
+  padding: var(--indent-xs) var(--indent-l);
+  color: var(--light-blue-dark);
+  text-decoration: none;
+  align-items: center;
+}
+.aui-rubricator__item-amount {
+  font-size: 10px;
+  font-weight: normal;
+  margin-left: var(--indent-s);
+  color: var(--light-blue-dark);
+}
+.aui-rubricator__item-title {
+  flex-basis: 100%;
+}
+.aui-rubricator__item-link:hover {
+  background: var(--light-gray);
+}
+.aui-rubricator__item-link:hover,
+.aui-rubricator__item-link_current .aui-rubricator__item-link:hover {
+  color: var(--blue);
+}
+.aui-rubricator__item-link_current,
+.aui-rubricator__item-link_current .aui-rubricator__item-amount {
+  color: var(--dark-dark);
+  font-weight: bold;
+}
