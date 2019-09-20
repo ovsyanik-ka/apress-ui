@@ -195,33 +195,20 @@
   background: var(--medium-green);
 }
 
-.aui-button_chat {
+.aui-button_chat,
+.aui-button_chat:link {
   position: relative;
+  color: var(--blue);
   background: transparent;
   border: 1px solid var(--blue);
-  color: var(--blue);
-  padding: var(--indent-s);
-  width: 52px;
-  height: 50px;
-  box-sizing: border-box;
+  padding: 0 var(--indent-m) 0 var(--indent-l);
 }
 .aui-button_chat:before {
   content: '';
-  width: 22px;
-  height: 17px;
   position: absolute;
-  top: 15px;
-  left: 50%;
-  margin-left: -11px;
-  -webkit-mask-image: url(1a9de8f77ed793bac36126706ac69e71.svg);
-  mask-image: url(1a9de8f77ed793bac36126706ac69e71.svg);
-  background-color: var(--blue);
-}
-.aui-button_chat:after {
-  content: '';
-  position: absolute;
-  top: 6px;
-  right: 6px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 6px;
   height: 6px;
   background: var(--green);
@@ -231,11 +218,9 @@
 }
 .aui-button_chat:hover {
   color: var(--white);
+  background: var(--dark-blue);
 }
 .aui-button_chat:hover:before {
-  background-color: var(--white);
-}
-.aui-button_chat:hover:after {
   background: var(--white);
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0);
