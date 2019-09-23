@@ -35,3 +35,27 @@
   background-color: var(--orange);
 }
 
+.aui-link_phone {
+  margin-left: var(--indent-m);
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.aui-link_phone:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -9px;
+  margin-right: 9px;
+  width: 14px;
+  height: 15px;
+  -webkit-mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
+  mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
+  background-color: var(--blue);
+}
+.aui-link_phone:hover:before {
+  background-color: var(--orange);
+}
+
