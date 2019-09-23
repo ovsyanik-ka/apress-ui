@@ -41,6 +41,7 @@
 
           state = $block.hasClass('toggle-off');
           $block.toggleClass('toggle-off');
+
           if ($this.data('off')) {
             if (state) {
               $this.data('on', $this.html()).html($this.data('off'));
@@ -65,6 +66,11 @@
               }
               break;
             default:
+              if (state) {
+                $content.hide();
+              } else {
+                $content.show();
+              }
           }
 
           e.preventDefault();
