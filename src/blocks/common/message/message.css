@@ -1,0 +1,13 @@
+.aui-message {
+  background: #e9f4fe;
+  color: #5992b1;
+  border-left: 4px solid #028dd8;
+  padding: 24px 36px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.aui-message_attention {
+  background: #feffdf;
+  color: #ba8c4a;
+  border-left: 4px solid #ffcd50;
+}
