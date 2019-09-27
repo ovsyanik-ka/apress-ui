@@ -1,0 +1,11 @@
+.aui-message {
+  background: var(--light-dim-blue);
+  color: var(--dim-blue);
+  border-left: 4px solid var(--blue);
+  padding: var(--indent-m) var(--indent-l);
+}
+.aui-message_attention {
+  background: var(--very-light-yellow);
+  color: var(--dark-yellow);
+  border-left: 4px solid var(--medium-yellow);
+}
