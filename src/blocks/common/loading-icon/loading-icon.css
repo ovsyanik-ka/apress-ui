@@ -1,0 +1,11 @@
+.aui-loading-icon {
+  background: #ccc;
+  mask-image: url('./loading-icon.svg');
+  -webkit-mask-image: url('./loading-icon.svg');
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
