@@ -12,6 +12,9 @@
   letter-spacing: 0.03em;
   color: #424b5e;
 }
+.aui-header__label {
+  font-weight: normal;
+}
 
 @media all and (max-width: 767px) {
   .aui-header_l {
