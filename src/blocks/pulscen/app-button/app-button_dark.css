@@ -1,0 +1,10 @@
+.aui-app-button_dark {
+  border-color: var(--dark-dark);
+  background: var(--dark-dark);
+}
+.aui-app-button_dark:before {
+  background-color: var(--white);
+}
+.aui-app-button_dark:hover {
+  border-color: var(--blue);
+}
