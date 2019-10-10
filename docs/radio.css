@@ -35,3 +35,7 @@
   opacity: 1;
 }
 
+.aui-radio__radio.aui-radio__radio_color_blue + .aui-radio__label:after {
+  background: #0088cc;
+}
+
