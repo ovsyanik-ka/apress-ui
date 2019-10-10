@@ -64,6 +64,17 @@
   background-color: #028dd8;
 }
 
+.aui-app-button_dark {
+  border-color: #2f3644;
+  background: #2f3644;
+}
+.aui-app-button_dark:before {
+  background-color: #fff;
+}
+.aui-app-button_dark:hover {
+  border-color: #028dd8;
+}
+
 .aui-app-button {
   border: 1px solid var(--blue);
 }
@@ -90,5 +101,16 @@
 .aui-app-button_white:hover:before,
 .aui-app-button_white:focus:before {
   background-color: var(--blue);
+}
+
+.aui-app-button_dark {
+  border-color: var(--dark-dark);
+  background: var(--dark-dark);
+}
+.aui-app-button_dark:before {
+  background-color: var(--white);
+}
+.aui-app-button_dark:hover {
+  border-color: var(--blue);
 }
 
