@@ -58,7 +58,7 @@
 }
 .aui-rubricator__toggler_toggled:after {
   left: 7px;
-  transform: rotate(45deg) translateY(-80%);
+  transform: rotate(-45deg) translate(45%);
 }
 .aui-rubricator__item-link {
   display: flex;
@@ -83,8 +83,10 @@
 .aui-rubricator__item-link_current .aui-rubricator__item-link:hover {
   color: var(--blue);
 }
-.aui-rubricator__item-link_current,
-.aui-rubricator__item-link_current .aui-rubricator__item-amount {
+.aui-rubricator__item-link_current {
   color: var(--dark-dark);
+  font-weight: bold;
+}
+.aui-rubricator__item-link_current .aui-rubricator__item-amount {
   font-weight: bold;
 }
