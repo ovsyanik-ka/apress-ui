@@ -5,6 +5,7 @@
   padding: 24px 36px;
   font-size: 14px;
   line-height: 24px;
+  word-break: break-word;
 }
 .aui-message_attention {
   background: #feffdf;
