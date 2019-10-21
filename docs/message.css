@@ -12,6 +12,31 @@
   color: #ba8c4a;
   border-left: 4px solid #ffcd50;
 }
+.aui-message_success {
+  background: #eef6d2;
+  color: #829a3a;
+  border-left: 4px solid #a3bd49;
+}
+
+.aui-message_success-with-icon {
+  background: #eef6d2;
+  color: #829a3a;
+  border-left: 4px solid #a3bd49;
+  padding: 24px 36px 24px 80px;
+  position: relative;
+}
+.aui-message_success-with-icon:before {
+  content: '';
+  position: absolute;
+  -webkit-mask-box-image: url(19634177a6a39318523a9aad21d011de.svg);
+  mask-image: url(19634177a6a39318523a9aad21d011de.svg);
+  background-color: #a3bd49;
+  width: 24px;
+  height: 24px;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .aui-message {
   background: var(--light-dim-blue);
@@ -23,5 +48,20 @@
   background: var(--very-light-yellow);
   color: var(--dark-yellow);
   border-left: 4px solid var(--medium-yellow);
+}
+.aui-message_success {
+  background: var(--light-green);
+  color: var(--green);
+  border-left: 4px solid var(--medium-green);
+}
+.aui-message_success-with-icon {
+  background: var(--light-green);
+  color: var(--green);
+  border-left: 4px solid var(--medium-green);
+  padding: var(--indent-m) var(--indent-l) var(--indent-m) var(--indent-xxxxl);
+}
+.aui-message_success-with-icon:before {
+  background-color: var(--medium-green);
+  left: var(--indent-l);
 }
 
