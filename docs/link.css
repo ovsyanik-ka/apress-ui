@@ -59,3 +59,13 @@
   background-color: var(--orange);
 }
 
+.aui-link_blocked,
+.aui-link_blocked:hover {
+  color: var(--extra-light-dark);
+  cursor: default;
+}
+.aui-link_blocked:before,
+.aui-link_blocked:hover:before {
+  background-color: var(--extra-light-dark);
+}
+
