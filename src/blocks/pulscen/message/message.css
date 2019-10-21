@@ -9,3 +9,18 @@
   color: var(--dark-yellow);
   border-left: 4px solid var(--medium-yellow);
 }
+.aui-message_success {
+  background: var(--light-green);
+  color: var(--green);
+  border-left: 4px solid var(--medium-green);
+}
+.aui-message_success-with-icon {
+  background: var(--light-green);
+  color: var(--green);
+  border-left: 4px solid var(--medium-green);
+  padding: var(--indent-m) var(--indent-l) var(--indent-m) var(--indent-xxxxl);
+}
+.aui-message_success-with-icon:before {
+  background-color: var(--medium-green);
+  left: var(--indent-l);
+}
