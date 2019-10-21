@@ -12,3 +12,28 @@
   color: #ba8c4a;
   border-left: 4px solid #ffcd50;
 }
+.aui-message_success {
+  background: #eef6d2;
+  color: #829a3a;
+  border-left: 4px solid #a3bd49;
+}
+
+.aui-message_success-with-icon {
+  background: #eef6d2;
+  color: #829a3a;
+  border-left: 4px solid #a3bd49;
+  padding: 24px 36px 24px 80px;
+  position: relative;
+}
+.aui-message_success-with-icon:before {
+  content: '';
+  position: absolute;
+  -webkit-mask-box-image: url('success.svg');
+  mask-image: url('success.svg');
+  background-color: #a3bd49;
+  width: 24px;
+  height: 24px;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
