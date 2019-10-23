@@ -33,7 +33,7 @@
   position: absolute;
   top: calc(-1 * var(--indent-m));
   left: -9px;
-  z-index: 2;
+  z-index: 3;
   min-width: 208px;
   padding: var(--indent-m);
   background: var(--white);
