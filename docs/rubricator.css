@@ -15,8 +15,29 @@
 .aui-rubricator__list-item:last-child {
   margin: 0;
 }
-.aui-rubricator__list-item_level-5 .aui-rubricator__item-link {
+.aui-rubricator__list-item_level-2 .aui-rubricator__item-link {
+  padding-left: var(--indent-xl);
+}
+.aui-rubricator__list-item_level-2 .aui-rubricator__toggler {
+  left: var(--indent-s);
+}
+.aui-rubricator__list-item_level-3 .aui-rubricator__item-link {
   padding-left: var(--indent-xxl);
+}
+.aui-rubricator__list-item_level-3 .aui-rubricator__toggler {
+  left: var(--indent-m);
+}
+.aui-rubricator__list-item_level-4 .aui-rubricator__item-link {
+  padding-left: var(--indent-xxxl);
+}
+.aui-rubricator__list-item_level-4 .aui-rubricator__toggler {
+  left: var(--indent-l);
+}
+.aui-rubricator__list-item_level-5 .aui-rubricator__item-link {
+  padding-left: var(--indent-xxxxl);
+}
+.aui-rubricator__list-item_level-5 .aui-rubricator__toggler {
+  left: var(--indent-xl);
 }
 .aui-rubricator__item-cover {
   position: relative;
