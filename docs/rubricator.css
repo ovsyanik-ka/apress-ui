@@ -69,17 +69,19 @@
   width: 5px;
   height: 5px;
   margin-left: 5px;
+  margin-top: -3px;
   transition: .2s;
   border: 1px solid var(--extra-light-dark);
   border-top: 0;
   border-left: 0;
   top: 50%;
   left: 11px;
-  transform: rotate(225deg);
+  transform: rotate(45deg);
 }
 .aui-rubricator__toggler_toggled:after {
   left: 7px;
   transform: rotate(-45deg) translate(45%);
+  margin-top: 0;
 }
 .aui-rubricator__item-link {
   display: flex;
