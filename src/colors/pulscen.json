@@ -2,6 +2,7 @@
   "white": "#fff",
 
   "gray": "#ccc",
+  "default-very-light-gray": "#f6f5f3",
   "very-light-gray": "#fafafa",
   "light-gray": "#f2f4f7",
   "medium-gray": "#dde1ed",
