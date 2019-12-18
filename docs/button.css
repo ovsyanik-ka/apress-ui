@@ -195,7 +195,8 @@
 }
 
 .aui-button_chat,
-.aui-button_chat:link {
+.aui-button_chat:link,
+.aui-button_chat:visited {
   position: relative;
   color: var(--blue);
   background: transparent;
