@@ -118,6 +118,7 @@
 .aui-button_disabled:hover {
   opacity: .33;
   cursor: default;
+  pointer-events: none;
 }
 
 .aui-button_small {
