@@ -8,6 +8,7 @@
        url(a88748791c366be26c9bdf959d583d3f.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +21,7 @@
        url(f129fcb8722314131cf2489577eb79ff.ttf) format('truetype');
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +34,7 @@
        url(5076adfa1bf9c1e5bac965ace755e798.ttf) format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -44,6 +47,7 @@
        url(07986db864a6fdb45564de20fc8b1691.ttf) format('truetype');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -56,6 +60,7 @@
        url(6010ce021b627be3bdb99e0df053fab1.ttf) format('truetype');
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 
 
