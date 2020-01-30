@@ -1,0 +1,7 @@
+.aui-link_gray,
+.aui-link_gray:link,
+.aui-link_gray:visited { color: var(--light-blue-dark); }
+.aui-link_gray:hover { color: var(--blue); }
+
+.aui-link_gray:before { background-color: var(--light-blue-dark); }
+.aui-link_gray:hover:before { background-color: var(--blue); }

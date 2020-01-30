@@ -13,8 +13,4 @@
   height: 16px;
   -webkit-mask-image: url('./link_callback.svg');
   mask-image: url('./link_callback.svg');
-  background-color: var(--blue);
-}
-.aui-link_callback:hover:before {
-  background-color: var(--orange);
 }

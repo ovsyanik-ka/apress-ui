@@ -16,8 +16,4 @@
   height: 15px;
   -webkit-mask-image: url('./link_phone.svg');
   mask-image: url('./link_phone.svg');
-  background-color: var(--blue);
-}
-.aui-link_phone:hover:before {
-  background-color: var(--orange);
 }
