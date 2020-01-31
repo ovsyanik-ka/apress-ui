@@ -5,6 +5,17 @@
 .aui-link:visited { color: var(--blue); text-decoration: none; cursor: pointer; }
 .aui-link:hover { color: var(--orange); }
 
+.aui-link:before { background-color: var(--blue); }
+.aui-link:hover:before { background-color: var(--orange); }
+
+.aui-link_gray,
+.aui-link_gray:link,
+.aui-link_gray:visited { color: var(--light-blue-dark); }
+.aui-link_gray:hover { color: var(--blue); }
+
+.aui-link_gray:before { background-color: var(--light-blue-dark); }
+.aui-link_gray:hover:before { background-color: var(--blue); }
+
 .aui-link_highlighted {
   color: var(--blue);
   text-decoration: none;
@@ -29,10 +40,6 @@
   height: 16px;
   -webkit-mask-image: url(60f4eb47fad7627cf5069bffe63dcfcf.svg);
   mask-image: url(60f4eb47fad7627cf5069bffe63dcfcf.svg);
-  background-color: var(--blue);
-}
-.aui-link_callback:hover:before {
-  background-color: var(--orange);
 }
 
 .aui-link_phone {
@@ -53,10 +60,6 @@
   height: 15px;
   -webkit-mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
   mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
-  background-color: var(--blue);
-}
-.aui-link_phone:hover:before {
-  background-color: var(--orange);
 }
 
 .aui-link_blocked,
