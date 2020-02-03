@@ -273,6 +273,41 @@
   }
 }
 
+.aui-button_cart-with-item {
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  padding-left: 60px;
+  white-space: nowrap;
+}
+.aui-button_cart-with-item:before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  left: 30px;
+  top: 50%;
+  background: url(32103d156607b9253859730eee648fcd.svg);
+  background-color: transparent;
+  mask-image: none;
+}
+.aui-button_cart-with-item:hover {
+  color: var(--white);
+}
+.aui-button_cart-with-item:hover:before {
+  background-color: transparent;
+}
+
+@media all and (max-width: 767px) {
+  .aui-button_cart-with-item {
+    padding-left: var(--indent-xl);
+  }
+  .aui-button_cart-with-item:before {
+    left: 22px;
+  }
+}
+
 .aui-button_callback {
   position: relative;
   background: transparent;
