@@ -19,7 +19,9 @@
   -webkit-appearance: none;
 }
 
-.aui-button:hover { background: #aaa; }
+@media (hover: hover) {
+  .aui-button:hover { background: #aaa; }
+}
 
 .aui-button:disabled,
 .aui-button:hover:disabled {

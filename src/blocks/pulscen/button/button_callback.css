@@ -17,9 +17,7 @@
   mask-image: url('button_callback.svg');
   background-color: var(--blue);
 }
-.aui-button_callback:hover {
-  color: var(--white);
-}
+
 .aui-button_callback:hover:before {
   background-color: var(--white);
 }
@@ -33,4 +31,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+@media (hover: hover) {
+  .aui-button_callback:hover { color: var(--white); }
 }

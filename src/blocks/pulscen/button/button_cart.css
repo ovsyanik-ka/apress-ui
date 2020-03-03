@@ -18,10 +18,10 @@
   mask-image: url('button_cart.svg');
   background-color: var(--blue);
 }
-.aui-button_cart:hover {
+.aui-button_cart:active {
   color: var(--white);
 }
-.aui-button_cart:hover:before {
+.aui-button_cart:active:before {
   background-color: var(--white);
 }
 
@@ -31,5 +31,13 @@
   }
   .aui-button_cart:before {
     left: 22px;
+  }
+}
+@media (hover: hover) {
+  .aui-button_cart:hover {
+    color: var(--white);
+  }
+  .aui-button_cart:hover:before {
+    background-color: var(--white);
   }
 }

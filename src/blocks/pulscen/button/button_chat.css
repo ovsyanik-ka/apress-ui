@@ -20,15 +20,28 @@
   box-shadow: 0 0 0 3px rgba(168, 189, 71, 0), 0 0 0 6px rgba(238, 246, 210, 0);
   animation: chat-button-blinking 1.2s alternate infinite;
 }
-.aui-button_chat:hover {
+.aui-button_chat:active{
   color: var(--white);
   background: var(--dark-blue);
 }
-.aui-button_chat:hover:before {
+.aui-button_chat:active:before {
   background: var(--white);
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0);
   animation: chat-button-blinking-active 1.2s alternate infinite;
+}
+
+@media (hover: hover) {
+  .aui-button_chat:hover {
+    color: var(--white);
+    background: var(--dark-blue);
+  }
+  .aui-button_chat:hover:before {
+    background: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0);
+    animation: chat-button-blinking-active 1.2s alternate infinite;
+  }
 }
 
 @keyframes chat-button-blinking {

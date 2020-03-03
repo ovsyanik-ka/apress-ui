@@ -5,7 +5,14 @@
   border: 1px solid var(--extra-light-dark);
   color: var(--light-blue-dark);
 }
-.aui-button_transparent-grey:hover {
+.aui-button_transparent-grey:active {
   color: var(--white);
   background: var(--extra-light-dark);
+}
+
+@media (hover: hover) {
+  .aui-button_transparent-grey:hover {
+    color: var(--white);
+    background: var(--extra-light-dark);
+  }
 }

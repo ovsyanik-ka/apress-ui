@@ -17,10 +17,10 @@
   background-color: transparent;
   mask-image: none;
 }
-.aui-button_cart-with-item:hover {
+.aui-button_cart-with-item:active {
   color: var(--white);
 }
-.aui-button_cart-with-item:hover:before {
+.aui-button_cart-with-item:active:before {
   background-color: transparent;
 }
 
@@ -30,5 +30,13 @@
   }
   .aui-button_cart-with-item:before {
     left: 22px;
+  }
+}
+@media (hover: hover) {
+  .aui-button_cart-with-item:hover {
+    color: var(--white);
+  }
+  .aui-button_cart-with-item:hover:before {
+    background-color: transparent;
   }
 }

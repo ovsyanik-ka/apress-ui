@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-.aui-button:hover,
 .aui-button:active { background: var(--dark-blue); }
 
 .aui-button:disabled,
@@ -19,4 +18,8 @@
   opacity: .33;
   cursor: default;
   pointer-events: none;
+}
+
+@media (hover: hover) {
+  .aui-button:hover { background: var(--dark-blue); }
 }

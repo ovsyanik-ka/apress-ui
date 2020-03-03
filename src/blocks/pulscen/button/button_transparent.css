@@ -6,4 +6,8 @@
   color: var(--blue);
 }
 
-.aui-button_transparent:hover { background: var(--dark-blue); color: var(--white); }
+.aui-button_transparent:active { background: var(--dark-blue); color: var(--white); }
+
+@media (hover: hover) {
+  .aui-button_transparent:hover { background: var(--dark-blue); color: var(--white); }
+}
