@@ -2,11 +2,17 @@
   background: var(--medium-green);
   color: var(--white);
 }
-.aui-button_green:hover {
+.aui-button_green:active {
   background: var(--green);
 }
 
 .aui-button_green:disabled,
 .aui-button_green:hover:disabled {
   background: var(--medium-green);
+}
+
+@media (hover: hover) {
+  .aui-button_green:hover {
+    background: var(--green);
+  }
 }
