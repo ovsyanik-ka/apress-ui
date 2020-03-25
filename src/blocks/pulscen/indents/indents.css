@@ -1,6 +1,7 @@
 :root {
   --indent-xs: 6px;
   --indent-s: 12px;
+  --indent-sm: 18px;
   --indent-m: 24px;
   --indent-l: 36px;
   --indent-xl: 48px;
