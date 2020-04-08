@@ -38,6 +38,16 @@
   transform: translateY(-50%);
 }
 
+.aui-message_small {
+  padding: 12px 24px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.aui-message_italic {
+  font-style: italic;
+}
+
 .aui-message {
   background: var(--light-dim-blue);
   color: var(--dim-blue);
