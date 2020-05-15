@@ -14,7 +14,7 @@
     _defaults = {},
     // обработка текущего блока
     _create = function($block) {
-      $block.filter(function() { return $(this).data('index') == null; }).each(function() {
+      $block.each(function() {
         var
           $this  = $(this).data({
             options: $.extend({}, _options),
