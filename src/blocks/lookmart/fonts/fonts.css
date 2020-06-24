@@ -12,22 +12,22 @@
 }
 
 @font-face {
-	font-family: 'PT Sans';
-	src: url('PT-Sans-Regular.eot');
-	src: url('PT-Sans-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('PT-Sans-Regular.woff') format('woff'),
-	     url('PT-Sans-Regular.ttf') format('truetype');
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.eot');
+	src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('OpenSans-Regular.woff') format('woff'),
+	     url('OpenSans-Regular.ttf') format('truetype');
 
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'PT Sans';
-	src: url('PT-Sans-Bold.eot');
-	src: url('PT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('PT-Sans-Bold.woff') format('woff'),
-	     url('PT-Sans-Bold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	src: url('OpenSans-Bold.eot');
+	src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('OpenSans-Bold.woff') format('woff'),
+	     url('OpenSans-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
