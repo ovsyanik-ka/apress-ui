@@ -18,9 +18,6 @@
   background-color: var(--blue);
 }
 
-.aui-button_callback:hover:before {
-  background-color: var(--white);
-}
 @media screen and (max-width: 1365px) {
   .aui-button_callback {
     padding: 0;
@@ -34,4 +31,7 @@
 }
 @media (hover: hover) {
   .aui-button_callback:hover { color: var(--white); }
+  .aui-button_callback:hover:before { 
+    background-color: var(--white); 
+  }
 }
