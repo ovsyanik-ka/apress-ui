@@ -1,0 +1,13 @@
+.aui-button_gray {
+  background: var(--medium-gray);
+  color: var(--light-blue-dark);
+}
+.aui-button_gray:active {
+  background: var(--extra-light-blue-dark);
+}
+
+@media (hover: hover) {
+  .aui-button_gray:hover {
+    background: var(--extra-light-blue-dark);
+  }
+}
