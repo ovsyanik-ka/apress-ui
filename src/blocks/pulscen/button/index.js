@@ -10,6 +10,7 @@ import './button_transparent-grey.css';
 import './button_transparent-yellow.css';
 
 import './button_green.css';
+import './button_gray.css';
 
 import './button_chat.css';
 import './button_cart.css';
