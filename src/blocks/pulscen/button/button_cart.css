@@ -26,10 +26,12 @@
 }
 
 @media all and (max-width: 767px) {
-  .aui-button_cart {
+  .aui-button_cart,
+  .aui-button_cart:link {
     padding-left: var(--indent-xl);
   }
-  .aui-button_cart:before {
+  .aui-button_cart:before,
+  .aui-button_cart:link:before {
     left: 22px;
   }
 }
