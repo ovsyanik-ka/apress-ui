@@ -1,4 +1,5 @@
-.aui-button_cart {
+.aui-button_cart,
+.aui-button_cart:link {
   position: relative;
   background: transparent;
   border: 1px solid var(--blue);

@@ -9,7 +9,10 @@
   box-sizing: border-box;
 }
 
-.aui-button:active { background: var(--dark-blue); }
+.aui-button:active,
+.aui-button:link:active { 
+  background: var(--dark-blue); 
+}
 
 .aui-button:disabled,
 .aui-button:hover:disabled,
@@ -21,5 +24,8 @@
 }
 
 @media (hover: hover) {
-  .aui-button:hover { background: var(--dark-blue); }
+  .aui-button:hover,
+  .aui-button:link:hover { 
+    background: var(--dark-blue); 
+  }
 }
