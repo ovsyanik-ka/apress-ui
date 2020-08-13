@@ -1,8 +1,10 @@
-.aui-button_gray {
+.aui-button_gray,
+.aui-button_gray:link {
   background: var(--medium-gray);
   color: var(--light-blue-dark);
 }
-.aui-button_gray:active {
+.aui-button_gray:active,
+.aui-button_gray:link:active {
   background: var(--extra-light-blue-dark);
 }
 
