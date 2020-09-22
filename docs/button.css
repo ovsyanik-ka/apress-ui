@@ -242,6 +242,7 @@
 }
 
 @media (hover: hover) {
+  .aui-button_gray:link:hover,
   .aui-button_gray:hover {
     background: var(--extra-light-blue-dark);
   }
