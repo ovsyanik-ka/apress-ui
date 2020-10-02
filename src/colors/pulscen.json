@@ -1,57 +1,67 @@
 {
-  "white": "#fff",
+  "redesign2019": {
+    "description": "Цвета из макетов редизайна 2019г. Используются на страницах: ПКТ, листингов",
+    "colors": {
+      "white": "#fff",
 
-  "gray": "#ccc",
-  "default-very-light-gray": "#f6f5f3",
-  "very-light-gray": "#fafafa",
-  "light-gray": "#f2f4f7",
-  "medium-gray": "#dde1ed",
+      "gray": "#ccc",
+      "default-very-light-gray": "#f6f5f3",
+      "very-light-gray": "#fafafa",
+      "light-gray": "#f2f4f7",
+      "medium-gray": "#dde1ed",
 
-  "extra-light-dark": "#a2a9b4",
-  "light-dark": "#61656f",
-  "extra-light-blue-dark": "#8695ac",
-  "light-blue-dark": "#5e7491",
-  "medium-dark": "#424b5e",
-  "dark-dark": "#2f3644",
+      "extra-light-dark": "#a2a9b4",
+      "light-dark": "#61656f",
+      "extra-light-blue-dark": "#8695ac",
+      "light-blue-dark": "#5e7491",
+      "medium-dark": "#424b5e",
+      "dark-dark": "#2f3644",
 
-  "violet-gray": "#c8d0e8",
+      "violet-gray": "#c8d0e8",
 
-  "blue": "#028dd8",
-  "light-blue": "#03a5fc",
-  "very-light-blue": "#e3f5ff",
-  "dark-blue": "#0277bd",
-  "dim-blue": "#5992b1",
+      "blue": "#028dd8",
+      "light-blue": "#03a5fc",
+      "very-light-blue": "#e3f5ff",
+      "dark-blue": "#0277bd",
+      "dim-blue": "#5992b1",
 
-  "light-dim-blue": "#e9f4fe",
-  "light-gray-blue": "#e5eaf1",
+      "light-dim-blue": "#e9f4fe",
+      "light-gray-blue": "#e5eaf1",
 
-  "orange": "#ff7043",
+      "orange": "#ff7043",
 
-  "yellow": "#ffb600",
-  "medium-yellow": "#ffcd50",
-  "light-yellow": "#f9efc8",
-  "very-light-yellow": "#feffdf",
-  "dark-yellow": "#ba8c4a",
+      "yellow": "#ffb600",
+      "medium-yellow": "#ffcd50",
+      "light-yellow": "#f9efc8",
+      "very-light-yellow": "#feffdf",
+      "dark-yellow": "#ba8c4a",
 
-  "green": "#829a3a",
-  "medium-green": "#a3bd49",
-  "light-green": "#eef6d2",
+      "green": "#829a3a",
+      "medium-green": "#a3bd49",
+      "light-green": "#eef6d2",
 
-  "dim-red": "#dc6263",
-  "red": "#ea5757",
+      "dim-red": "#dc6263",
+      "red": "#ea5757",
 
-  "light-pink": "#ffd2d2",
+      "light-pink": "#ffd2d2",
 
-  "brown": "#906a09",
+      "brown": "#906a09"
+    }
+  },
 
-  "d2020-dark-azure-gray": "#3e5e6f",
-  "d2020-pale-azure": "#e6f4fb",
-  "d2020-light-pale-azure": "#f2fbff",
-  "d2020-dusky-azure": "#013a59",
-  "d2020-dark-azure": "#0492de",
+  "redesign2020": {
+    "description": "Цвета из макетов редизайна 2020г. Используются на главной странице портала",
+    "colors" : {
+      "d2020-dark-azure-gray": "#3e5e6f",
+      "d2020-pale-azure": "#e6f4fb",
+      "d2020-light-pale-azure": "#f2fbff",
+      "d2020-dusky-azure": "#013a59",
+      "d2020-dark-azure": "#0492de",
 
-  "d2020-middle-orange": "#f18334",
+      "d2020-middle-orange": "#f18334",
 
-  "d2020-pure-light-gray": "#9bA5ac",
-  "d2020-light-pale-gray": "#f7f8f9"
+      "d2020-pure-light-gray": "#9bA5ac",
+      "d2020-light-pale-gray": "#f7f8f9"
+    }
+  }
 }
