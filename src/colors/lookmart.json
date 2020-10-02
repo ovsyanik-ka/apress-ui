@@ -1,5 +1,10 @@
 {
-  "pink": "#ce1957",
-  "light-pink": "#e63371",
-  "dark-pink": "#9f1444"
+  "common": {
+    "description": "общие цвета, используются на всем портале",
+    "colors": {
+      "pink": "#ce1957",
+      "light-pink": "#e63371",
+      "dark-pink": "#9f1444"
+    }
+  }
 }

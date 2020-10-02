@@ -30,5 +30,6 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: '[name].css' })
-  ]
+  ],
+  stats: 'errors-only',
 };

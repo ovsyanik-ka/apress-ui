@@ -26,16 +26,21 @@ const generateColorsBlocks = () => {
 
     if (!colors || !Object.keys(colors).length) return;
 
-    const colorsVars = Object.keys(colors).map(key => `  --${key}: ${colors[key]};`);
+    const colorsValues = [];
+    Object.keys(colors).forEach(groupKey => {
+      const groupColors = colors[groupKey].colors;
+      const colorsVars = Object.keys(groupColors).map(key => `  --${key}: ${groupColors[key]};`);
+      colorsValues.push(...colorsVars)
+    });
 
-    const examples = Object.keys(colors).map(key =>
+    const getColorsExamples = colors => Object.keys(colors).map(key =>
       `
         <div
           style="
             outline: solid black 1px;
             position: relative;
             font-family: monospace;
-            width: 130px;
+            width: 110px;
             height: 130px;
             line-height: 50px;
             display: inline-block;
@@ -44,11 +49,23 @@ const generateColorsBlocks = () => {
             background: var(--${key});
             text-align: center;"
         >
-          <strong style="padding: 0.5em; background: white; text-decoration: underline; font-size: 0.9em;">${key}</strong>
+          <strong style="padding: 0.5em; background: white; text-decoration: underline; font-size: 0.9em;">
+            ${key}
+          </strong>
           <br>
-          <strong style="background: white; padding: 0.5em;">${colors[key]}</strong>
+          <strong style="background: white; padding: 0.5em;">
+            ${colors[key]}
+          </strong>
         </div>`
-    );
+    ).join('\n');
+
+    let examples = Object.keys(colors).map(key => `
+      <h2>${colors[key].description}</h2>
+      <div style="display: flex; flex-wrap: wrap">
+        ${getColorsExamples(colors[key].colors)}
+      </div>
+    `).join('\n');
+    
 
     fs.existsSync(__dirname + '/tmp/blocks') || fs.mkdirSync(__dirname + '/tmp/blocks');
     fs.existsSync(__dirname + '/tmp/blocks/' + project) || fs.mkdirSync(__dirname + '/tmp/blocks/' + project);
@@ -56,8 +73,8 @@ const generateColorsBlocks = () => {
     fs.existsSync(__dirname + '/tmp/blocks/' + project + '/colors/example') || fs.mkdirSync(__dirname + '/tmp/blocks/' + project + '/colors/example');
 
     fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/index.js', "import './colors.css';");
-    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/colors.css', `:root {\n${colorsVars.join('\n')}\n}`);
-    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/example/all.html', examples.join('\n'));
+    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/colors.css', `:root {\n${colorsValues.join('\n')}\n}`);
+    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/example/all.html', examples);
   });
 }
 
