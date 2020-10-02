@@ -164,8 +164,11 @@ const buildStories = project => {
 
     const getStoryContent = exampleName => `
       \`<style>
-        ${fs.existsSync(`dist/${project}/${block}.css`) && fs.readFileSync(`dist/${project}/${block}.css`)}
         ${fs.existsSync(`dist/${project}/colors.css`) && fs.readFileSync(`dist/${project}/colors.css`)}
+
+        ${blocks.map(block => (
+          fs.existsSync(`dist/${project}/${block}.css`) ? fs.readFileSync(`dist/${project}/${block}.css`) : ''
+        )).join('\n')}
       </style>
       <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` + 
 
