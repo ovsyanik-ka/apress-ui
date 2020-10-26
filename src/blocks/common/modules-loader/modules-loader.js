@@ -9,8 +9,13 @@
       for (var item in app.modules) {
         if (!app.modules[item][eventName]) { continue; }
 
-        try { app.modules[item][eventName](); }
-        catch(error) { console.trace(error); }
+        try {
+          if (app.modules[item].initiated) { return; }
+          app.modules[item][eventName]();
+          app.modules[item].initiated = true;
+        } catch(error) {
+          console.trace(error);
+        }
       }
     };
 
