@@ -1,6 +1,6 @@
 .aui-button_size_s { width: 155px; padding: 11px 5px; }
 .aui-button_size_m { width: 162px; padding: 11px 5px; }
 .aui-button_size_l { width: 220px; padding: 11px 5px; }
-.aui-button_size_s.aui-button_transparent { padding: 11px 3px; }
-.aui-button_size_m.aui-button_transparent { padding: 11px 3px; }
-.aui-button_size_l.aui-button_transparent { padding: 11px 3px; }
+.aui-button_size_s.aui-button_transparent { padding: 9px 3px; }
+.aui-button_size_m.aui-button_transparent { padding: 9px 3px; }
+.aui-button_size_l.aui-button_transparent { padding: 9px 3px; }

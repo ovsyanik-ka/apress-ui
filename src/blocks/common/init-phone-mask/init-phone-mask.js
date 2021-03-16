@@ -1,14 +1,13 @@
-// Модуль для инициализации телефонной маски
-
 app.modules.initPhoneMask = (function(self) {
   var
-    DEFAULT_CODE = '+7',
+    CONFIG = app.config.initPhoneMask,
+    DEFAULT_CODE = CONFIG ? CONFIG.phoneCode : '+7',
     _default = {
-      defaultPattern: '+0 (000) 000-00-00',
+      defaultPattern: CONFIG ? CONFIG.phonePattern : '+0 (000) 000-00-00',
       simplePattern: '+000000000000000',
       nationalPattern: '000000000000000',
       params: {
-        placeholder: DEFAULT_CODE + ' (___) ___-__-__',
+        placeholder: CONFIG ? CONFIG.phonePlaceholder : '+7 (___) ___-__-__',
         onKeyPress: function() {
           if (_options.onlyDefaultCode) {
             return;
@@ -23,15 +22,14 @@ app.modules.initPhoneMask = (function(self) {
   function _initPhoneMask(currentValue, event, $field) {
     var
       pattern,
-      firstDigitMatch,
-      allowNational = $field.data('allow-national');
+      firstDigitMatch;
 
     if (~currentValue.indexOf(DEFAULT_CODE)) {
       pattern = 'defaultPattern';
     }
     else {
       firstDigitMatch = currentValue.match(/\d/);
-      if (allowNational && firstDigitMatch && firstDigitMatch[0] === '8') {
+      if (firstDigitMatch && firstDigitMatch[0] === '8') {
         pattern = 'nationalPattern';
       }
       else {
