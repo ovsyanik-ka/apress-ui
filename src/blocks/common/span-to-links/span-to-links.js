@@ -45,11 +45,13 @@ app.modules.spanToLinks = (function(self) {
       }
       parent.replaceChild(child, this);
     });
+
+    document.dispatchEvent(new Event('load:spanToLinks'));
   }
 
   self.load = function() {
     _replace();
-    $doc.on('spansToLinks', _replace).trigger('load:spanToLinks');
+    document.addEventListener('spansToLinks', _replace);
   };
 
   return self;

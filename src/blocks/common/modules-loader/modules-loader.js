@@ -1,8 +1,3 @@
-/**
- * Загрузчик js-модулей
- *
- */
-
 (function() {
   function _loadMainModules(eventName) {
     var moduleLoader = function () {
@@ -34,8 +29,8 @@
   }
 
   function _listener() {
-    $doc.ready(_loadMainModules.bind(null, 'ready'));
-    $win.load(_onWindowLoad);
+    document.addEventListener('DOMContentLoaded', _loadMainModules.bind(null, 'ready'));
+    window.addEventListener('load', _onWindowLoad);
   }
 
   app.modules && _listener();
