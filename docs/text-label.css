@@ -46,3 +46,14 @@
   background: var(--violet-gray);
 }
 
+.aui-text-label_small {
+  padding: 0 var(--indent-xs);
+  height: auto;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  text-transform: lowercase;
+  color: var(--dark-dark);
+  background: var(--light-gray-blue);
+}
+

@@ -160,6 +160,13 @@
   line-height: var(--indent-xxl);
 }
 
+.aui-button_thin {
+  height: 32px;
+  padding: 0 var(--indent-s);
+  line-height: 32px;
+  font-weight: bold;
+}
+
 .aui-button_transparent,
 .aui-button_transparent:visited,
 .aui-button_transparent:link {
