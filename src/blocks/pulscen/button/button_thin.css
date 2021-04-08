@@ -1,0 +1,6 @@
+.aui-button_thin {
+  height: 32px;
+  padding: 0 var(--indent-s);
+  line-height: 32px;
+  font-weight: bold;
+}
