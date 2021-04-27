@@ -1,0 +1,4 @@
+.aui-button_dark { background: #000; }
+
+.aui-button_dark:hover { background: #333; }
+.aui-button_dark:active { background: #000; }
