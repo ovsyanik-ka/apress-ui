@@ -18,14 +18,11 @@
   }
 
   function _onWindowLoad() {
-    var deferred = app.config.crossDomainAuth && app.modules.crossDomainAuthBridge ?
-      app.modules.crossDomainAuthBridge.authorizeUser() : $.Deferred().resolve();
-
-    deferred.always(_loadMainModules.bind(null, 'load'));
-
-    setTimeout(function() {
-      deferred.resolve();
-    }, 1000);
+    if (app.config.authIsComplete) {
+      app.config.authIsComplete.then(_loadMainModules.bind(null, 'load'));
+    } else {
+      _loadMainModules('load');
+    }
   }
 
   function _listener() {
