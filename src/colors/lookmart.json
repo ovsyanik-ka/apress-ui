@@ -4,7 +4,14 @@
     "colors": {
       "pink": "#ce1957",
       "light-pink": "#e63371",
-      "dark-pink": "#9f1444"
+      "dark-pink": "#9f1444",
+      "white": "#fff",
+      "black": "#000",
+      "blue": "#2f80ed",
+      "gray": "#f0f0f0",
+      "light-gray": "#c4c4c4",
+      "dark-gray": "#9e9e9e",
+      "matte-black": "#333333"
     }
   }
 }
