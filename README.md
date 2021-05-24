@@ -61,7 +61,7 @@
 1. Зайти в [npm registry](https://registry.railsc.ru) и посмотреть последнюю актуальную версию библиотеки
    `@apress/apress-ui` (например, `1.0.0`.
 
-2. В корне проекта, в файле `package.local.json` в раздел `dependencies` добавить `"@apress/apress-ui": "1.0.0"`.
+2. В корне проекта, в файле `package.json` в раздел `dependencies` добавить `"@apress/apress-ui": "1.0.0"`.
 
 3. Выполнить `dip package.json:compile; dip yarn install;`.
 
