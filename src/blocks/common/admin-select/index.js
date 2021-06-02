@@ -1,0 +1,1 @@
+import './admin-select.css';

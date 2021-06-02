@@ -65,7 +65,7 @@ const generateColorsBlocks = () => {
         ${getColorsExamples(colors[key].colors)}
       </div>
     `).join('\n');
-    
+
 
     fs.existsSync(__dirname + '/tmp/blocks') || fs.mkdirSync(__dirname + '/tmp/blocks');
     fs.existsSync(__dirname + '/tmp/blocks/' + project) || fs.mkdirSync(__dirname + '/tmp/blocks/' + project);
@@ -170,7 +170,7 @@ const buildStories = project => {
           fs.existsSync(`dist/${project}/${block}.css`) ? fs.readFileSync(`dist/${project}/${block}.css`) : ''
         )).join('\n')}
       </style>
-      <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` + 
+      <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` +
 
       ${exampleName.slice(0, -5)}Example
     `;
@@ -205,7 +205,7 @@ const buildStories = project => {
 
       const getStoryContent = exampleName => `
         \`<style>${fs.readFileSync(`dist/${project}/${block}.css`)}</style>
-        <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` + 
+        <script>${fs.readFileSync(`dist/${project}/${block}.js`)}</script>\` +
 
         ${exampleName.slice(0, -5)}Example
       `;
@@ -232,7 +232,7 @@ const buildStories = project => {
 
 // end blocks section
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

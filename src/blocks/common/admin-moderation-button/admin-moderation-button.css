@@ -1,0 +1,22 @@
+.aui-admin-moderation-button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--admin-white);
+  border: 0;
+}
+
+.aui-admin-moderation-button--accept {
+  background-image: url('./moderation_accept.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aui-admin-moderation-button--postpone {
+  background-image: url('./moderation_postpone.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aui-admin-moderation-button--decline {
+  background-image: url('./moderation_decline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}

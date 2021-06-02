@@ -1,0 +1,71 @@
+.aui-admin-rubric-select__wrapper {
+  width: 100%;
+  border: 1px solid var(--admin-sea-grey);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.aui-admin-rubric-select__wrapper:hover .aui-admin-rubric-select__button {
+  display: block;
+}
+
+.aui-admin-rubric-select__left {
+  display: flex;
+  align-items: center;
+}
+
+.aui-admin-rubric-select__arrow {
+  width: 6px;
+  height: 6px;
+  border: 1px solid var(--admin-sea-grey);
+  border-top: 0;
+  border-left: 0;
+  margin-right: 12px;
+}
+
+.aui-admin-rubric-select__title {
+  color: var(--admin-sea-grey);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.aui-admin-rubric-select__button {
+  border: 1px solid var(--admin-sea-grey);
+  color: var(--admin-sea-grey);
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 6px;
+  background: none;
+  display: none;
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__wrapper--closed {
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__wrapper--opened {
+  padding: 6px 18px;
+  background-color: var(--admin-light-blue);
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__arrow--closed {
+  transform: rotate(45deg) translateY(-3px);
+}
+
+.aui-admin-rubric-select__arrow--opened {
+  transform: rotate(-45deg);
+}
+
+.aui-admin-rubric-select__wrapper--single {
+  padding: 12px 18px;
+}
+
+.aui-admin-rubric-select--inner-rubric {
+  padding-left: 20px;
+}
