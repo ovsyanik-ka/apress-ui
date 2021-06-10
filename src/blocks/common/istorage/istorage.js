@@ -1,5 +1,5 @@
-window.IStorage = (function() {
-  const
+window.IStorage = window.IStorage || (function() {
+  var
     CLASS_NAMES = {
       iframe: 'istorage js-istorage',
     },
@@ -12,27 +12,32 @@ window.IStorage = (function() {
 
       triggerRequest: 'triggerRequest',
       triggerResponse: 'triggerResponse',
-    };
-  let
+    },
     _requestID = 0,
     _requests = {},
     _listeners = {},
-    _$iframe;
+    _sendMessageFns = [],
+    _iframeEl,
+    _localStorage;
 
   function _sendMessage(data) {
     _isIframeLoaded() ?
       _postMessageOnCurrentWindow(data) :
-      _sendMessageOnIframeLoad(function() { _postMessageOnCurrentWindow(data); });
+      _sendMessageOnIframeLoad(function() { _postMessageOnCurrentWindow(data); }, data.payload.key);
   }
 
   function _sendMessageOnIframeLoad(sendMessageFn) {
-    if (!_$iframe) { _$iframe = _insertIntoBody(_createIframe()); }
+    _sendMessageFns.push(sendMessageFn);
 
-    _$iframe.on('load', function() {
-      $(this).data({isLoaded: true});
+    if (!_iframeEl) {
+      _iframeEl = _createIframe();
+      document.body.append(_iframeEl);
 
-      sendMessageFn();
-    });
+      _iframeEl.onload = function() {
+        _iframeEl.dataset.isLoaded = true;
+        _sendMessageFns.forEach(function(fun) { fun(); });
+      };
+    }
   }
 
   function _postMessage(target, data) {
@@ -44,21 +49,19 @@ window.IStorage = (function() {
   }
 
   function _getCurrentWindow() {
-    return _$iframe[0].contentWindow;
+    return _iframeEl.contentWindow;
   }
 
   function _isIframeLoaded() {
-    return _$iframe && _$iframe.data('isLoaded');
+    return _iframeEl && _iframeEl.dataset.isLoaded;
   }
 
   function _createIframe() {
-    return $('<iframe>')
-      .attr({src: app.config.istorageIframeURL})
-      .addClass(CLASS_NAMES.iframe);
-  }
+    var iframeEl = document.createElement('iframe');
+    iframeEl.src = app.config.istorageIframeURL;
+    iframeEl.className = CLASS_NAMES.iframe;
 
-  function _insertIntoBody($iframe) {
-    return $iframe.appendTo('body');
+    return iframeEl;
   }
 
   function _callEventListeners(eventName, data) {
@@ -77,7 +80,7 @@ window.IStorage = (function() {
           {
             type: ACTION_TYPES.getResponse,
             payload: {
-              value: localStorage.getItem(payload.key),
+              value: _localStorage.getItem(payload.key),
               requestID: payload.requestID,
             }
           }
@@ -85,7 +88,7 @@ window.IStorage = (function() {
         break;
 
       case ACTION_TYPES.setRequest:
-        localStorage.setItem(payload.key, payload.value);
+        _localStorage.setItem(payload.key, payload.value);
         _postMessage(
           sourceWindow,
           {
@@ -116,14 +119,14 @@ window.IStorage = (function() {
         break;
 
       case ACTION_TYPES.triggerRequest:
-        localStorage.setItem(
+        _localStorage.setItem(
           payload.eventName,
           JSON.stringify({
             data: payload.data,
             requestID: payload.requestID,
           })
         );
-        localStorage.removeItem(payload.eventName);
+        _localStorage.removeItem(payload.eventName);
         break;
 
       case ACTION_TYPES.triggerResponse:
@@ -175,7 +178,7 @@ window.IStorage = (function() {
 
     _sendMessage({
       type: data.type,
-      payload: $.extend({}, data.payload, {requestID: _requestID}),
+      payload: Object.assign({}, data.payload, {requestID: _requestID}),
     });
   }
 
@@ -230,10 +233,29 @@ window.IStorage = (function() {
     window.addEventListener('storage', _onStorage);
   }
 
+  function _init() {
+    try {
+      localStorage.getItem('');
+    } catch (error) {
+      console.warn('Cross domain storage blocked, because "Block third-party cookies" is enable');
+
+      _localStorage = {
+        setItem: function() {},
+        getItem: function() {},
+        removeItem: function() {},
+      };
+
+      return;
+    }
+
+    _localStorage = localStorage;
+  }
+
   function _listener() {
     window.addEventListener('message', _onMessage);
   }
 
+  _init();
   _listener();
 
   return {
