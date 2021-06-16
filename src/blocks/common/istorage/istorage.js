@@ -234,6 +234,11 @@ window.IStorage = window.IStorage || (function() {
   }
 
   function _init() {
+    // если мы в iframe
+    if (window.location !== window.parent.location) {
+      window.addEventListener('load', _onListenIframeWindow);
+    }
+
     try {
       localStorage.getItem('');
     } catch (error) {
@@ -264,6 +269,5 @@ window.IStorage = window.IStorage || (function() {
     trigger: _triggerEventOnStorage,
     on: _onTriggerEvent,
     removeEventListeners: _removeEventListeners,
-    listenIframeWindow: _onListenIframeWindow,
   };
 })();
