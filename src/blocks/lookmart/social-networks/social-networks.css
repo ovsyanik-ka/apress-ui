@@ -1,0 +1,43 @@
+.social-networks {
+  width: 305px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.social-networks__item {
+  display: block;
+  width: 32px; 
+  height: 32px; 
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.social-networks__item.vk {
+  background: url('images/vk-icon.svg') center center no-repeat;
+}
+.social-networks__item.odnoklassniki {
+  background: url('images/ok-icon.svg') center center no-repeat;     
+}
+.social-networks__item.fb {
+  background: url('images/fb-icon.svg') center center no-repeat; 
+}
+.social-networks__item.instagram {
+  background: url('images/ig-icon.svg') center center no-repeat; 
+}
+.social-networks__item.telegram {
+  background: url('images/tg-icon.svg') center center no-repeat; 
+}
+.social-networks__item.yandex-zen {
+  background: url('images/zen-icon.svg') center center no-repeat; 
+}
+.social-networks__item.pinterest {
+  background: url('images/pt-icon.svg') center center no-repeat;
+  background-size: 45%;
+}
+
+.social-networks__item:hover {
+  background-color: #e2e2e2;
+}
