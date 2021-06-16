@@ -1,0 +1,43 @@
+.aui-checkbox {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.aui-checkbox__label {
+  position: relative;
+  display: flex;
+  padding-left: 21px;
+  cursor: pointer;
+}
+
+.aui-checkbox__label::before {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-color: var(--black-l98);
+  border: 1px solid var(--black-l65);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.aui-checkbox:checked + .aui-checkbox__label::after {
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  width: 10px;
+  height: 5px;
+  content: '';
+  border: 2px solid var(--black-l50);
+  transform: rotate(-47deg);
+  margin-bottom: 3px;
+  border-top: none;
+  border-right: none;
+}
+
+.aui-checkbox:disabled + .aui-checkbox__label {
+  opacity: .4;
+  cursor: default;
+}
