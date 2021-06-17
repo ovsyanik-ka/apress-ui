@@ -1,2 +1,3 @@
 import './social-networks.css';
-import './social-networks_small-wrapper.css';
+import './social-networks_small.css';
+import './social-networks_old.css';

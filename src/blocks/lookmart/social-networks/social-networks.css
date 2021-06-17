@@ -1,6 +1,6 @@
 .social-networks {
   width: 305px;
-  background: #f0f0f0;
+  background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
 }
