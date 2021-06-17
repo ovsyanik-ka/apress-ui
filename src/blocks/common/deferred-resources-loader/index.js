@@ -21,7 +21,9 @@
 
     return new Promise((resolve) => {
       script.onload = () => {
-        Object.values(app.modules).forEach(_initModule);
+        for(let key in app.modules) {
+          _initModule(app.modules[key]);
+        }
         resolve();
       };
     });
