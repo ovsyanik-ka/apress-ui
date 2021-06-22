@@ -3,6 +3,7 @@
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
+  margin: 0 auto;
 }
 
 .social-networks__item {
@@ -56,10 +57,9 @@
 }
 
 .social-networks_old .social-networks {
-  width: auto;
+  width: 100%;
   background: 0;
   border-radius: 0;
-  margin: 0;
   display: flex;
 }
 
