@@ -160,7 +160,9 @@
   line-height: var(--indent-xxl);
 }
 
-.aui-button_thin {
+.aui-button_thin,
+.aui-button_thin:visited,
+.aui-button_thin:link {
   height: 32px;
   padding: 0 var(--indent-s);
   line-height: 32px;
