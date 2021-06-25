@@ -1,0 +1,8 @@
+.aui-input_invalid .aui-input__field {
+  border-color: var(--red);
+}
+
+.aui-input_invalid .aui-input__label,
+.aui-input_invalid .aui-input__field:focus + .aui-input__label {
+  color: var(--red);
+}

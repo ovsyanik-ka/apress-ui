@@ -1,0 +1,59 @@
+.aui-select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aui-select .aui-list {
+  display: none;
+}
+
+.aui-select::before {
+  position: absolute;
+  content: url(./select-arrow.svg);
+  width: 42px;
+  right: 1px;
+  background-color: inherit;
+  text-align: center;
+}
+
+.aui-select .aui-list__item {
+  padding: 8px;
+}
+
+.aui-select_open .aui-input__field {
+  border-color: var(--orange);
+}
+
+.aui-select_open .aui-input__label {
+  color: var(--orange);
+}
+
+.aui-select_open::before {
+  transform: rotate(180deg);
+}
+
+.aui-select_open .aui-list {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  max-height: 160px;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid var(--orange);
+  overflow-y: auto;
+  scrollbar-width: thin; /* для FF */
+}
+
+.aui-select_open .aui-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.aui-select_open .aui-list::-webkit-scrollbar-thumb {
+  background-color: var(--black-l90);
+  border-radius: 20%;
+}
