@@ -1,0 +1,30 @@
+.aui-link_back {
+  display: inline-flex;
+  font: inherit;
+}
+
+.aui-link_back .aui-link__text {
+  display: none;
+}
+
+.aui-link_back::before {
+  content: '';
+  width: 9px;
+  height: 17px;
+  background-image: url(./arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 767px) {
+  .aui-link_back .aui-link__text {
+    display: inline;
+  }
+
+  .aui-link_back::before {
+    width: 16px;
+    height: auto;
+    margin-right: 4px;
+    background-size: 5px 10px;
+  }
+}

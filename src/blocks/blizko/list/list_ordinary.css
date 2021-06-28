@@ -1,0 +1,12 @@
+.aui-list_ordinary .aui-list__item {
+  border-radius: 4px;
+  background-color: var(--black-l98);
+}
+
+.aui-list_ordinary .aui-list__item:not(:last-of-type) {
+  margin-bottom: 4px;
+}
+
+.aui-list_ordinary .aui-list__item_selected {
+  border: 1px solid var(--orange);
+}

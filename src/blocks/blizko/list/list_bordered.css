@@ -1,0 +1,15 @@
+.aui-list_bordered {
+  border-radius: 4px;
+  border: 1px solid var(--black-l85);
+}
+
+.aui-list_bordered-all .aui-list__item {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: var(--black-l98);
+  border-bottom: 1px solid var(--black-l85);
+}
+
+.aui-list_bordered-all .aui-list__item:last-of-type {
+  border: none;
+}
