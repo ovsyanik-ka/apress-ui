@@ -1,0 +1,9 @@
+.aui-button-link_dashed {
+  border-bottom: 1px dashed;
+  padding: 0;
+}
+
+.aui-button-link_dashed:hover {
+  text-decoration: none;
+  border-bottom: none;
+}

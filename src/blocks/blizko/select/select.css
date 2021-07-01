@@ -16,6 +16,7 @@
   right: 1px;
   background-color: inherit;
   text-align: center;
+  pointer-events: none;
 }
 
 .aui-select .aui-list__item {

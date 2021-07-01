@@ -1,6 +1,12 @@
 .aui-button-link {
+  background: none;
+  border: none;
   text-decoration: none;
   color: var(--blue);
+  cursor: pointer;
+  outline: none;
 }
 
-.aui-button-link:hover { text-decoration: underline; }
+.aui-button-link:hover {
+  text-decoration: underline;
+}
