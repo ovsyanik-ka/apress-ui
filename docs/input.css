@@ -56,3 +56,9 @@
   color: var(--red);
 }
 
+.aui-input_textarea .aui-input__field {
+  min-height: 120px;
+  box-sizing: border-box;
+  resize: none;
+}
+
