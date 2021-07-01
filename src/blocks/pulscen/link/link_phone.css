@@ -10,10 +10,10 @@
   position: absolute;
   right: 100%;
   top: 50%;
-  margin-top: -9px;
   margin-right: 9px;
   width: 14px;
   height: 15px;
+  transform: translateY(-50%) rotate(90deg);
   -webkit-mask-image: url('./link_phone.svg');
   mask-image: url('./link_phone.svg');
 }
