@@ -54,10 +54,10 @@
   position: absolute;
   right: 100%;
   top: 50%;
-  margin-top: -9px;
   margin-right: 9px;
   width: 14px;
   height: 15px;
+  transform: translateY(-50%) rotate(90deg);
   -webkit-mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
   mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
 }
