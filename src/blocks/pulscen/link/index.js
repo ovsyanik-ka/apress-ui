@@ -6,3 +6,6 @@ import './link_dashed.css';
 import './link_callback.css';
 import './link_phone.css';
 import './link_blocked.css';
+import './link_dark.css';
+import './link_dotted.css';
+import './link_bolder.css';
