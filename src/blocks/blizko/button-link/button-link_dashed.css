@@ -5,5 +5,5 @@
 
 .aui-button-link_dashed:hover {
   text-decoration: none;
-  border-bottom: none;
+  border-bottom-color: transparent;
 }
