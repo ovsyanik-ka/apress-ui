@@ -48,6 +48,7 @@
   border: 1px solid var(--orange);
   overflow-y: auto;
   scrollbar-width: thin; /* для FF */
+  z-index: 1;
 }
 
 .aui-select_open .aui-list::-webkit-scrollbar {
