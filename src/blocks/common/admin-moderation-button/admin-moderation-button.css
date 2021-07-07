@@ -5,18 +5,18 @@
   border: 0;
 }
 
-.aui-admin-moderation-button--accept {
-  background-image: url('./moderation_accept.svg');
+.aui-admin-moderation-button_accept {
+  background-image: url('./aui-admin-moderation-button_accept.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
-.aui-admin-moderation-button--postpone {
-  background-image: url('./moderation_postpone.svg');
+.aui-admin-moderation-button_postpone {
+  background-image: url('./aui-admin-moderation-button_postpone.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
-.aui-admin-moderation-button--decline {
-  background-image: url('./moderation_decline.svg');
+.aui-admin-moderation-button_decline {
+  background-image: url('./aui-admin-moderation-button_decline.svg');
   background-position: center;
   background-repeat: no-repeat;
 }

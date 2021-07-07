@@ -1,1 +1,1 @@
-import './admin-arrow.css';
+import './admin-icons__arrow.css';
