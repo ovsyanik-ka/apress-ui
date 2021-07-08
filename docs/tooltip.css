@@ -11,9 +11,8 @@
   vertical-align: middle;
 }
 
-.aui-tooltip::after {
-  position: absolute;
-  content: attr(data-aui-tooltip);
+.aui-tooltip__text {
+  position: fixed;
   width: 359px;
   height: max-content;
   padding: 12px 16px;
@@ -24,7 +23,6 @@
   font: var(--caption2-optimal);
   opacity: 0;
   pointer-events: none;
-  transition: 0.3s;
   z-index: 1;
 }
 
@@ -32,23 +30,34 @@
   background-color: var(--black-l65);
 }
 
-.aui-tooltip:hover::after {
+.aui-tooltip__text_open {
+  transition: 0.3s;
   opacity: 1;
 }
 
-.aui-tooltip_right::after {
+.aui-tooltip__text_fullwidth {
+  width: auto;
+  left: 16px;
+  right: 16px;
+}
+
+.aui-tooltip__text_absolute {
+  position: absolute;
+}
+
+.aui-tooltip__text_right {
   left: 100%;
 }
 
-.aui-tooltip_bottom::after {
+.aui-tooltip__text_bottom {
   top: 100%;
 }
 
-.aui-tooltip_left::after {
+.aui-tooltip__text_left {
   right: 100%;
 }
 
-.aui-tooltip_top::after {
+.aui-tooltip__text_top {
   bottom: 100%;
 }
 
