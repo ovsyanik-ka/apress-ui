@@ -1,0 +1,29 @@
+.aui-admin-text-input__wrapper {
+  position: relative;
+}
+
+.aui-admin-text-input {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--admin-light-grey);
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 30px 0 10px;
+  outline: 0;
+}
+.aui-admin-text-input:focus {
+  border: 1px solid var(--admin-blue);
+}
+.aui-admin-text-input::placeholder {
+  color: var(--admin-grey);
+}
+
+.aui-admin-text-input__counter {
+  position: absolute;
+  line-height: 40px;
+  bottom: 0;
+  right: 10px;
+  color: var(--admin-grey);
+  font-size: 12px;
+}
+

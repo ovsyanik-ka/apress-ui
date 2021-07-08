@@ -1,0 +1,19 @@
+.aui-admin-textarea__wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.aui-admin-textarea__field {
+  border: 1px solid var(--admin-light-grey);
+  resize: none;
+}
+
+.aui-admin-textarea__counter {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: var(--admin-light-grey);
+  font-size: 13px;
+  line-height: 18px;
+}
+
