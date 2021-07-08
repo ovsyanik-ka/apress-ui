@@ -4,34 +4,44 @@
   opacity: 0;
   margin: 10px 0 0 7px;
 }
+
+.aui-radio__label {
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
 .aui-radio__radio + .aui-radio__label {
   position: relative;
   padding: 0 0 0 30px;
   cursor: pointer;
 }
-.aui-radio__radio + .aui-radio__label:before {
+
+.aui-radio__radio + .aui-radio__label::before,
+.aui-radio__radio + .aui-radio__label::after {
   content: '';
   position: absolute;
-  top: -3px;
+  top: 0;
   left: 0;
+  border-radius: 50%;
+}
+
+.aui-radio__radio + .aui-radio__label:before {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background: #e6e6e6;
+  background: var(--black-l90);
 }
+
 .aui-radio__radio + .aui-radio__label:after {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 5px;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background: #f60;
+  border: 5px solid var(--black-l90);
+  background-color: var(--orange);
   opacity: 0;
   transition: .3s;
 }
-.aui-radio__radio:checked + .aui-radio__label:after {
+
+.aui-radio__radio:checked + .aui-radio__label::after {
   opacity: 1;
 }
 
