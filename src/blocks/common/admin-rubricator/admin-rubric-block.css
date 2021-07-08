@@ -1,0 +1,36 @@
+.aui-admin-rubric-block__wrapper {
+  padding: 12px 18px;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.aui-admin-rubric-block__title {
+  margin-bottom: 6px;
+}
+
+.aui-admin-rubric-block__link {
+  text-decoration: none;
+  color: var(--admin-blue);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.aui-admin-rubric-block__tree {
+  color: var(--admin-extra-light-blue-dark);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.aui-admin-rubric-block__wrapper_solid {
+  border: 1px solid var(--admin-blue);
+}
+
+.aui-admin-rubric-block__wrapper_light {
+  border: 1px solid var(--admin-very-light-blue);
+}
+
+.aui-admin-rubric-block__wrapper_active {
+  border: 1px solid var(--admin-blue);
+  background-color: var(--admin-very-light-blue);
+}

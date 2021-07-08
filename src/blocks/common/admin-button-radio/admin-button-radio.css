@@ -1,0 +1,33 @@
+.aui-admin-button-radio {
+  border-radius: 3px;
+  border: 1px var(--admin-light-grey) solid;
+  display: inline-flex;
+}
+
+.aui-admin-button-radio__button {
+  padding: 6px 12px;
+  background-color: var(--admin-white);
+  border: 0;
+  border-right: 1px var(--admin-light-grey) solid;
+  cursor: pointer;
+  color: var(--admin-light-dark);
+  font-size: 13px;
+  line-height: 20px;
+}
+.aui-admin-button-radio__button:last-child {
+  border-right: 0;
+}
+.aui-admin-button-radio__button:hover {
+  background-color: var(--admin-blue);
+  color: var(--admin-white);
+}
+
+.aui-admin-button-radio__button_active {
+  background-color: var(--admin-blue);
+  color: var(--admin-white);
+  border-right: 1px var(--admin-blue) solid;
+}
+
+.aui-admin-button-radio__input {
+  display: none;
+}

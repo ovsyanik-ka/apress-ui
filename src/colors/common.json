@@ -1,0 +1,23 @@
+{
+  "admin": {
+    "description": "общие цвета, используются на всех порталах в админке СК",
+    "colors": {
+      "admin-white": "#fff",
+      "admin-light-dark": "#61656f",
+      "admin-dark-dark": "#2f3644",
+      "admin-blue": "#028dd8",
+      "admin-light-blue": "#e3f5ff",
+      "admin-extra-light-blue-dark": "#8695ac",
+      "admin-very-light-blue": "#e3f5ff",
+      "admin-sea-grey": "#9a9a9a",
+      "admin-default-very-white-gray": "#f6f5f3",
+      "admin-grey": "#c1c1c1",
+      "admin-light-grey": "#e0e0e0",
+      "admin-battery-grey": "#666",
+      "admin-battery-blue": "#49a7d9",
+      "admin-arrow-blue": "#3aa7e2",
+      "admin-checkbox-color": "#a3bd49",
+      "admin-dark-blue": "#424b5e"
+    }
+  }
+}

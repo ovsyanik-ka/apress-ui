@@ -1,0 +1,22 @@
+.aui-admin-moderation-button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--admin-white);
+  border: 0;
+}
+
+.aui-admin-moderation-button_accept {
+  background-image: url('./aui-admin-moderation-button_accept.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aui-admin-moderation-button_postpone {
+  background-image: url('./aui-admin-moderation-button_postpone.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aui-admin-moderation-button_decline {
+  background-image: url('./aui-admin-moderation-button_decline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
