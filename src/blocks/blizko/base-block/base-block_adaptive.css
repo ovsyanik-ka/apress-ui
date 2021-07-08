@@ -1,0 +1,11 @@
+@media (max-width: 766px) {
+  .aui-base-block_adaptive {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: var(--black-l98);
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
