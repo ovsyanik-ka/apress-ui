@@ -1,0 +1,44 @@
+.aui-admin-battery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aui-admin-battery__battery {
+  height: 120px;
+  width: 65px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  border: 3px solid var(--admin-battery-grey);
+  border-radius: 6px;
+  position: relative;
+}
+
+.aui-admin-battery::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 14px;
+  height: 5px;
+  width: 30px;
+  background-color: var(--admin-battery-grey);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.aui-admin-battery__fill {
+  width: 55px;
+  height: 50px;
+  background-color: var(--admin-battery-blue);
+  margin-bottom: 2px;
+}
+
+.aui-buttery__percent {
+  color: var(--admin-blue);
+  font-size: 34px;
+  line-height: 46px;
+  font-weight: 700;
+}
+

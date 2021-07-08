@@ -1,0 +1,22 @@
+.aui-admin-related-products {
+  width: 500px;
+}
+
+.aui-admin-related-products__inner {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.aui-admin-related-products__image {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background: url(eaa5854e63962e7131de894e2a7f6189.svg) center no-repeat;
+}
+
+.aui-admin-related-products__text {
+  margin-right: 15px;
+  max-width: 350px;
+}
+
