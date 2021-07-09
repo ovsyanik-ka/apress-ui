@@ -9,6 +9,9 @@
 .aui-list__item {
   padding: 12px;
   background-color: inherit;
+  outline: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
 
 .aui-list:not(.aui-list_no-interactive) .aui-list__item:hover,

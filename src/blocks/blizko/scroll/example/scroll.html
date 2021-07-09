@@ -1,0 +1,37 @@
+<div class="aui-scroll">
+  <p>Чтобы скролл заработал, необходимо повесить класс aui-scroll на контейнере, а на нужном элементе
+    указать overflow и ограничить его высоту.</p>
+  <div style="width: 50%; height: 150px; padding-right: 4px; overflow-y: auto;">
+    <ul class="aui-list aui-list_ordinary">
+      <li class="aui-list__item">Item 1</li>
+      <li class="aui-list__item">Item 2</li>
+      <li class="aui-list__item">Item 3</li>
+      <li class="aui-list__item">Item 4</li>
+      <li class="aui-list__item">Item 5</li>
+      <li class="aui-list__item aui-list__item_selected">Item 6</li>
+    </ul>
+  </div>
+</div>
+<div class="aui-scroll">
+  <p>Для переопределения цвета скролла у конкретного элемента, на нужном классе можно
+    переопределить переменную --scrollbar-color</p>
+  <style>
+    .custom {
+      --scrollbar-color: var(--orange);
+      width: 50%;
+      height: 150px;
+      padding-right: 4px;
+      overflow-y: auto;
+    }
+  </style>
+  <div class="custom">
+    <ul class="aui-list aui-list_ordinary">
+      <li class="aui-list__item">Item 1</li>
+      <li class="aui-list__item">Item 2</li>
+      <li class="aui-list__item">Item 3</li>
+      <li class="aui-list__item">Item 4</li>
+      <li class="aui-list__item">Item 5</li>
+      <li class="aui-list__item aui-list__item_selected">Item 6</li>
+    </ul>
+  </div>
+</div>
