@@ -1,8 +1,10 @@
-.aui-admin-rubric-block__wrapper {
+.aui-admin-rubric-block {
   padding: 12px 18px;
   border-radius: 3px;
   width: 100%;
   cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 .aui-admin-rubric-block__title {
@@ -22,15 +24,15 @@
   line-height: 18px;
 }
 
-.aui-admin-rubric-block__wrapper_solid {
+.aui-admin-rubric-block_solid {
   border: 1px solid var(--admin-blue);
 }
 
-.aui-admin-rubric-block__wrapper_light {
+.aui-admin-rubric-block_light {
   border: 1px solid var(--admin-very-light-blue);
 }
 
-.aui-admin-rubric-block__wrapper_active {
+.aui-admin-rubric-block_active {
   border: 1px solid var(--admin-blue);
   background-color: var(--admin-very-light-blue);
 }

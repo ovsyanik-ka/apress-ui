@@ -17,7 +17,8 @@
       "admin-battery-blue": "#49a7d9",
       "admin-arrow-blue": "#3aa7e2",
       "admin-checkbox-color": "#a3bd49",
-      "admin-dark-blue": "#424b5e"
+      "admin-dark-blue": "#424b5e",
+      "admin-light-blue-runner": "#dde1ed"
     }
   }
 }

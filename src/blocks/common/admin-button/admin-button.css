@@ -1,0 +1,21 @@
+.aui-admin-button {
+  padding: 0 30px;
+  box-sizing: border-box;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.aui-admin-button_submit {
+  background-color: var(--admin-blue);
+  color: var(--admin-white);
+  font-weight: 700;
+}
+
+.aui-admin-button_light {
+  background-color: var(--admin-light-grey);
+  color: var(--admin-dark-blue);
+  font-weight: 400;
+}

@@ -18,6 +18,7 @@
   height: 40px;
   background: var(--admin-white);
   border: solid 1px var(--admin-light-grey);
+  pointer-events: none;
 }
 .aui-admin-select:after {
   content: '';
@@ -26,8 +27,8 @@
   background-size: 16px;
   top: 16px;
   right: 15px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   pointer-events: none;
 }
 

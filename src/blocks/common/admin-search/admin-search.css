@@ -1,0 +1,30 @@
+.aui-admin-search {
+  display: flex;
+  align-items: center;
+}
+
+.aui-admin-search__input {
+  height: 40px;
+  border: 1px solid var(--admin-blue);
+  box-sizing: border-box;
+  padding: 6px;
+  width: 100%;
+  outline: none;
+}
+.aui-admin-search__input::placeholder {
+  color: var(--admin-light-dark);
+}
+
+.aui-admin-search__button {
+  height: 40px;
+  background-color: var(--admin-blue);
+  color: var(--admin-white);
+  padding: 8px 24px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}

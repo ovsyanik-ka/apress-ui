@@ -1,0 +1,11 @@
+.aui-admin-edit-button {
+  background-image: url('./aui-admin-edit-button.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--admin-light-blue-runner);
+  border: 0;
+  width: 68px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 3px;
+}
