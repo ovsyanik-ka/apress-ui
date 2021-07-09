@@ -60,3 +60,18 @@
 }
 
 .aui-spinner_error .ui-spinner { border: 1px solid #ea5757; }
+
+.aui-spinner__input[type="number"]::-webkit-outer-spin-button,
+.aui-spinner__input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.aui-spinner__input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.aui-spinner__input[type="number"]:hover,
+.aui-spinner__input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
