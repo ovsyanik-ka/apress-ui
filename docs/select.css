@@ -47,16 +47,6 @@
   border-radius: 4px;
   border: 1px solid var(--orange);
   overflow-y: auto;
-  scrollbar-width: thin; /* для FF */
   z-index: 1;
-}
-
-.aui-select_open .aui-list::-webkit-scrollbar {
-  width: 4px;
-}
-
-.aui-select_open .aui-list::-webkit-scrollbar-thumb {
-  background-color: var(--black-l90);
-  border-radius: 20%;
 }
 
