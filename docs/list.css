@@ -9,6 +9,9 @@
 .aui-list__item {
   padding: 12px;
   background-color: inherit;
+  outline: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
 
 .aui-list:not(.aui-list_no-interactive) .aui-list__item:hover,
@@ -27,7 +30,11 @@
 }
 
 .aui-list_ordinary .aui-list__item_selected {
-  border: 1px solid var(--orange);
+  border-color: var(--orange);
+}
+
+.aui-list_ordinary .aui-list__item_margin8:not(:last-of-type) {
+  margin-bottom: 8px;
 }
 
 .aui-list_bordered {
