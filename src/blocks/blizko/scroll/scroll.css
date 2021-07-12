@@ -1,0 +1,18 @@
+.aui-scroll {
+  --scrollbar-color: var(--black-l90);
+}
+
+/* для FF */
+.aui-scroll * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color) transparent;
+}
+
+.aui-scroll *::-webkit-scrollbar {
+  width: 4px;
+}
+
+.aui-scroll *::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 20%;
+}

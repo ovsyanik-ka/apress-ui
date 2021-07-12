@@ -8,5 +8,9 @@
 }
 
 .aui-list_ordinary .aui-list__item_selected {
-  border: 1px solid var(--orange);
+  border-color: var(--orange);
+}
+
+.aui-list_ordinary .aui-list__item_margin8:not(:last-of-type) {
+  margin-bottom: 8px;
 }
