@@ -35,3 +35,9 @@
 .aui-form__group_with-error .aui-form__text-area { border-color: var(--red); }
 
 .aui-form__clean-field:before { color: var(--light-blue-dark); }
+
+@media (max-width: 767px) {
+  .aui-form__section_adaptive {
+    border-top: 0;
+  }
+}
