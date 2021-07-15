@@ -125,3 +125,9 @@
 
 .aui-form__clean-field:before { color: var(--light-blue-dark); }
 
+@media (max-width: 767px) {
+  .aui-form__section_adaptive {
+    border-top: 0;
+  }
+}
+
