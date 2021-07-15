@@ -1,0 +1,14 @@
+.aui-radio__radio_small + .aui-radio__label::before {
+  width: 16px;
+  height: 16px;
+}
+
+.aui-radio__radio_small + .aui-radio__label::after {
+  width: 8px;
+  height: 8px;
+  border-width: 4px;
+}
+
+.aui-radio__radio_small + .aui-radio__label {
+  line-height: 16px;
+}
