@@ -31,3 +31,10 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+* { font-family: 'Open Sans', sans-serif; }
+
+:root {
+  --basic-font: 'Open Sans', sans-serif;
+  --basic-font-weight: 600;
+}
