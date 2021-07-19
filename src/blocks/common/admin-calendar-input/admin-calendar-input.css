@@ -4,16 +4,20 @@
   border: 1px solid var(--admin-light-grey);
   color: var(--admin-dark-blue);
   box-sizing: border-box;
-  padding: 0 12px 0 24px;
   height: 40px;
-  line-height: 40px;
-  background-image: url('./aui-admin-calendar-input.svg');
-  background-position: 8px center;
-  background-repeat: no-repeat;
   outline: none;
+  padding-left: 50px;
+  position: relative;
 }
 
 .aui-admin-calendar-input::-webkit-calendar-picker-indicator,
 .aui-admin-calendar-input::-webkit-inner-spin-button {
-  display: none;
+  background-image: url('./aui-admin-calendar-input.svg');
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  left: 0;
 }

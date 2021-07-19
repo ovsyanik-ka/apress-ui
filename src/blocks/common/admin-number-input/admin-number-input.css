@@ -1,0 +1,37 @@
+.aui-admin-number-input {
+  position: relative;
+}
+
+.aui-admin-number-input__field {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--admin-light-grey);
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 30px 0 10px;
+  outline: 0;
+}
+.aui-admin-number-input:focus {
+  border: 1px solid var(--admin-blue);
+}
+.aui-admin-number-input::placeholder {
+  color: var(--admin-grey);
+}
+
+.aui-admin-number-input__counter {
+  position: absolute;
+  line-height: 40px;
+  bottom: 0;
+  right: 10px;
+  color: var(--admin-grey);
+  font-size: 12px;
+}
+
+.aui-admin-number-input__field::-webkit-outer-spin-button,
+.aui-admin-number-input__field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.aui-admin-number-input__field[type=number] {
+  -moz-appearance: textfield;
+}
