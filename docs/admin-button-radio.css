@@ -32,3 +32,15 @@
   display: none;
 }
 
+@media (max-width: 800px) {
+  .aui-admin-button-radio {
+    flex-direction: column;
+  }
+  .aui-admin-button-radio__button {
+    text-align: center;
+  }
+  .aui-admin-button-radio__button:last-child {
+    border-right: 1px var(--admin-light-grey) solid;
+  }
+}
+
