@@ -15,6 +15,7 @@
   padding-right: 60px;
   vertical-align: text-top;
 }
+
 .aui-admin-enhanced-checkbox__icon::before {
   content: '';
   position: absolute;
@@ -26,9 +27,10 @@
   border: solid 1px var(--admin-light-grey);
   box-sizing: border-box;
 }
+
 .aui-admin-enhanced-checkbox__icon::after {
   content: '';
-  background: var(--admin-light-grey);
+  background: var(--admin-grey);
   position: absolute;
   top: -7px;
   right: 25px;
@@ -41,7 +43,8 @@
 .aui-admin-enhanced-checkbox__input {
   display: none;
 }
-.aui-admin-enhanced-checkbox__input:checked + .aui-admin-enhanced-checkbox::after {
+
+.aui-admin-enhanced-checkbox__input:checked + .aui-admin-enhanced-checkbox__icon::after {
   right: 2px;
   background: var(--admin-checkbox-color);
 }
