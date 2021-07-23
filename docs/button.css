@@ -169,11 +169,6 @@
   font-weight: bold;
 }
 
-.aui-button_big-text {
-  font-size: 16px;
-  font-weight: 700;
-}
-
 .aui-button_transparent,
 .aui-button_transparent:visited,
 .aui-button_transparent:link {
@@ -420,11 +415,11 @@
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  width: 15px;
-  height: 19px;
+  width: 10px;
+  height: 16px;
   -webkit-mask-image: url(7a1e2915ffeb4adb688fb17b8aadd331.svg);
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
+  -webkit-mask-size: contain;
   mask-image: url(7a1e2915ffeb4adb688fb17b8aadd331.svg);
   mask-repeat: no-repeat;
   mask-size: contain;
