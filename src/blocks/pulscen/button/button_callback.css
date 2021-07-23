@@ -11,11 +11,11 @@
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  width: 15px;
-  height: 19px;
+  width: 10px;
+  height: 16px;
   -webkit-mask-image: url('button_callback.svg');
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
+  -webkit-mask-size: contain;
   mask-image: url('button_callback.svg');
   mask-repeat: no-repeat;
   mask-size: contain;
