@@ -3,7 +3,6 @@
   font-size: 12px;
   font-weight: 600;
   line-height: 21px;
-  color: var(--light-blue-dark);
   border: none;
   cursor: pointer;
   padding: 0 var(--indent-xs);
@@ -15,6 +14,7 @@
 .aui-cs-button-link:visited,
 .aui-cs-button-link:hover,
 .aui-cs-button-link:active {
+  color: var(--light-blue-dark);
   text-decoration: none;
   background-color: var(--medium-gray);
 }
