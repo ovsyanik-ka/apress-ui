@@ -1,0 +1,21 @@
+.aui-cs-button-link_edit {
+  position: relative;
+  padding-right: var(--indent-m);
+}
+
+.aui-cs-button-link_edit::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  right: var(--indent-xs);
+  transform: translateY(-50%);
+  mask-image: url('./cs-button-link_edit.svg');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url('./cs-button-link_edit.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  background-color: var(--light-blue-dark);
+}
