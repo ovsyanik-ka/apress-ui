@@ -5,6 +5,7 @@
   color: var(--blue);
   cursor: pointer;
   outline: none;
+  padding: 0;
 }
 
 .aui-button-link:hover {
