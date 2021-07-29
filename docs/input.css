@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 6px 0 0;
   color: var(--black-l22);
+  background-color: transparent;
 }
 
 .aui-input__field {
@@ -12,6 +13,7 @@
   border: 1px solid var(--black-l65);
   border-radius: 4px;
   outline: none;
+  background-color: inherit;
 }
 
 .aui-input__label {
@@ -19,7 +21,7 @@
   left: 4px;
   top: 0;
   padding: 0 4px;
-  background-color: var(--white);
+  background-image: linear-gradient(transparent 50%, var(--white) 50%, var(--white) 55%, transparent 55%);
   transform: translateY(-50%);
 }
 
@@ -45,6 +47,15 @@
 
 .aui-input__field:required + .aui-input__label::after {
   content: '*';
+}
+
+.aui-input__field:disabled {
+  color: var(--black-l65);
+  cursor: default;
+}
+
+.aui-input__field:disabled + .aui-input__label {
+  color: var(--black-l65);
 }
 
 .aui-input_invalid .aui-input__field {
