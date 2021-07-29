@@ -29,10 +29,10 @@
 }
 
 .aui-admin-rubric-block_light {
-  border: 1px solid var(--admin-very-light-blue);
+  border: 1px solid var(--admin-light-blue);
 }
 
 .aui-admin-rubric-block_active {
   border: 1px solid var(--admin-blue);
-  background-color: var(--admin-very-light-blue);
+  background-color: var(--admin-light-blue);
 }
