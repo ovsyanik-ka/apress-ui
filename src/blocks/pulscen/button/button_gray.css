@@ -1,5 +1,6 @@
 .aui-button_gray,
-.aui-button_gray:link {
+.aui-button_gray:link,
+.aui-button_gray:visited {
   background: var(--medium-gray);
   color: var(--light-blue-dark);
 }
