@@ -3,3 +3,7 @@
   box-sizing: border-box;
   resize: none;
 }
+
+.aui-input_textarea .aui-input__field:placeholder-shown + .aui-input__label {
+  top: 18px;
+}
