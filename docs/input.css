@@ -18,6 +18,25 @@
 
 .aui-input__label {
   position: absolute;
+}
+
+.aui-input__field::placeholder {
+  color: transparent;
+}
+
+.aui-input__field:not(:disabled):focus {
+  border-color: var(--orange);
+}
+
+.aui-input__field:not(:placeholder-shown):focus + .aui-input__label {
+  color: var(--orange);
+}
+
+.aui-input__field:not(:placeholder-shown) {
+  border-color: var(--black-l50);
+}
+
+.aui-input__field:not(:placeholder-shown) + .aui-input__label {
   left: 4px;
   top: 0;
   padding: 0 4px;
@@ -25,28 +44,16 @@
   transform: translateY(-50%);
 }
 
-.aui-input__field::placeholder {
-  color: var(--black-l65);
-}
-
-.aui-input__field:focus {
-  border-color: var(--orange);
-}
-
-.aui-input__field:focus + .aui-input__label {
-  color: var(--orange);
-}
-
-.aui-input__field:placeholder-shown {
-  border-color: var(--black-l50);
-}
-
 .aui-input__field:placeholder-shown + .aui-input__label {
-  display: none;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--black-l65);
 }
 
 .aui-input__field:required + .aui-input__label::after {
   content: '*';
+  color: var(--orange);
 }
 
 .aui-input__field:disabled {
@@ -71,5 +78,9 @@
   min-height: 120px;
   box-sizing: border-box;
   resize: none;
+}
+
+.aui-input_textarea .aui-input__field:placeholder-shown + .aui-input__label {
+  top: 18px;
 }
 
