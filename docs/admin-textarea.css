@@ -1,11 +1,20 @@
-.aui-admin-textarea__wrapper {
+.aui-admin-textarea {
+  width: 100%;
+  height: 100%;
   position: relative;
   display: inline-block;
 }
 
 .aui-admin-textarea__field {
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--admin-light-grey);
   resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.aui-admin-textarea__field:focus {
+  outline: none;
 }
 
 .aui-admin-textarea__counter {
