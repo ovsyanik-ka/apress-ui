@@ -1,0 +1,14 @@
+.aui-admin-warning-info {
+  font-size: 13px;
+  color: var(--admin-light-dark);
+  position: relative;
+  padding-left: 18px;
+}
+.aui-admin-warning-info::before {
+  content: url('./aui-admin-warning-info.svg');
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
