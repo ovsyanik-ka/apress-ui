@@ -1,0 +1,44 @@
+.aui-admin-toolbar-button {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--admin-light-blue-runner);
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.aui-admin-toolbar-button:before {
+  content: '';
+  background-color: var(--admin-light-blue-dark);
+}
+
+.aui-admin-toolbar-button:hover:before {
+  background-color: var(--admin-white);
+}
+
+.aui-admin-toolbar-button_edit:before {
+  -webkit-mask-image: url('./admin-toolbar-button_edit.svg');
+  mask-image: url('./admin-toolbar-button_edit.svg');
+  width: 17px;
+  height: 17px;
+}
+
+.aui-admin-toolbar-button_edit:hover {
+  background-color: var(--admin-blue);
+}
+
+.aui-admin-toolbar-button_remove:before {
+  -webkit-mask-image: url('./admin-toolbar-button_remove.svg');
+  mask-image: url('./admin-toolbar-button_remove.svg');
+  width: 14px;
+  height: 15px;
+}
+
+.aui-admin-toolbar-button_remove:hover {
+  background-color: var(--admin-dim-red);
+}
