@@ -40,6 +40,7 @@
   background-color: var(--orange);
   opacity: 0;
   transition: .3s;
+  box-sizing: content-box;
 }
 
 .aui-radio__radio:checked + .aui-radio__label::after {
