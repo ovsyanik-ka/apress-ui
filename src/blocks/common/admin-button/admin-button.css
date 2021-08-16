@@ -6,6 +6,11 @@
   cursor: pointer;
   border-radius: 3px;
   font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  text-decoration: none;
 }
 
 .aui-admin-button_submit {
