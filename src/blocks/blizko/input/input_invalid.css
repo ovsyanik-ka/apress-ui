@@ -1,4 +1,5 @@
-.aui-input_invalid .aui-input__field {
+.aui-input_invalid .aui-input__field,
+.aui-input_invalid .aui-input__field:focus {
   border-color: var(--red);
 }
 
