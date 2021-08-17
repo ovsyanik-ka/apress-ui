@@ -1,0 +1,119 @@
+.aui-admin-battery-popup {
+  width: 734px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  background: var(--admin-white);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.aui-admin-battery-popup__title {
+  color: var(--admin-dark-blue);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.aui-admin-battery-popup__content {
+  background-color: var(--admin-light-blue);
+  padding: 30px 25px;
+  border-left: 2px solid var(--admin-blue);
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.aui-admin-battery-popup__subtitle {
+  font-weight: bold;
+  color: var(--admin-blue);
+  margin-bottom: 10px;
+}
+
+.aui-admin-battery-popup__percent-list {
+  color: var(--admin-blue);
+  width: 180px;
+  margin-bottom: 8px;
+}
+
+.aui-admin-battery-popup__percent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aui-admin-battery-popup__percent-text {
+  position: relative;
+  padding-left: 30px;
+}
+
+.aui-admin-battery-popup__percent-number {
+  font-weight: bold;
+}
+
+.aui-admin-battery-popup__description {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.aui-admin-battery-popup__description-title {
+  color: var(--admin-blue);
+}
+
+.aui-admin-battery-popup__description-list {
+  padding-left: 10px;
+  color: var(--admin-light-dark);
+}
+
+.aui-admin-battery-popup__point {
+  position: relative;
+  padding-left: 10px;
+}
+.aui-admin-battery-popup__point::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--admin-light-dark);
+}
+
+.aui-admin-battery-popup__hint {
+  color: var(--admin-blue);
+}
+
+.aui-admin-battery-popup__percent-text_exists::before {
+  content: url('./aui-admin-battery-popup__percent-text_exists.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.aui-admin-battery-popup__percent-text_full-desc::before {
+  content: url('./aui-admin-battery-popup__percent-text_full-desc.svg');
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
+
+.aui-admin-battery-popup__percent-text_photo::before {
+  content: url('./aui-admin-battery-popup__percent-text_photo.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.aui-admin-battery-popup__percent-text_price::before {
+  content: url('./aui-admin-battery-popup__percent-text_price.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.aui-admin-battery-popup__percent-text_short-desc::before {
+  content: url('./aui-admin-battery-popup__percent-text_short-desc.svg');
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
