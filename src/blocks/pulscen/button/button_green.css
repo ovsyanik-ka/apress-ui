@@ -1,17 +1,23 @@
-.aui-button_green {
+.aui-button_green,
+.aui-button_green:link,
+.aui-button_green:visited {
   background: var(--medium-green);
   color: var(--white);
 }
-.aui-button_green:active {
+
+.aui-button_green:active,
+.aui-button_green:link:active {
   background: var(--green);
 }
 
 .aui-button_green:disabled,
 .aui-button_green:hover:disabled {
   background: var(--medium-green);
+  opacity: .33;
 }
 
 @media (hover: hover) {
+  .aui-button_green:link:hover,
   .aui-button_green:hover {
     background: var(--green);
   }
