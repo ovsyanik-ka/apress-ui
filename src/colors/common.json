@@ -23,7 +23,8 @@
       "admin-checkbox-color": "#a3bd49",
       "admin-dark-blue": "#424b5e",
       "admin-light-blue-runner": "#dde1ed",
-      "admin-dim-red": "#dc6263"
+      "admin-dim-red": "#dc6263",
+      "admin-default-grey": "#ccc"
     }
   }
 }
