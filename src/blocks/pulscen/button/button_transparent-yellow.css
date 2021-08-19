@@ -5,12 +5,15 @@
   border: 1px solid var(--dark-yellow);
   color: var(--dark-yellow);
 }
-.aui-button_transparent-yellow:active {
+
+.aui-button_transparent-yellow:active,
+.aui-button_transparent-yellow:link:active {
   color: var(--white);
   background: var(--dark-yellow);
 }
 
 @media (hover: hover) {
+  .aui-button_transparent-yellow:link:hover,
   .aui-button_transparent-yellow:hover {
     color: var(--white);
     background: var(--dark-yellow);
