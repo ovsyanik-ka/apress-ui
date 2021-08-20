@@ -213,6 +213,28 @@
   }
 }
 
+.aui-button_transparent-red,
+.aui-button_transparent-red:link,
+.aui-button_transparent-red:visited {
+  background: transparent;
+  border: 1px solid var(--dim-red);
+  color: var(--dim-red);
+}
+
+.aui-button_transparent-red:active,
+.aui-button_transparent-red:link:active {
+  color: var(--white);
+  background: var(--dim-red);
+}
+
+@media (hover: hover) {
+  .aui-button_transparent-red:link:hover,
+  .aui-button_transparent-red:hover {
+    color: var(--white);
+    background: var(--dim-red);
+  }
+}
+
 .aui-button_transparent-yellow,
 .aui-button_transparent-yellow:link,
 .aui-button_transparent-yellow:visited {
@@ -220,12 +242,15 @@
   border: 1px solid var(--dark-yellow);
   color: var(--dark-yellow);
 }
-.aui-button_transparent-yellow:active {
+
+.aui-button_transparent-yellow:active,
+.aui-button_transparent-yellow:link:active {
   color: var(--white);
   background: var(--dark-yellow);
 }
 
 @media (hover: hover) {
+  .aui-button_transparent-yellow:link:hover,
   .aui-button_transparent-yellow:hover {
     color: var(--white);
     background: var(--dark-yellow);
