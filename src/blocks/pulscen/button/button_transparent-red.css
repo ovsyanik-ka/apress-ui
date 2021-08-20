@@ -1,0 +1,21 @@
+.aui-button_transparent-red,
+.aui-button_transparent-red:link,
+.aui-button_transparent-red:visited {
+  background: transparent;
+  border: 1px solid var(--dim-red);
+  color: var(--dim-red);
+}
+
+.aui-button_transparent-red:active,
+.aui-button_transparent-red:link:active {
+  color: var(--white);
+  background: var(--dim-red);
+}
+
+@media (hover: hover) {
+  .aui-button_transparent-red:link:hover,
+  .aui-button_transparent-red:hover {
+    color: var(--white);
+    background: var(--dim-red);
+  }
+}
