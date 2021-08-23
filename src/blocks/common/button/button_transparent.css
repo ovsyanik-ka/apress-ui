@@ -3,11 +3,14 @@
   border: 1px solid #bbb;
   color: #bbb;
 }
-.aui-button_transparent:hover { color: #fff; }
 
 .aui-button_transparent:disabled,
 .aui-button_transparent:hover:disabled {
   background: transparent;
   border-color: #a6a6a6;
   color: #a6a6a6;
+}
+
+@media (hover: hover) {
+  .aui-button_transparent:hover { color: #fff; }
 }
