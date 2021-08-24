@@ -1,0 +1,7 @@
+.aui-link_underlined {
+  text-decoration: underline;
+}
+
+.aui-link_underlined:hover {
+  text-decoration: none;
+}

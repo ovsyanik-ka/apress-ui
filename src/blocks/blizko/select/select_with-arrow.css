@@ -1,0 +1,9 @@
+.aui-select_with-arrow::before {
+  position: absolute;
+  content: url(./aui-select_with-arrow.svg);
+  width: 42px;
+  right: 1px;
+  background-color: inherit;
+  text-align: center;
+  pointer-events: none;
+}

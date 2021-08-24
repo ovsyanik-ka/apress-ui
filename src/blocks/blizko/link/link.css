@@ -1,2 +1,9 @@
-.aui-link { color: var(--blue); text-decoration: none; }
-.aui-link:hover { text-decoration: underline; }
+.aui-link {
+  color: var(--blue);
+  text-decoration: none;
+  font: inherit;
+}
+
+.aui-link:hover {
+  text-decoration: underline;
+}
