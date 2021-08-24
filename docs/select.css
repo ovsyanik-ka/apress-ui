@@ -9,16 +9,6 @@
   display: none;
 }
 
-.aui-select::before {
-  position: absolute;
-  content: url(5e6b01d78e14a3f4f06174e6e757aaab.svg);
-  width: 42px;
-  right: 1px;
-  background-color: inherit;
-  text-align: center;
-  pointer-events: none;
-}
-
 .aui-select .aui-list__item {
   padding: 8px;
 }
@@ -48,5 +38,15 @@
   border: 1px solid var(--orange);
   overflow-y: auto;
   z-index: 1;
+}
+
+.aui-select_with-arrow::before {
+  position: absolute;
+  content: url(5e6b01d78e14a3f4f06174e6e757aaab.svg);
+  width: 42px;
+  right: 1px;
+  background-color: inherit;
+  text-align: center;
+  pointer-events: none;
 }
 
