@@ -1,0 +1,7 @@
+.aui-button-link_underlined {
+  text-decoration: underline;
+}
+
+.aui-button-link_underlined:not(:disabled):hover {
+  text-decoration: none;
+}
