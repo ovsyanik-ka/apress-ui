@@ -1,15 +1,18 @@
- (function() {
+(function() {
   if (window.apressImport) { return; }
 
   const loaders = {};
 
-  function _initModule(module) {
-    !module.initiated && ['load', 'ready'].forEach((funName) => {
-      if (module[funName]) {
-        module[funName]();
-        module.initiated = true;
-      }
-    });
+  function _initModules() {
+    for(let key in app.modules) {
+      const module = app.modules[key];
+      !module.initiated && ['load', 'ready'].forEach((funName) => {
+        if (module[funName]) {
+          module.initiated = true;
+          module[funName]();
+        }
+      });
+    }
   }
 
   function _createScriptLoader(url) {
@@ -20,12 +23,7 @@
     document.body.appendChild(script);
 
     return new Promise((resolve) => {
-      script.onload = () => {
-        for(let key in app.modules) {
-          _initModule(app.modules[key]);
-        }
-        resolve();
-      };
+      script.onload = () => { resolve(); };
     });
   }
 
@@ -52,7 +50,7 @@
 
   function _getLoaders(urls) {
     urls = Array.isArray(urls) ? urls : [urls];
-    return Promise.all(urls.map(_getLoader));
+    return Promise.all(urls.map(_getLoader)).then(_initModules);
   }
 
   window.apressImport = _getLoaders;
