@@ -1,5 +1,6 @@
 .aui-admin-related-products {
-  width: 600px;
+  width: 100%;
+  max-width: 700px;
   height: 80px;
   box-sizing: border-box;
   display: flex;
@@ -14,15 +15,17 @@
 .aui-admin-related-products__left {
   display: flex;
   align-items: center;
+  margin-right: 16px;
 }
 
 .aui-admin-related-products__image-block {
-  width: 80px;
-  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 16px;
+  border-radius: 3px;
 }
 
 .aui-admin-related-products__image {
@@ -30,11 +33,10 @@
   max-height: 100%;
 }
 
-.aui-admin-related-products__text {
-  max-width: 350px;
+.aui-admin-related-products__text-link {
   font-size: 14px;
   line-height: 21px;
-  color: var(--admin-light-dark);
+  color: var(--admin-blue);
 }
 
 .aui-admin-related-products__button {
@@ -63,9 +65,19 @@
   color: var(--admin-default-grey);
 }
 
+.aui-admin-related-products__button_remove {
+  background-color: var(--admin-white);
+  border: 1px var(--admin-dim-red) solid;
+  color: var(--admin-dim-red);
+  cursor: pointer;
+}
+.aui-admin-related-products__button_remove:hover {
+  background-color: var(--admin-dim-red);
+  color: var(--admin-white);
+}
+
 @media all and (max-width: 767px) {
   .aui-admin-related-products {
-    width: 100%;
     height: auto;
     flex-wrap: wrap;
     margin-bottom: 30px;
@@ -73,6 +85,7 @@
 
   .aui-admin-related-products__left {
     margin-bottom: 24px;
+    margin-right: 0;
   }
 
   .aui-admin-related-products__text {
