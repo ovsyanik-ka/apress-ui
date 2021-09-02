@@ -26,6 +26,11 @@
   justify-content: center;
   margin-right: 16px;
   border-radius: 3px;
+  overflow: hidden;
+}
+
+.aui-admin-related-products__image-block_empty {
+  background-image: url('./aui-admin-related-products__image-block_empty.svg');
 }
 
 .aui-admin-related-products__image {
@@ -36,6 +41,13 @@
 .aui-admin-related-products__text-link {
   font-size: 14px;
   line-height: 21px;
+  color: var(--admin-blue);
+}
+.aui-admin-related-products__text-link:hover {
+  color: var(--admin-dark-blue);
+}
+.aui-admin-related-products__text-link:link,
+.aui-admin-related-products__text-link:visited {
   color: var(--admin-blue);
 }
 
@@ -63,6 +75,7 @@
   background-color: var(--admin-white);
   border: 1px var(--admin-default-grey) solid;
   color: var(--admin-default-grey);
+  pointer-events: none;
 }
 
 .aui-admin-related-products__button_remove {
