@@ -1,6 +1,7 @@
 .aui-admin-search {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .aui-admin-search__input {
