@@ -3,6 +3,7 @@
   width: 100%;
   padding: 20px 20px 0;
   border-bottom: 1px solid var(--admin-light-grey);
+  box-sizing: border-box;
 }
 
 .aui-admin-tabber__header-item {
@@ -70,7 +71,7 @@
   }
 
   .aui-admin-tabber__content {
-    padding: 20px 30px;
+    padding: 20px 10px;
   }
 }
 
