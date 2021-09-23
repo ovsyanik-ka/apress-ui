@@ -1,8 +1,8 @@
-.aui-admin-text-input__wrapper {
+.aui-admin-text-input {
   position: relative;
 }
 
-.aui-admin-text-input {
+.aui-admin-text-input__field {
   display: block;
   width: 100%;
   border: 1px solid var(--admin-light-grey);
@@ -11,10 +11,10 @@
   padding: 0 30px 0 10px;
   outline: 0;
 }
-.aui-admin-text-input:focus {
+.aui-admin-text-input__field:focus {
   border: 1px solid var(--admin-blue);
 }
-.aui-admin-text-input::placeholder {
+.aui-admin-text-input__field::placeholder {
   color: var(--admin-grey);
 }
 
