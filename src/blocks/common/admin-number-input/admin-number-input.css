@@ -11,10 +11,10 @@
   padding: 0 30px 0 10px;
   outline: 0;
 }
-.aui-admin-number-input:focus {
+.aui-admin-number-input__field:focus {
   border: 1px solid var(--admin-blue);
 }
-.aui-admin-number-input::placeholder {
+.aui-admin-number-input__field::placeholder {
   color: var(--admin-grey);
 }
 
