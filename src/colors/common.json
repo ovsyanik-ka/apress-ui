@@ -18,14 +18,15 @@
       "admin-middle-light-grey": "#eee",
       "admin-very-light-grey": "#f2f4f7",
       "admin-battery-grey": "#666",
-      "admin-battery-blue": "#49a7d9",
+      "admin-battery-fill": "#e3f5ff",
       "admin-arrow-blue": "#3aa7e2",
       "admin-checkbox-color": "#a3bd49",
       "admin-dark-blue": "#424b5e",
       "admin-light-blue-runner": "#dde1ed",
       "admin-red": "#de3737",
       "admin-dim-red": "#dc6263",
-      "admin-default-grey": "#ccc"
+      "admin-default-grey": "#ccc",
+      "admin-checkbox-border-color": "#a6a6a6"
     }
   }
 }
