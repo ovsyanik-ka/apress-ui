@@ -10,7 +10,7 @@
   height: 100%;
   border: 1px solid var(--admin-light-grey);
   resize: none;
-  padding: 10px;
+  padding: 8px;
   box-sizing: border-box;
 }
 .aui-admin-textarea__field:focus {
