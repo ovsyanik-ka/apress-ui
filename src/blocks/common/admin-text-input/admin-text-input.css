@@ -23,6 +23,13 @@
   line-height: 40px;
   bottom: 0;
   right: 10px;
-  color: var(--admin-grey);
   font-size: 12px;
+}
+
+.aui-admin-text-input__counter_valid {
+  color: var(--admin-grey);
+}
+
+.aui-admin-text-input__counter_invalid {
+  color: var(--admin-dim-red);
 }
