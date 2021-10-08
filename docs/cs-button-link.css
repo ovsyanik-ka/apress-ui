@@ -63,3 +63,25 @@
   background-color: var(--light-blue-dark);
 }
 
+.aui-cs-button-link_edit {
+  position: relative;
+  padding-right: var(--indent-m);
+}
+
+.aui-cs-button-link_edit::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  right: var(--indent-xs);
+  transform: translateY(-50%);
+  -webkit-mask-image: url(45a487eea3b60049275110fc97d9ff04.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: url(45a487eea3b60049275110fc97d9ff04.svg);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  background-color: var(--light-blue-dark);
+}
+
