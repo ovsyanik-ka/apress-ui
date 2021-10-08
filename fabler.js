@@ -14,6 +14,18 @@ const
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// start utils section
+
+const createDir = path => fs.existsSync(path) || fs.mkdirSync(path);
+
+
+// end utils section
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // start blocks section
 
 const generateColorsBlocks = () => {
@@ -59,22 +71,24 @@ const generateColorsBlocks = () => {
         </div>`
     ).join('\n');
 
-    let examples = Object.keys(colors).map(key => `
+    const examples = Object.keys(colors).map(key => `
       <h2>${colors[key].description}</h2>
       <div style="display: flex; flex-wrap: wrap">
         ${getColorsExamples(colors[key].colors)}
       </div>
     `).join('\n');
 
+    [
+      __dirname + '/tmp/blocks',
+      __dirname + '/tmp/blocks/' + project,
+      __dirname + '/tmp/blocks/' + project + '/colors',
+      __dirname + '/tmp/blocks/' + project + '/colors/example'
+    ].forEach(createDir);
 
-    fs.existsSync(__dirname + '/tmp/blocks') || fs.mkdirSync(__dirname + '/tmp/blocks');
-    fs.existsSync(__dirname + '/tmp/blocks/' + project) || fs.mkdirSync(__dirname + '/tmp/blocks/' + project);
-    fs.existsSync(__dirname + '/tmp/blocks/' + project + '/colors') || fs.mkdirSync(__dirname + '/tmp/blocks/' + project + '/colors');
-    fs.existsSync(__dirname + '/tmp/blocks/' + project + '/colors/example') || fs.mkdirSync(__dirname + '/tmp/blocks/' + project + '/colors/example');
-
-    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/index.js', "import './colors.css';");
-    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/colors.css', `:root {\n${colorsValues.join('\n')}\n}`);
-    fs.writeFileSync(__dirname + '/tmp/blocks/' + project + '/colors/example/all.html', examples);
+    const projectColorsPath = __dirname + '/tmp/blocks/' + project + '/colors';
+    fs.writeFileSync(`${projectColorsPath}/index.js`, "import './colors.css';");
+    fs.writeFileSync(`${projectColorsPath}/colors.css`, `:root {\n${colorsValues.join('\n')}\n}`);
+    fs.writeFileSync(`${projectColorsPath}/example/all.html`, examples);
   });
 }
 
@@ -149,7 +163,7 @@ const generateNotes = (exampleName, project, block) => {
 }
 
 const buildStories = project => {
-  fs.existsSync(__dirname + '/tmp/stories') || fs.mkdirSync(__dirname + '/tmp/stories');
+  createDir(__dirname + '/tmp/stories');
 
   // permament blocks
   let blocks = fs.readdirSync(__dirname + '/src/blocks/' + project);
@@ -246,7 +260,7 @@ const buildDocs = () => {
 }
 
 const buildDocsStories = project => {
-  fs.existsSync(__dirname + '/tmp/stories') || fs.mkdirSync(__dirname + '/tmp/stories');
+  createDir(__dirname + '/tmp/stories');
 
   let docs = fs.readdirSync(__dirname + '/src/docs/' + project);
 
@@ -275,7 +289,7 @@ const buildDocsStories = project => {
 
 
 module.exports = () => {
-  fs.existsSync(__dirname + '/tmp/') || fs.mkdirSync(__dirname + '/tmp');
+  createDir(__dirname + '/tmp/');
 
   rimraf(__dirname + '/tmp/blocks');
   rimraf(__dirname + '/tmp/stories/*');
