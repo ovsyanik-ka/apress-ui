@@ -14,3 +14,8 @@
 .aui-list_ordinary .aui-list__item_margin8:not(:last-of-type) {
   margin-bottom: 8px;
 }
+
+.aui-list_ordinary .aui-list__item_active {
+  background-color: rgba(255, 102, 0, .1);
+  border-left: 4px solid var(--orange-l20);
+}
