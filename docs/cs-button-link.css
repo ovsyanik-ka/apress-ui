@@ -63,12 +63,12 @@
   background-color: var(--light-blue-dark);
 }
 
-.aui-cs-button-link_edit {
+.aui-cs-button-link_delete {
   position: relative;
   padding-right: var(--indent-m);
 }
 
-.aui-cs-button-link_edit::before {
+.aui-cs-button-link_delete::before {
   content: '';
   position: absolute;
   width: 10px;
