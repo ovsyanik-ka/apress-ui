@@ -1,0 +1,8 @@
+.aui-button_company-site-big {
+  height: 48px;
+  padding: 0 var(--indent-xxl);
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: 700;
+  border-radius: 6px;
+}

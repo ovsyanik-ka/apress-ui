@@ -1,0 +1,30 @@
+.aui-cs-message {
+  position: relative;
+  padding: var(--indent-sm) var(--indent-sm) var(--indent-sm) var(--indent-xxxxl);
+  border: 2px dashed var(--extra-light-dark);
+  border-radius: 6px;
+  color: var(--medium-dark);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.aui-cs-message::before {
+  position: absolute;
+  content: '';
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: var(--indent-sm);
+  left: var(--indent-sm);
+}
+
+.aui-cs-message__button {
+  margin-top: var(--indent-m);
+  color: var(--white);
+}
+
+.aui-cs-message__title,
+.aui-cs-message__description {
+  margin-bottom: var(--indent-s);
+}

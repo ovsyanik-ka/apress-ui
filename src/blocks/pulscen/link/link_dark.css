@@ -1,7 +1,7 @@
 .aui-link_dark,
 .aui-link_dark:link,
 .aui-link_dark:visited { color: var(--dark-dark); }
-.aui-link_dark:hover { color: var(--orange); }
+.aui-link_dark:hover { color: var(--dark-blue); }
 
 .aui-link_dark:before { background-color: var(--blue); }
-.aui-link_dark:hover:before { background-color: var(--orange); }
+.aui-link_dark:hover:before { background-color: var(--dark-blue); }

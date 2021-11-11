@@ -1,0 +1,3 @@
+.aui-cs-message_request::before {
+  background-image: url('./request.svg');
+}
