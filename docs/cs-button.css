@@ -3,10 +3,30 @@
   height: 40px;
 }
 
+.aui-button_square-big {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+}
+
 .aui-button_company-site {
   height: 40px;
   font-size: 16px;
   font-weight: 700;
   padding: 0 var(--indent-l);
+}
+
+.aui-button_company-site-big {
+  height: 48px;
+  padding: 0 var(--indent-xxl);
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.aui-button_company-site-medium {
+  padding: 0 var(--indent-m);
+  border-radius: 6px;
 }
 
