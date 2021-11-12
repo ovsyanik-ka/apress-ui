@@ -1,0 +1,3 @@
+.aui-cs-message_alert::before {
+  background-image: url('./alert.svg');
+}

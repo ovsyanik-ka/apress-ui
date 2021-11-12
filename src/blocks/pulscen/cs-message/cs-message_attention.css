@@ -1,0 +1,3 @@
+.aui-cs-message_attention::before {
+  background-image: url('./attention.svg');
+}

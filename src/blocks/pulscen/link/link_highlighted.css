@@ -3,4 +3,4 @@
   text-decoration: none;
   font-weight: bold;
 }
-.aui-link_highlighted:hover { color: var(--orange); }
+.aui-link_highlighted:hover { color: var(--dark-blue); }
