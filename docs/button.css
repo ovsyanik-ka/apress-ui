@@ -490,6 +490,11 @@
   }
 }
 
+.aui-button_callback-big::before {
+  width: 14px;
+  height: 20px;
+}
+
 .aui-button_only-icon {
   width: 48px;
   padding: 0;
