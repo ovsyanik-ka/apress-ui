@@ -8,4 +8,3 @@ import './link_phone.css';
 import './link_blocked.css';
 import './link_dark.css';
 import './link_dotted.css';
-import './link_bolder.css';
