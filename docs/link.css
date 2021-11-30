@@ -82,3 +82,9 @@
 
 .aui-link_dotted { border-bottom: dotted 1px; }
 
+.aui-link_disabled,
+.aui-link_disabled:link,
+.aui-link_disabled:hover {
+  color: var(--extra-light-dark);
+}
+
