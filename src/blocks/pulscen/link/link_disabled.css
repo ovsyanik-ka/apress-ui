@@ -1,0 +1,5 @@
+.aui-link_disabled,
+.aui-link_disabled:link,
+.aui-link_disabled:hover {
+  color: var(--extra-light-dark);
+}
