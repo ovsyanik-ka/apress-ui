@@ -16,13 +16,27 @@
   top: 1px;
   left: 0;
   cursor: inherit;
-  background: car(--admin-white);
+  background: var(--admin-white);
   border: solid 1px var(--admin-light-grey);
   color: var(--admin-light-dark);
   font-weight: bold;
   line-height: 16px;
   text-align: center;
   border-radius: 3px;
+}
+
+.aui-admin-checkbox__label_medium {
+  padding-left: 30px; 
+}
+
+.aui-admin-checkbox__label_medium::before {
+  width: 16px;
+  height: 16px;
+  top: -1px;
+}
+
+.aui-admin-checkbox__label_without-text {
+  display: inline;
 }
 
 .aui-admin-checkbox > [type='checkbox']:checked + .aui-admin-checkbox__label::before {
