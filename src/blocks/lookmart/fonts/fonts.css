@@ -37,4 +37,5 @@
 :root {
   --basic-font: 'Open Sans', sans-serif;
   --basic-font-weight: 600;
+  --small-font-size: 12px;
 }
