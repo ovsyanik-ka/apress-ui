@@ -25,8 +25,16 @@
   color: transparent;
 }
 
+.aui-input__field_static-label::placeholder {
+  color: var(--black-l65);
+}
+
 .aui-input__field:not(:disabled):focus {
   border-color: var(--orange-l20);
+}
+
+.aui-input__field:not(:disabled):focus + .aui-input__label_static {
+  color: var(--orange-l20);
 }
 
 .aui-input__field:not(:placeholder-shown):focus + .aui-input__label {
@@ -50,6 +58,14 @@
   top: 50%;
   transform: translateY(-50%);
   color: var(--black-l65);
+}
+
+.aui-input__field:placeholder-shown + .aui-input__label_static {
+  top: 0;
+  left: 4px;
+  color: inherit;
+  padding: 0 4px;
+  background: var(--white);
 }
 
 .aui-input__field:required + .aui-input__label::after {
