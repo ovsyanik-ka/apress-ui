@@ -26,7 +26,10 @@
       "admin-red": "#de3737",
       "admin-dim-red": "#dc6263",
       "admin-default-grey": "#ccc",
-      "admin-checkbox-border-color": "#a6a6a6"
+      "admin-checkbox-border-color": "#a6a6a6",
+      "admin-dark-yellow": "#ba8c4a",
+      "admin-light-yellow-green": "#ffffcc",
+      "admin-amber": "#ffc107"
     }
   }
 }
