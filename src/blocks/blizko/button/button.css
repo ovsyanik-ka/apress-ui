@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+.aui-button_border_thin {
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+}
+
 a.aui-button:hover {
   text-decoration: none;
   color: var(--white);
