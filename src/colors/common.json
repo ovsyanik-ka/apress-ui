@@ -29,7 +29,11 @@
       "admin-checkbox-border-color": "#a6a6a6",
       "admin-dark-yellow": "#ba8c4a",
       "admin-light-yellow-green": "#ffffcc",
-      "admin-amber": "#ffc107"
+      "admin-very-light-yellow": "#feffdf",
+      "admin-amber": "#ffc107",
+      "admin-dim-blue": "#5992b1",
+      "admin-light-pink": "#ffd2d2",
+      "admin-light-gray-blue": "#e5eaf1"
     }
   }
 }
