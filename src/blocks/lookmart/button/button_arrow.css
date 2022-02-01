@@ -1,0 +1,13 @@
+.aui-button_arrow { 
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.aui-button_arrow::after {
+  content: url('./button_arrow.svg');
+  margin: 2px 0 0 11px;
+}
+
