@@ -1,6 +1,6 @@
-.aui-button_company-site-big,
-.aui-button_company-site-big:visited,
-.aui-button_company-site-big:link {
+.aui-cs-button_big,
+.aui-cs-button_big:visited,
+.aui-cs-button_big:link {
   height: 48px;
   padding: 0 var(--indent-xxl);
   font-size: 16px;

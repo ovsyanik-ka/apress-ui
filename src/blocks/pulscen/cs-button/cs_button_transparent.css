@@ -1,0 +1,26 @@
+.aui-cs-button_transparent,
+.aui-cs-button_transparent:visited,
+.aui-cs-button_transparent:link {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.aui-cs-button_transparent:active {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+.aui-cs-button_transparent:disabled,
+.aui-cs-button_transparent:hover:disabled {
+  background: transparent;
+  border-color: var(--admin-checkbox-border-color);
+  color: var(--admin-checkbox-border-color);
+}
+
+@media (hover: hover) {
+  .aui-cs-button_transparent:hover {
+    background: var(--dark-blue);
+    color: var(--white);
+  }
+}
