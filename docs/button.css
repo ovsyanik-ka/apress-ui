@@ -506,3 +506,14 @@
   transform: translate(-50%, -50%);
 }
 
+.aui-button_square {
+  width: 40px;
+  height: 40px;
+}
+
+.aui-button_square-big {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+}
+
