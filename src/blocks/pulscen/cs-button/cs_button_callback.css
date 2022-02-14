@@ -1,0 +1,41 @@
+.aui-cs-button_callback {
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  padding: 0 var(--indent-l) 0 60px;
+}
+.aui-cs-button_callback:before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 16px;
+  -webkit-mask-image: url('cs_button_callback.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: url('cs_button_callback.svg');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  background-color: var(--blue);
+}
+
+@media screen and (max-width: 1365px) {
+  .aui-cs-button_callback {
+    padding: 0;
+    font-size: 0;
+    width: 54px;
+  }
+  .aui-cs-button_callback:before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (hover: hover) {
+  .aui-cs-button_callback:hover { color: var(--white); }
+  .aui-cs-button_callback:hover:before {
+    background-color: var(--white); 
+  }
+}

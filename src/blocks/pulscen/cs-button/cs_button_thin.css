@@ -1,0 +1,8 @@
+.aui-cs-button_thin,
+.aui-cs-button_thin:visited,
+.aui-cs-button_thin:link {
+  height: 32px;
+  padding: 0 var(--indent-s);
+  line-height: 32px;
+  font-weight: bold;
+}

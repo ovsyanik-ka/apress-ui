@@ -21,3 +21,6 @@ import './button_callback.css';
 import './button_callback-big.css';
 
 import './button_only-icon.css';
+
+import './button_square.css';
+import './button_square-big.css';
