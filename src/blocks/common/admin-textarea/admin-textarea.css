@@ -25,3 +25,7 @@
   font-size: 13px;
   line-height: 18px;
 }
+
+.aui-admin-textarea__error {
+  position: relative;
+}
