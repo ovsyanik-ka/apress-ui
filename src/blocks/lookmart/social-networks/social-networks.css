@@ -1,5 +1,5 @@
 .social-networks {
-  width: 305px;
+  width: max-content;
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
@@ -14,7 +14,9 @@
   text-decoration: none;
   margin-left: 10px;
 }
-
+.social-networks__item:last-child {
+  margin-right: 9px;
+}
 .social-networks__item_vk {
   background: url('images/vk-icon.svg') center center no-repeat;
   background-size: 50%;
@@ -42,6 +44,11 @@
 .social-networks__item_pinterest {
   background: url('images/pt-icon.svg') center center no-repeat;
   background-size: 45%;
+}
+.social-networks__item_web {
+  background: url('images/web-icon.svg') no-repeat;
+  background-size: 57%;
+  background-position: 60% 60%;
 }
 
 .social-networks__item:hover {
