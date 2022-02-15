@@ -1,5 +1,5 @@
 .social-networks {
-  width: 305px;
+  width: max-content;
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
@@ -14,7 +14,9 @@
   text-decoration: none;
   margin-left: 10px;
 }
-
+.social-networks__item:last-child {
+  margin-right: 9px;
+}
 .social-networks__item_vk {
   background: url(c5f8c8742944a0fde9567d5f4373be2d.svg) center center no-repeat;
   background-size: 50%;
@@ -42,6 +44,11 @@
 .social-networks__item_pinterest {
   background: url(7e845eb265e1eefe59d2ee360c6f0190.svg) center center no-repeat;
   background-size: 45%;
+}
+.social-networks__item_web {
+  background: url(016e9195a1ad189b9b8f3724e4b9ec53.svg) no-repeat;
+  background-size: 57%;
+  background-position: 60% 60%;
 }
 
 .social-networks__item:hover {
@@ -112,4 +119,9 @@
 .social-networks_old .social-networks__item_telegram:hover { background-image: url(758260f22e51ca51992e4665cf6547c4.svg); }
 .social-networks_old .social-networks__item_yandex-zen:hover { background-image: url(60d5f67c8a82ff7cb795f1f5f547e682.svg); }
 .social-networks_old .social-networks__item_pinterest:hover { background: url(d5c5b5ea546e601f1b9d088c3246587d.svg) transparent; }
+
+.social-networks_expert {
+  margin: 0 0 0 -10px;
+  border-radius: 0;
+}
 
