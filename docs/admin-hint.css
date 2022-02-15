@@ -1,0 +1,42 @@
+.aui-admin-hint {
+  position: relative;
+  cursor: pointer;
+}
+
+.aui-admin-hint::after {
+  position: absolute;
+  padding: 10px 15px;
+  max-width: 179px;
+  min-width: 50px;
+  margin-left: -15px;
+  background: var(--admin-white);
+  box-shadow: 0 0 5px 0 rgb(97 101 111 / 55%);
+  font-size: 11px;
+  font-weight: normal;
+  box-sizing: border-box;
+  z-index: var(--z-index-absolute);
+}
+
+.aui-admin-hint:hover::after {
+  content: attr(data-popup-hint);
+}
+
+.aui-admin-hint_with-icon { 
+  display: inline-block; 
+}
+
+.aui-admin-hint_with-icon::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: var(--admin-grey);
+  -webkit-mask-box-image: url(ebe5e94e76f80ae5397e21e39bd017c6.svg);
+  mask-image: url(ebe5e94e76f80ae5397e21e39bd017c6.svg);
+}
+
+.aui-admin-hint_with-icon:hover::before {
+  background: var(--admin-blue);
+}
+
