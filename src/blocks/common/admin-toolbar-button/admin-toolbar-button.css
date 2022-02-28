@@ -15,6 +15,10 @@
 .aui-admin-toolbar-button:before {
   content: '';
   background-color: var(--admin-light-blue-dark);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-size: contain;
 }
 
 .aui-admin-toolbar-button:hover:before {

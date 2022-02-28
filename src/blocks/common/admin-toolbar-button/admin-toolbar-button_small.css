@@ -1,0 +1,9 @@
+.admin-toolbar-button_small {
+  width: 36px;
+  height: 24px;
+}
+
+.admin-toolbar-button_small::before {
+  width: 12px;
+  height: 12px;
+}
