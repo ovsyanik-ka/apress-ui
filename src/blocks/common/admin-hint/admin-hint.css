@@ -5,6 +5,9 @@
 
 .aui-admin-hint::after {
   position: absolute;
+  top: 100%;
+  left: -3px;
+  margin-top: 3px;
   padding: 10px 15px;
   max-width: 179px;
   min-width: 50px;
