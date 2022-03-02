@@ -1,0 +1,18 @@
+.aui-admin-popup {
+  position: relative;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  background: var(--admin-white);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.aui-admin-popup__close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  background: url('./__close-button.svg') no-repeat;
+  cursor: pointer;
+}
