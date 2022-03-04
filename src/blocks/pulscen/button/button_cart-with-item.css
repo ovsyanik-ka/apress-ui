@@ -10,10 +10,12 @@
   content: '';
   position: absolute;
   width: 18px;
-  height: 19px;
+  height: 18px;
   left: 30px;
   top: 50%;
-  background: url('button_cart-with-item.svg');
+  transform: translateY(-50%);
+  background-image: url('button_cart-with-item.svg');
+  background-repeat: no-repeat;
   background-color: transparent;
   mask-image: none;
 }
