@@ -417,10 +417,12 @@
   content: '';
   position: absolute;
   width: 18px;
-  height: 19px;
+  height: 18px;
   left: 30px;
   top: 50%;
-  background: url(32103d156607b9253859730eee648fcd.svg);
+  transform: translateY(-50%);
+  background-image: url(2425f8d97801ce5c17d377b1907d8fa7.svg);
+  background-repeat: no-repeat;
   background-color: transparent;
   mask-image: none;
 }
