@@ -9,11 +9,12 @@
   padding: 0;
 }
 
-.aui-button-link:not(:disabled):hover {
+.aui-button-link:hover {
   text-decoration: underline;
 }
 
 .aui-button-link:disabled {
-   color: var(--black-l65);
-   cursor: default;
- }
+  text-decoration: none;
+  color: var(--black-l65);
+  cursor: default;
+}
