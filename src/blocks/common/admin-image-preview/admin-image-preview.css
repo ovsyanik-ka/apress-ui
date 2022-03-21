@@ -15,17 +15,38 @@
 }
 
 .aui-admin-image-preview__delete-button {
-  background: url('./aui-admin-image-preview.svg') no-repeat 50% var(--admin-white);
+  background: var(--admin-white);
   position: absolute;
   top: 10px;
   right: 10px;
   width: 36px;
   height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   cursor: pointer;
   border: solid 1px var(--admin-sea-grey);
 }
 
+.aui-admin-image-preview__delete-button:before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;;
+  -webkit-mask-image: url(./aui-admin-image-preview.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./aui-admin-image-preview.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: var(--admin-light-dark);
+}
+
 .aui-admin-image-preview__delete-button:hover {
-  opacity: 0.8;
+  border-color: var(--admin-red);
+}
+
+.aui-admin-image-preview__delete-button:hover:before {
+  background-color: var(--admin-red);
 }
