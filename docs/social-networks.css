@@ -3,6 +3,7 @@
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -24,14 +25,6 @@
 .social-networks__item_odnoklassniki {
   background: url(37a2b5628976394c0b6051daec200ca1.svg) center center no-repeat; 
   background-size: 32%;    
-}
-.social-networks__item_fb {
-  background: url(d03a4bc6742a01602d7cc3573c235f54.svg) center center no-repeat; 
-  background-size: 25%;
-}
-.social-networks__item_instagram {
-  background: url(ead2a080116e473a8fa6ebaf21a3d7e3.svg) center center no-repeat;
-  background-size: 45%; 
 }
 .social-networks__item_telegram {
   background: url(e1be34c6d4d7efb3aa76ee1a94326a40.svg) center center no-repeat; 
@@ -89,13 +82,6 @@
   background: url(c25f002029daaa09db37d7b38cef4abb.svg) 50% var(--d2021-black) no-repeat;
   background-size: 70%;
 }
-.social-networks_old .social-networks__item_fb {
-  background: url(6a409234c30b01ae67fc96ae3e3e7a90.svg) 50% var(--d2021-black) no-repeat;
-  background-size: 70%;
-}
-.social-networks_old .social-networks__item_instagram {
-  background: url(d6c37e2750a0a3be658393877d0c1904.svg) 50% var(--d2021-white) no-repeat;
-}
 .social-networks_old .social-networks__item_youtube {
   background: url(499587f3d7e8635aff91cf74b52edb26.svg) 50% var(--d2021-white) no-repeat;
 }
@@ -113,8 +99,6 @@
 
 .social-networks_old .social-networks__item_vk:hover { background-color: var(--red); }
 .social-networks_old .social-networks__item_odnoklassniki:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_fb:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_instagram:hover { background-image: url(001529df77b0971d4362eeff331c3371.svg); }
 .social-networks_old .social-networks__item_youtube:hover { background-image: url(9757e151e679aff796c04192965b35ab.svg); }
 .social-networks_old .social-networks__item_telegram:hover { background-image: url(758260f22e51ca51992e4665cf6547c4.svg); }
 .social-networks_old .social-networks__item_yandex-zen:hover { background-image: url(60d5f67c8a82ff7cb795f1f5f547e682.svg); }

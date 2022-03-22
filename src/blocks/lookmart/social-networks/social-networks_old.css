@@ -24,13 +24,6 @@
   background: url('./images/old/ok.svg') 50% var(--d2021-black) no-repeat;
   background-size: 70%;
 }
-.social-networks_old .social-networks__item_fb {
-  background: url('./images/old/fb.svg') 50% var(--d2021-black) no-repeat;
-  background-size: 70%;
-}
-.social-networks_old .social-networks__item_instagram {
-  background: url('./images/old/ig.svg') 50% var(--d2021-white) no-repeat;
-}
 .social-networks_old .social-networks__item_youtube {
   background: url('./images/old/tube.svg') 50% var(--d2021-white) no-repeat;
 }
@@ -48,8 +41,6 @@
 
 .social-networks_old .social-networks__item_vk:hover { background-color: var(--red); }
 .social-networks_old .social-networks__item_odnoklassniki:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_fb:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_instagram:hover { background-image: url('./images/old/ig-hovered.svg'); }
 .social-networks_old .social-networks__item_youtube:hover { background-image: url('./images/old/tube-hovered.svg'); }
 .social-networks_old .social-networks__item_telegram:hover { background-image: url('./images/old/tg-hovered.svg'); }
 .social-networks_old .social-networks__item_yandex-zen:hover { background-image: url('./images/old/yz-hovered.svg'); }

@@ -25,14 +25,6 @@
   background: url('images/ok-icon.svg') center center no-repeat; 
   background-size: 32%;    
 }
-.social-networks__item_fb {
-  background: url('images/fb-icon.svg') center center no-repeat; 
-  background-size: 25%;
-}
-.social-networks__item_instagram {
-  background: url('images/ig-icon.svg') center center no-repeat;
-  background-size: 45%; 
-}
 .social-networks__item_telegram {
   background: url('images/tg-icon.svg') center center no-repeat; 
   background-size: 45%;
