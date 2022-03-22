@@ -3,7 +3,6 @@
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
   margin: 0 auto;
 }
 
