@@ -3,6 +3,7 @@
   background: var(--d2021-gray);
   border-radius: 8px;
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -47,6 +48,7 @@
   background-color: #e2e2e2;
 }
 .social-networks_small .social-networks {
+  justify-content: space-around;
   width: 260px;
 }
 .social-networks_small .social-networks__item {
