@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   width: 360px;
+  max-width: 100%;
   padding: 12px;
   box-sizing: border-box;
 }
