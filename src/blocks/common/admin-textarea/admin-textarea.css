@@ -14,6 +14,7 @@
 }
 .aui-admin-textarea__field:focus {
   outline: none;
+  border: 1px solid var(--admin-blue);
 }
 
 .aui-admin-textarea__counter {
