@@ -18,3 +18,9 @@
   color: var(--black-l65);
   cursor: default;
 }
+
+@media (hover:none) {
+  .aui-button-link:hover {
+    text-decoration: none;
+  }
+}
