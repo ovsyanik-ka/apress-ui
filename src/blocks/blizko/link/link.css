@@ -8,3 +8,9 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media (hover:none) {
+  .aui-link:hover {
+    text-decoration: none;
+  }
+}
