@@ -1,0 +1,1 @@
+import './favorite-button.css'
