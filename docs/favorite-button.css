@@ -1,0 +1,28 @@
+.aui-favorite-button {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--black-l50);
+}
+
+.aui-favorite-button:after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  background-image: url(7d352c4e328ff6f5e2ddccf8a68f8285.svg);
+}
+
+.aui-favorite-button_active:after {
+  background-image: url(dcecad1d16da72c154e94edb46ee5eac.svg);
+}
+
+.aui-favorite-button:hover:after {
+  background-image: url(907f60060a26bbb8ffe25ad9a2ed7aa7.svg);
+}
+
