@@ -1,0 +1,27 @@
+.aui-favorite-button {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--black-l50);
+}
+
+.aui-favorite-button:after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  background-image: url('./favorite_empty.svg');
+}
+
+.aui-favorite-button_active:after {
+  background-image: url('./favorite_fill.svg');
+}
+
+.aui-favorite-button:hover:after {
+  background-image: url('./favorite_empty_hover.svg');
+}
