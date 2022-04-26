@@ -1,8 +1,6 @@
 .aui-breadcrumbs {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .03em;
-  color: var(--medium-dark);
+  font-size: 13px;
+  color: var(--dark-dark);
   line-height: 24px;
 }
 .aui-breadcrumbs__item {
@@ -12,7 +10,7 @@
 }
 .aui-breadcrumbs__item + .aui-breadcrumbs__item {
   padding-left: 15px;
-  margin-left: var(--indent-s);
+  margin-left: 6px;
 }
 .aui-breadcrumbs__item + .aui-breadcrumbs__item:before {
   content: '/';
@@ -22,7 +20,7 @@
 .aui-breadcrumbs__item-link,
 .aui-breadcrumbs__item-link:visited {
   text-decoration: none;
-  color: var(--medium-dark);
+  color: var(--dark-dark);
 }
 .aui-breadcrumbs__item-link:hover {
   color: var(--blue);

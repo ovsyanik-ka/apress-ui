@@ -1,32 +1,22 @@
 .aui-breadcrumbs_with-rubric__item-link {
   position: relative;
-  padding-right: 31px;
+  padding-right: var(--indent-m);
   display: inline-block;
 }
 
-.aui-breadcrumbs_with-rubric__rubric_main-rubric:before,
-.aui-breadcrumbs_with-rubric__item-link:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 24px;
-  height: 24px;
-  border: 1px solid var(--extra-light-dark);
-  border-radius: 3px;
-}
+
 .aui-breadcrumbs_with-rubric__rubric_main-rubric:after,
 .aui-breadcrumbs_with-rubric__item-link:after {
   content: '';
   position: absolute;
   top: 10px;
-  right: 9px;
+  right: 8px;
   width: 8px;
   height: 5px;
   -webkit-mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
   mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
   border-radius: 3px;
-  background-color: var(--extra-light-dark);
+  background-color: var(--dark-dark);
 }
 
 .aui-breadcrumbs_with-rubric__rubrics-list {
@@ -40,37 +30,33 @@
   box-shadow: 0px 5px 24px rgba(0, 0, 0, .15);
   box-sizing: content-box;
 }
+
 .aui-breadcrumbs_with-rubric__rubric {
    position: relative;
    display: block;
    margin-top: var(--indent-s);
    text-decoration: none;
    line-height: 19px;
-   color: var(--light-blue-dark);
+   color: var(--dark-dark);
 }
 
 .aui-breadcrumbs_with-rubric__rubric:hover {
-  color: var(--orange);
+  color: var(--blue);
 }
 .aui-breadcrumbs_with-rubric__rubric:first-child {
   margin-top: 0;
 }
 .aui-breadcrumbs_with-rubric__rubric_main-rubric {
   display: inline-block;
-  color: var(--blue);
-  padding-right: 31px;
+  padding-right: var(--indent-m);
   white-space: nowrap;
 }
-.aui-breadcrumbs_with-rubric__rubric_main-rubric:before {
-  right: 0;
-  top: -3px;
-  border-color: var(--blue);
-}
+
 .aui-breadcrumbs_with-rubric__rubric_main-rubric:after {
   top: 7px;
   -webkit-mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
   mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
-  background-color: var(--blue);
+  background-color: var(--dark-dark);
   transform: rotate(180deg);
 }
 
@@ -78,10 +64,7 @@
   .aui-breadcrumbs_with-rubric__item-link {
     padding: 0 0 0 37px;
   }
-  .aui-breadcrumbs_with-rubric__item-link:before {
-    right: auto;
-    left: 0;
-  }
+ 
   .aui-breadcrumbs_with-rubric__item-link:after {
     right: auto;
     left: 9px;
