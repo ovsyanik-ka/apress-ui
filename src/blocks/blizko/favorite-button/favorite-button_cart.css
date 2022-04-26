@@ -1,0 +1,20 @@
+.aui-favorite-button_cart {
+  width: 20px;
+  height: 20px;
+  mask-image: url('./favorite_cart.svg');
+  -webkit-mask-box-image: url('./favorite_cart.svg');
+  background-color: var(--black-l65);
+}
+
+.aui-favorite-button_cart::after {
+  content: none;
+}
+
+.aui-favorite-button_cart:hover {
+  background-color: var(--orange);
+}
+
+.aui-favorite-button_cart[data-is-favorite="true"] {
+  background-color: var(--orange);
+  background-image: none;
+}

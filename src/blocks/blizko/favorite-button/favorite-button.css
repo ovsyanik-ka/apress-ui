@@ -19,7 +19,7 @@
   background-image: url('./favorite_empty.svg');
 }
 
-.aui-favorite-button_active:after {
+.aui-favorite-button[data-is-favorite="true"]::after {
   background-image: url('./favorite_fill.svg');
 }
 
