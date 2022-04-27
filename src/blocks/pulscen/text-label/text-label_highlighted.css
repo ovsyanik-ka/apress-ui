@@ -1,10 +1,16 @@
 .aui-text-label_highlighted {
-  background: var(--light-gray);
+  background-color: transparent;
   border: solid 1px var(--medium-gray);
-  color: var(--light-blue-dark);
+  color: var(--dark-dark);
 }
+
+.aui-text-label_highlighted:link,
+.aui-text-label_highlighted:visited {
+  color: var(--dark-dark);
+}
+
 .aui-text-label_highlighted:hover {
-  background: var(--very-light-blue);
+  background-color: var(--very-light-blue);
   border-color: var(--blue);
   color: var(--blue);
 }

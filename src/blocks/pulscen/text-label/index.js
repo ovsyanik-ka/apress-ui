@@ -5,3 +5,5 @@ import './text-label_neutral.css';
 import './text-label_highlighted.css';
 import './text-label_support.css';
 import './text-label_small.css';
+import './text-label_larger.css';
+import './text-label_clickable.css';
