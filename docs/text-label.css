@@ -10,6 +10,7 @@
   box-sizing: border-box;
   border-radius: 3px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .aui-text-label_positive {
@@ -28,12 +29,18 @@
 }
 
 .aui-text-label_highlighted {
-  background: var(--light-gray);
+  background-color: transparent;
   border: solid 1px var(--medium-gray);
-  color: var(--light-blue-dark);
+  color: var(--dark-dark);
 }
+
+.aui-text-label_highlighted:link,
+.aui-text-label_highlighted:visited {
+  color: var(--dark-dark);
+}
+
 .aui-text-label_highlighted:hover {
-  background: var(--very-light-blue);
+  background-color: var(--very-light-blue);
   border-color: var(--blue);
   color: var(--blue);
 }
@@ -55,5 +62,17 @@
   text-transform: lowercase;
   color: var(--dark-dark);
   background: var(--light-gray-blue);
+}
+
+.aui-text-label_larger {
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-transform: none;
+}
+
+.aui-text-label_clickable {
+  cursor: pointer;
 }
 
