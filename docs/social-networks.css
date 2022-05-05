@@ -31,8 +31,8 @@
   background-size: 45%;
 }
 .social-networks__item_yandex-zen {
-  background: url(25c6f47b8142c8fe05a774fcca5628ea.svg) center center no-repeat; 
-  background-size: 30%;
+  background: url(6a0189a34b5caf75e6611410e51ea9d1.svg) center center no-repeat; 
+  background-size: 52%;
 }
 .social-networks__item_pinterest {
   background: url(7e845eb265e1eefe59d2ee360c6f0190.svg) center center no-repeat;
@@ -90,7 +90,7 @@
   background: url(c5e32130459779649899ca5ce56f257d.svg) 50% var(--d2021-white) no-repeat;
 }
 .social-networks_old .social-networks__item_yandex-zen {
-  background: url(82a4fe94f5feade9185b31b01d439f1f.svg) var(--d2021-black) no-repeat;
+  background: url(6467ea6ae49c98cb33a95e30cfa30b6b.svg) no-repeat;
   background-size: 100%;
 }
 .social-networks_old .social-networks__item_pinterest {
@@ -102,7 +102,7 @@
 .social-networks_old .social-networks__item_odnoklassniki:hover { background-color: var(--red); }
 .social-networks_old .social-networks__item_youtube:hover { background-image: url(9757e151e679aff796c04192965b35ab.svg); }
 .social-networks_old .social-networks__item_telegram:hover { background-image: url(758260f22e51ca51992e4665cf6547c4.svg); }
-.social-networks_old .social-networks__item_yandex-zen:hover { background-image: url(60d5f67c8a82ff7cb795f1f5f547e682.svg); }
+.social-networks_old .social-networks__item_yandex-zen:hover { background-image: url(e086336804eea5b0f9b484b05e987476.svg); }
 .social-networks_old .social-networks__item_pinterest:hover { background: url(d5c5b5ea546e601f1b9d088c3246587d.svg) transparent; }
 
 .social-networks_expert {
