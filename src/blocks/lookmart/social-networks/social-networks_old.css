@@ -31,7 +31,7 @@
   background: url('./images/old/tg.svg') 50% var(--d2021-white) no-repeat;
 }
 .social-networks_old .social-networks__item_yandex-zen {
-  background: url('./images/old/yz.svg') var(--d2021-black) no-repeat;
+  background: url('./images/old/yz.svg') no-repeat;
   background-size: 100%;
 }
 .social-networks_old .social-networks__item_pinterest {
