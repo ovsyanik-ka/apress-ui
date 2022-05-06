@@ -66,7 +66,7 @@
   content: '';
   position: absolute;
   right: 100%;
-  top: 63%;
+  top: 50%;
   margin-right: var(--indent-xs);
   width: 17px;
   height: 14px;
