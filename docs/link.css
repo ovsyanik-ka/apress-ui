@@ -16,13 +16,6 @@
 .aui-link_gray:before { background-color: var(--light-blue-dark); }
 .aui-link_gray:hover:before { background-color: var(--light-dark); }
 
-.aui-link_highlighted {
-  color: var(--blue);
-  text-decoration: none;
-  font-weight: bold;
-}
-.aui-link_highlighted:hover { color: var(--dark-blue); }
-
 .aui-link_dashed { border-bottom: dashed 1px; }
 
 .aui-link_callback {
@@ -62,6 +55,30 @@
   mask-image: url(ae368f5a4ae859b6f189e1549ae2e641.svg);
 }
 
+.aui-link_mail {
+  margin-left: var(--indent-m);
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.aui-link_mail::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 63%;
+  margin-right: var(--indent-xs);
+  width: 17px;
+  height: 14px;
+  transform: translateY(-50%);
+  -webkit-mask-image: url(d3cbbe64f9df1f5040caea5f1e8f5164.svg);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url(d3cbbe64f9df1f5040caea5f1e8f5164.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+
 .aui-link_blocked,
 .aui-link_blocked:hover {
   color: var(--extra-light-dark);
@@ -87,5 +104,10 @@
 .aui-link_disabled:visited,
 .aui-link_disabled:hover {
   color: var(--extra-light-dark);
+}
+
+.aui-link_highlighted {
+  text-decoration: none;
+  font-weight: bold;
 }
 
