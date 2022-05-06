@@ -1,0 +1,23 @@
+.aui-link_mail {
+  margin-left: var(--indent-m);
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.aui-link_mail::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 63%;
+  margin-right: var(--indent-xs);
+  width: 17px;
+  height: 14px;
+  transform: translateY(-50%);
+  -webkit-mask-image: url('./link_mail.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url('./link_mail.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
