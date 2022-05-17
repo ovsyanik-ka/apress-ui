@@ -1,4 +1,5 @@
 .aui-breadcrumbs {
+  margin-bottom: var(--indent-s);
   font-size: 13px;
   color: var(--dark-dark);
   line-height: 24px;
