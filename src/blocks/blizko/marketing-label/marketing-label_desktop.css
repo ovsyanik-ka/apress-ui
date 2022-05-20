@@ -1,0 +1,48 @@
+.aui-marketing-label_desktop {
+    position: relative;
+    padding: 4px 8px;
+    border-radius: 4px 4px 4px 0px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    height: 24px;
+    max-width: 175px;
+}
+
+.aui-marketing-label_desktop::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid transparent;
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_green::after {
+    border-top: 2px solid var(--green-d20);
+    border-right: 2px solid var(--green-d20);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_red::after {
+    border-top: 2px solid var(--red-d10);
+    border-right: 2px solid var(--red-d10);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_orange-dark::after {
+    border-top: 2px solid var(--orange-d10);
+    border-right: 2px solid var(--orange-d10);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_purple::after {
+    border-top: 2px solid var(--purple-d20);
+    border-right: 2px solid var(--purple-d20);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_blue::after {
+    border-top: 2px solid var(--blue-d10);
+    border-right: 2px solid var(--blue-d10);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_orange::after {
+    border-top: 2px solid var(--orange);
+    border-right: 2px solid var(--orange);
+}

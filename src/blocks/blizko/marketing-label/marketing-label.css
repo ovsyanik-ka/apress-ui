@@ -1,0 +1,41 @@
+.aui-marketing-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial';
+  color: var(--white);
+  box-sizing: border-box;
+}
+
+.aui-marketing-label_green {
+  background-color: var(--green-d20);
+}
+
+.aui-marketing-label_red {
+  background-color: var(--red-d10);
+}
+
+.aui-marketing-label_orange-dark {
+  background-color: var(--orange-d10);
+}
+
+.aui-marketing-label_purple {
+  background-color: var(--purple-d20);
+}
+
+.aui-marketing-label_blue {
+  background-color: var(--blue-d10);
+}
+
+.aui-marketing-label_blue-light {
+  background-color: var(--blue-l20);
+}
+
+.aui-marketing-label_orange {
+  background-color: var(--orange);
+}
+
+.aui-marketing-label_transparent {
+  opacity: .75;
+}
+
