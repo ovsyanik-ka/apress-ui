@@ -15,7 +15,6 @@
   height: 5px;
   -webkit-mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
   mask-image: url('breadcrumbs_with-rubrics__arrow.svg');
-  border-radius: 3px;
   background-color: var(--dark-dark);
 }
 
