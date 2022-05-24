@@ -58,7 +58,6 @@
   height: 5px;
   -webkit-mask-image: url(0c23d625210d9bb51e9a075c13e5c6c1.svg);
   mask-image: url(0c23d625210d9bb51e9a075c13e5c6c1.svg);
-  border-radius: 3px;
   background-color: var(--dark-dark);
 }
 

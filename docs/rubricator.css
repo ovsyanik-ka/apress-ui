@@ -71,6 +71,10 @@
   position: relative;
 }
 
+.aui-rubricator__item-cover + .aui-rubricator {
+  margin-top: var(--indent-xs);
+}
+
 .aui-rubricator__toggler {
   position: absolute;
   display: inline-block;
