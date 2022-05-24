@@ -1,5 +1,6 @@
 import 'blocks/common/button';
 import './button.css';
+import './button_responsive.css';
 
 import './button_small.css';
 import './button_big.css';
