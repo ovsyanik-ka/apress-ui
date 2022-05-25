@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .aui-button_responsive {
+    padding: 0 var(--indent-sm);
+  }
+}
