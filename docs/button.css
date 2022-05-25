@@ -146,6 +146,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .aui-button_responsive {
+    padding: 0 var(--indent-sm);
+  }
+}
+
 .aui-button_small {
   padding: 0 18px;
   font-size: 12px;
