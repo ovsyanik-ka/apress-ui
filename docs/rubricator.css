@@ -40,7 +40,7 @@
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator__item-link {
-  padding-left: var(--indent-l);
+  margin-left: var(--indent-l);
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator__toggler {
@@ -48,7 +48,7 @@
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__item-link {
-  padding-left: var(--indent-xl);
+  margin-left: var(--indent-xl);
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__toggler {
@@ -56,7 +56,7 @@
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__item-link {
-  padding-left: var(--indent-xxl);
+  margin-left: var(--indent-xxl);
 }
 
 .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__toggler {
@@ -113,7 +113,7 @@
 
 .aui-rubricator__item-link {
   display: block;
-  padding-left: var(--indent-m);
+  margin-left: var(--indent-m);
   color: var(--dark-dark);
   text-decoration: none;
 }
