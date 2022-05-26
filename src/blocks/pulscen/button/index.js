@@ -18,7 +18,9 @@ import './button_green.css';
 
 import './button_chat.css';
 import './button_cart.css';
+import './button_cart-without-border.css';
 import './button_cart-with-item.css';
+import './button_cart-with-item-no-border.css';
 import './button_callback.css';
 import './button_callback-big.css';
 
