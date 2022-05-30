@@ -47,9 +47,9 @@
 
 .aui-input__field:not(:placeholder-shown) + .aui-input__label {
   left: 4px;
-  top: 0;
+  top: -1px;
   padding: 0 4px;
-  background-image: linear-gradient(transparent 50%, var(--white) 50%, var(--white) 55%, transparent 55%);
+  background-image: linear-gradient(transparent 50%, var(--white) 20%, var(--white) 65%, transparent 55%);
   transform: translateY(-50%);
 }
 
@@ -61,8 +61,8 @@
 }
 
 .aui-input__field:placeholder-shown + .aui-input__label_static {
-  top: 0;
   left: 4px;
+  top: -1px;
   color: inherit;
   padding: 0 4px;
   background: var(--white);
