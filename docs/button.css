@@ -266,24 +266,6 @@
   }
 }
 
-.aui-button_transparent-light,
-.aui-button_transparent-light:link,
-.aui-button_transparent-light:visited,
-.aui-button_transparent-light:active {
-  background: transparent;
-  border: 1px solid var(--medium-gray);
-  color: var(--dark-dark);
-}
-
-@media (hover: hover) {
-  .aui-button_transparent-light:link:hover,
-  .aui-button_transparent-light:hover {
-    background: transparent;
-    color: var(--blue);
-    border-color: var(--blue);
-  }
-}
-
 .aui-button_gray,
 .aui-button_gray:link,
 .aui-button_gray:visited {
