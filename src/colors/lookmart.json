@@ -27,7 +27,8 @@
       "d2021-gray": "#f0f0f0",
       "d2021-light-gray": "#c4c4c4",
       "d2021-dark-gray": "#9e9e9e",
-      "d2021-darkish-gray": "#7d7d7d"
+      "d2021-darkish-gray": "#7d7d7d",
+      "d2021-translucent-gray": "#e2e2e2"
     }
   }
 }
