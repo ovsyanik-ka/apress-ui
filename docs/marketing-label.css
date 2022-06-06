@@ -48,7 +48,6 @@
     font-size: 12px;
     line-height: 16px;
     height: 24px;
-    max-width: 175px;
 }
 
 .aui-marketing-label_desktop::after {
@@ -96,6 +95,5 @@
     font-size: 10px;
     line-height: 12px;
     height: 16px;
-    max-width: 133px;
 }
 
