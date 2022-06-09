@@ -26,7 +26,8 @@
     "mini-css-extract-plugin": "^0.5.0",
     "rimraf": "3.0.2",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.2.1",
+    "file-system-cache": "1.0.5"
   },
   "directories": {
     "doc": "docs"
