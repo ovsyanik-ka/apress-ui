@@ -23,6 +23,8 @@
   background-image: url('./favorite_fill.svg');
 }
 
-.aui-favorite-button:hover:after {
-  background-image: url('./favorite_empty_hover.svg');
+@media (hover: hover) {
+  .aui-favorite-button:hover::after {
+    background-image: url('./favorite_empty_hover.svg');
+  }
 }

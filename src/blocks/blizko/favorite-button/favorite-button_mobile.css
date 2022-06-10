@@ -1,0 +1,10 @@
+.aui-favorite-button_mobile {
+  width: 24px;
+  height: 24px;
+}
+
+.aui-favorite-button_mobile::after {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
