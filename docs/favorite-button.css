@@ -23,8 +23,10 @@
   background-image: url(dcecad1d16da72c154e94edb46ee5eac.svg);
 }
 
-.aui-favorite-button:hover:after {
-  background-image: url(907f60060a26bbb8ffe25ad9a2ed7aa7.svg);
+@media (hover: hover) {
+  .aui-favorite-button:hover::after {
+    background-image: url(907f60060a26bbb8ffe25ad9a2ed7aa7.svg);
+  }
 }
 
 .aui-favorite-button_cart {
@@ -46,5 +48,16 @@
 .aui-favorite-button_cart[data-is-favorite="true"] {
   background-color: var(--orange);
   background-image: none;
+}
+
+.aui-favorite-button_mobile {
+  width: 24px;
+  height: 24px;
+}
+
+.aui-favorite-button_mobile::after {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
 }
 
