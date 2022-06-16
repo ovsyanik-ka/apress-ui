@@ -35,6 +35,10 @@
   background-color: var(--orange);
 }
 
+.aui-marketing-label_amber {
+  background-color: var(--amber);
+}
+
 .aui-marketing-label_transparent {
   opacity: .75;
 }
