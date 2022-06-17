@@ -35,6 +35,10 @@
   background-color: var(--orange);
 }
 
+.aui-marketing-label_amber {
+  background-color: var(--amber);
+}
+
 .aui-marketing-label_transparent {
   opacity: .75;
 }
@@ -95,5 +99,12 @@
     font-size: 10px;
     line-height: 12px;
     height: 16px;
+}
+
+.aui-marketing-label_rating {
+    padding: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 4px;
 }
 
