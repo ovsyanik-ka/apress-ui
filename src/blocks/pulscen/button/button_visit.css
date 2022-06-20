@@ -1,0 +1,50 @@
+.aui-button_visit,
+.aui-button_visit:link {
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  width: 40px;
+  height: 40px;
+  white-space: nowrap;
+  border-radius: 8px;
+  padding: 0;
+  font-size: 0;
+}
+.aui-button_visit:before {
+  content: '';
+  position: absolute;
+  width: 21px;
+  height: 16px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-mask-image: url('button_visit.svg');
+  mask-image: url('button_visit.svg');
+  background-color: var(--blue);
+}
+.aui-button_visit:active {
+  color: var(--white);
+}
+.aui-button_visit:active:before {
+  background-color: var(--white);
+}
+
+@media all and (max-width: 767px) {
+  .aui-button_visit,
+  .aui-button_visit:link {
+    padding-left: var(--indent-xl);
+  }
+  .aui-button_visit:before,
+  .aui-button_visit:link:before {
+    left: 22px;
+  }
+}
+@media (hover: hover) {
+  .aui-button_visit:hover {
+    color: var(--white);
+  }
+  .aui-button_visit:hover:before {
+    background-color: var(--white);
+  }
+}
