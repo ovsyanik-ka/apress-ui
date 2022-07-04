@@ -33,7 +33,9 @@
   width: 20px;
   height: 20px;
   mask-image: url(d5e24cbcbeece41fd54356bfa6c5ab22.svg);
-  -webkit-mask-box-image: url(d5e24cbcbeece41fd54356bfa6c5ab22.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url(d5e24cbcbeece41fd54356bfa6c5ab22.svg);
+  -webkit-mask-repeat: no-repeat;
   background-color: var(--black-l65);
 }
 
