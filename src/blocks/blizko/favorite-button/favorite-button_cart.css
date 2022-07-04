@@ -2,7 +2,9 @@
   width: 20px;
   height: 20px;
   mask-image: url('./favorite_cart.svg');
-  -webkit-mask-box-image: url('./favorite_cart.svg');
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('./favorite_cart.svg');
+  -webkit-mask-repeat: no-repeat;
   background-color: var(--black-l65);
 }
 
