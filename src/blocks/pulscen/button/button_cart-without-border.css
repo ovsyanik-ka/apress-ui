@@ -5,7 +5,7 @@
   background: transparent;
   border: none;
   color: var(--light-blue-dark);
-  padding-left: var(--indent-m);
+  padding: 0 0 0 var(--indent-m);
   white-space: nowrap;
 }
 .aui-button_cart-without-border:before {
