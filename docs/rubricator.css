@@ -9,7 +9,7 @@
 }
 
 .aui-rubricator::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
   border-radius: 4px;
   background: var(--light-gray);
 }
@@ -67,6 +67,10 @@
   max-height: 200px;
 }
 
+.aui-rubricator__list-item_stretched-overflow {
+  max-height: 380px;
+}
+
 .aui-rubricator__item-cover {
   position: relative;
 }
@@ -81,7 +85,7 @@
   width: var(--indent-m);
   height: 100%;
   left: 0;
-  z-index: 1;
+  z-index: var(--z-index-absolute);
   cursor: pointer;
 }
 
