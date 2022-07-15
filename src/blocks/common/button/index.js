@@ -6,3 +6,5 @@ import './button_transparent.css';
 import './button_transparent-grey.css';
 import './button_transparent-yellow.css';
 import './button_green.css';
+import './button_visit.css';
+import './button_visit-no-border.css';

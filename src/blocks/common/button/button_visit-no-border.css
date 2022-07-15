@@ -1,8 +1,7 @@
-.aui-button_visit,
-.aui-button_visit:link {
+.aui-button_visit-no-border,
+.aui-button_visit-no-border:link {
   position: relative;
   background: transparent;
-  border: 1px solid var(--blue);
   color: var(--blue);
   width: 40px;
   height: 40px;
@@ -11,7 +10,7 @@
   padding: 0;
   font-size: 0;
 }
-.aui-button_visit:before {
+.aui-button_visit-no-border:before {
   content: '';
   position: absolute;
   width: 21px;
@@ -23,28 +22,18 @@
   mask-image: url('button_visit.svg');
   background-color: var(--blue);
 }
-.aui-button_visit:active {
+.aui-button_visit-no-border:active {
   color: var(--white);
 }
-.aui-button_visit:active:before {
+.aui-button_visit-no-border:active:before {
   background-color: var(--white);
 }
 
-@media all and (max-width: 767px) {
-  .aui-button_visit,
-  .aui-button_visit:link {
-    padding-left: var(--indent-xl);
-  }
-  .aui-button_visit:before,
-  .aui-button_visit:link:before {
-    left: 22px;
-  }
-}
 @media (hover: hover) {
-  .aui-button_visit:hover {
+  .aui-button_visit-no-border:hover {
     color: var(--white);
   }
-  .aui-button_visit:hover:before {
+  .aui-button_visit-no-border:hover:before {
     background-color: var(--white);
   }
 }
