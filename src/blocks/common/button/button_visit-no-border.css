@@ -2,7 +2,7 @@
 .aui-button_visit-no-border:link {
   position: relative;
   background: transparent;
-  color: var(--blue);
+  color: #028dd8;
   width: 40px;
   height: 40px;
   white-space: nowrap;
@@ -20,20 +20,20 @@
   transform: translate(-50%, -50%);
   -webkit-mask-image: url('button_visit.svg');
   mask-image: url('button_visit.svg');
-  background-color: var(--blue);
+  background-color: #028dd8;
 }
 .aui-button_visit-no-border:active {
-  color: var(--white);
+  color: #fff;
 }
 .aui-button_visit-no-border:active:before {
-  background-color: var(--white);
+  background-color: #fff;
 }
 
 @media (hover: hover) {
   .aui-button_visit-no-border:hover {
-    color: var(--white);
+    color: #fff;
   }
   .aui-button_visit-no-border:hover:before {
-    background-color: var(--white);
+    background-color: #fff;
   }
 }
