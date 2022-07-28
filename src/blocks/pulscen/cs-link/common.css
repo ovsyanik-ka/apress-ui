@@ -1,0 +1,19 @@
+.cs-aui-link,
+.cs-aui-link:link,
+.cs-aui-link:visited {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cs-aui-link:hover {
+  color: var(--dark-blue);
+}
+
+.cs-aui-link:before {
+  background-color: var(--blue);
+}
+
+.cs-aui-link:hover:before {
+  background-color: var(--dark-blue);
+}

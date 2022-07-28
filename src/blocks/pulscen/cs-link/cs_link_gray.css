@@ -1,0 +1,17 @@
+.cs-aui-link_gray,
+.cs-aui-link_gray:link,
+.cs-aui-link_gray:visited {
+  color: var(--light-dark);
+}
+
+.cs-aui-link_gray:hover {
+  color: var(--d2020-dusky-azure);
+}
+
+.cs-aui-link_gray::before {
+  background-color: var(--light-dark);
+}
+
+.cs-aui-link_gray:hover::before {
+  background-color: var(--d2020-dusky-azure);
+}
