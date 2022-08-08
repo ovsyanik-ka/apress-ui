@@ -1,0 +1,6 @@
+.aui-admin-empty-img {
+  background: url('./aui-empty-img.svg') center no-repeat;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+}
