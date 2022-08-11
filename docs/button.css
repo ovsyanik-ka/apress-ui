@@ -44,19 +44,21 @@
 
 .aui-button_transparent {
   background: transparent;
-  border: 1px solid #bbb;
-  color: #bbb;
+  border: 1px solid var(--black-l75);
+  color: var(--black-l75);
 }
 
 .aui-button_transparent:disabled,
 .aui-button_transparent:hover:disabled {
   background: transparent;
-  border-color: #a6a6a6;
-  color: #a6a6a6;
+  color: var(--black-l65);
+  border: 1px solid var(--black-l65);
 }
 
 @media (hover: hover) {
-  .aui-button_transparent:hover { color: #fff; }
+  .aui-button_transparent:hover {
+    color: var(--white);
+  }
 }
 
 .aui-button_transparent-grey {
