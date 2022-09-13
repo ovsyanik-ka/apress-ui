@@ -1,0 +1,35 @@
+.aui-button-link {
+  background: none;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.aui-button-link_dashed { border-bottom: 1px dashed; }
+
+.aui-button-link_dashed:hover { color: #ff7043; }
+
+.aui-button-link_dark { color: #5e7491; }
+
+.aui-button-link_dark:hover { color: #028dd8; }
+
+.aui-button-link {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.aui-button-link:hover { color: var(--blue); }
+
+.aui-button-link_dashed:hover { color: var(--orange); }
+
+.aui-button-link_dark { color: var(--light-blue-dark); }
+
+.aui-button-link_dark:hover { color: var(--blue); }
+
+.aui-button-link_dim-red-nohover { color: var(--dim-red); }
+.aui-button-link_dim-red-nohover:hover { color: var(--dim-red); }
+
+.aui-button-link_underline:hover { text-decoration: underline; }
+

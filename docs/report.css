@@ -1,0 +1,31 @@
+.aui-report {
+  background: var(--white);
+  border: 1px solid var(--black-l75);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 20px 16px;
+  color: var(--black-l22);
+  position: relative;
+  width: fit-content;
+}
+
+.aui-report:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  background: var(--orange);
+  -webkit-mask-box-image: url(c61824c6dfa577f3ec0b50436f3ee214.svg);
+  mask-image: url(c61824c6dfa577f3ec0b50436f3ee214.svg);
+}
+
+.aui-report__content {
+  margin: 0;
+  padding-left: 32px;
+  font-size: 14px;
+  color: var(--black-l22);
+}
+

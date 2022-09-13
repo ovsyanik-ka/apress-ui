@@ -1,0 +1,39 @@
+.aui-pseudo-button { display: inline-block; }
+
+.aui-pseudo-button__radio { display: none; }
+
+.aui-pseudo-button__label {
+  display: block;
+  padding: 0 12px;
+  line-height: 36px;
+  height: 36px;
+  color: #5e7491;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px dashed #dde1ed;
+  background: #fafafa;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.aui-pseudo-button__label:hover,
+.aui-pseudo-button__radio:checked + .aui-pseudo-button__label {
+  color: #028dd8;
+  background: #e3f5ff;
+  border-color: #028dd8;
+}
+
+.aui-pseudo-button__label {
+  padding: 0 var(--indent-s);
+  color: var(--light-blue-dark);
+  border: 2px dashed var(--medium-gray);
+  background: var(--very-light-gray);
+}
+.aui-pseudo-button__label:hover,
+.aui-pseudo-button__radio:checked + .aui-pseudo-button__label {
+  color: var(--blue);
+  background: var(--very-light-blue);
+  border-color: var(--blue);
+}
+

@@ -1,0 +1,35 @@
+.aui-admin-upload-field {
+  background-image: url(3e2e5ff381bea76ac06735fec77c66a2.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 36px;
+  font-size: 14px;
+  height: 156px;
+  border: 2px dashed var(--admin-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 360px;
+  max-width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.aui-admin-upload-field::-moz-drag-over {
+  background-position: 50% 41px;
+  border-color: var(--admin-blue);
+}
+
+.aui-admin-upload-field__text {
+  text-align: center;
+  transform: translateY(20px);
+  color: var(--admin-light-dark);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.aui-admin-upload-field__link {
+  color: var(--admin-blue);
+  cursor: pointer;
+}
+

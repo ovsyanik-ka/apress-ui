@@ -1,0 +1,21 @@
+.aui-admin-text-invalid {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+}
+
+.aui-admin-text-invalid__text {
+  position: relative;
+  padding-left: 16px;
+  color: var(--admin-dim-red);
+  font-size: 11px;
+  line-height: 14px;
+}
+.aui-admin-text-invalid__text::before {
+  position: absolute;
+  content: url(184f4af239c0a55dbf476dc8adcf5e08.svg);
+  top: 1px;
+  left: 0;
+}
+
