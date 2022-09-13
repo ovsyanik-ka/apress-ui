@@ -1,0 +1,17 @@
+.aui-link_medium-dark,
+.aui-link_medium-dark:link,
+.aui-link_medium-dark:visited {
+  color: var(--medium-dark);
+}
+
+.aui-link_medium-dark:hover {
+  color: var(--light-dark);
+}
+
+.aui-link_medium-dark::before {
+  background-color: var(--blue);
+}
+
+.aui-link_medium-dark:hover::before {
+  background-color: var(--light-dark);
+}
