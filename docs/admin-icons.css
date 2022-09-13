@@ -1,0 +1,28 @@
+.aui-admin-icons__arrow {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--admin-arrow-blue);
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(-45deg);
+}
+
+.aui-admin-icons__arrow-up {
+  width: 24px;
+  height: 24px;
+  background: url(0a861e0f16078cddfe858ed917489dbc.svg) center no-repeat;
+  cursor: pointer;
+}
+
+.aui-admin-icons__draggable {
+  width: 10px;
+  height: 18px;
+  min-width: 10px;
+  min-height: 18px;
+  background: url(675afbb02be700b923f85d3074b26774.svg) center no-repeat;
+  margin: auto 0;
+}
+.aui-admin-icons__draggable_blue {
+  background: url(7d0a27e65e218527931d44d94396c21a.svg) center no-repeat;
+}
+

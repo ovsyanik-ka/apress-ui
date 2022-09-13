@@ -1,0 +1,106 @@
+.aui-admin-rubric-select__wrapper {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.aui-admin-rubric-select__wrapper:hover .aui-admin-rubric-select__button_default {
+  display: block;
+}
+
+.aui-admin-rubric-select__left {
+  display: flex;
+  align-items: center;
+}
+
+.aui-admin-rubric-select__arrow {
+  width: 13px;
+  height: 13px;
+  margin-right: 12px;
+  flex: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aui-admin-rubric-select__title {
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.aui-admin-rubric-select__button {
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 6px;
+  margin-left: 22px;
+}
+
+.aui-admin-rubric-select__button_default {
+  border: 1px solid var(--admin-blue);
+  color: var(--admin-blue);
+  background: none;
+  display: none;
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__button_selected {
+  background-color: var(--admin-blue);
+  color: var(--admin-white);
+  border: none;
+}
+
+.aui-admin-rubric-select__wrapper_closed {
+  padding: 12px 18px;
+  color: var(--admin-sea-grey);
+  border: 1px solid var(--admin-sea-grey);
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__wrapper_opened {
+  padding: 6px 18px;
+  color: var(--admin-blue);
+  background-color: var(--admin-light-blue);
+  border: 1px solid var(--admin-blue);
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__wrapper_single {
+  padding: 12px 18px;
+  color: var(--admin-sea-grey);
+  border: 1px solid var(--admin-sea-grey);
+  cursor: pointer;
+}
+
+.aui-admin-rubric-select__wrapper_selected {
+  padding: 12px 18px;
+  color: var(--admin-blue);
+  border: 1px solid var(--admin-blue);
+}
+
+.aui-admin-rubric-select__arrow_closed {
+  background-image: url(a7f3127241e172d37ee9b2a79e777d14.svg);
+}
+
+.aui-admin-rubric-select__arrow_opened {
+  background-image: url(6b5aa9c7a40abfe58c17ffd75b0f3884.svg);
+}
+
+.aui-admin-rubric-select__arrow_single {
+  visibility: hidden;
+}
+
+.aui-admin-rubric-select_inner-rubric {
+  padding-left: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .aui-admin-rubric-select__title {
+    margin-bottom: 6px;
+  }
+}
+
