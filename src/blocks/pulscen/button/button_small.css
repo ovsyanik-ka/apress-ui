@@ -1,4 +1,6 @@
 .aui-button_small {
-  padding: 0 18px;
-  font-size: 12px;
+  height: 40px;
+  padding: 0 var(--indent-sm);
+  line-height: 40px;
+  font-size: 14px;
 }
