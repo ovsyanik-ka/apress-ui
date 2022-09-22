@@ -85,3 +85,25 @@
   background-color: var(--light-blue-dark);
 }
 
+.aui-cs-button-link_password {
+  position: relative;
+  padding-right: var(--indent-m);
+}
+
+.aui-cs-button-link_password::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  top: 50%;
+  right: var(--indent-s);
+  transform: translateY(-50%);
+  -webkit-mask-image: url(4f4b7756ba19b7a4ee86a8dbbc00bd3f.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: url(4f4b7756ba19b7a4ee86a8dbbc00bd3f.svg);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  background-color: var(--light-blue-dark);
+}
+
