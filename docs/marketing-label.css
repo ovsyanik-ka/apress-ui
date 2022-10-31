@@ -7,27 +7,27 @@
   box-sizing: border-box;
 }
 
-.aui-marketing-label_green {
+.aui-marketing-label_green-dark-20 {
   background-color: var(--green-d20);
 }
 
-.aui-marketing-label_red {
+.aui-marketing-label_red-dark-10 {
   background-color: var(--red-d10);
 }
 
-.aui-marketing-label_orange-dark {
+.aui-marketing-label_orange-dark-10 {
   background-color: var(--orange-d10);
 }
 
-.aui-marketing-label_purple {
+.aui-marketing-label_purple-dark-20 {
   background-color: var(--purple-d20);
 }
 
-.aui-marketing-label_blue {
+.aui-marketing-label_blue-dark-10 {
   background-color: var(--blue-d10);
 }
 
-.aui-marketing-label_blue-light {
+.aui-marketing-label_blue-light-20 {
   background-color: var(--blue-l20);
 }
 
@@ -43,6 +43,25 @@
   opacity: .75;
 }
 
+.aui-marketing-label_red {
+  background-color: var(--red);
+}
+
+.aui-marketing-label_red-dark-15 {
+  background-color: var(--red-d15);
+}
+
+.aui-marketing-label_green-dark-10 {
+  background-color: var(--green-d10);
+}
+
+.aui-marketing-label_purple {
+  background-color: var(--purple);
+}
+
+.aui-marketing-label_blue {
+  background-color: var(--blue);
+}
 
 .aui-marketing-label_desktop {
     position: relative;
@@ -62,27 +81,27 @@
     border: 2px solid transparent;
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_green::after {
+.aui-marketing-label_desktop.aui-marketing-label_green-dark-20::after {
     border-top: 2px solid var(--green-d20);
     border-right: 2px solid var(--green-d20);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_red::after {
+.aui-marketing-label_desktop.aui-marketing-label_red-dark-10::after {
     border-top: 2px solid var(--red-d10);
     border-right: 2px solid var(--red-d10);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_orange-dark::after {
+.aui-marketing-label_desktop.aui-marketing-label_orange-dark-10::after {
     border-top: 2px solid var(--orange-d10);
     border-right: 2px solid var(--orange-d10);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_purple::after {
+.aui-marketing-label_desktop.aui-marketing-label_purple-dark-20::after {
     border-top: 2px solid var(--purple-d20);
     border-right: 2px solid var(--purple-d20);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_blue::after {
+.aui-marketing-label_desktop.aui-marketing-label_blue-dark-10::after {
     border-top: 2px solid var(--blue-d10);
     border-right: 2px solid var(--blue-d10);
 }
@@ -90,6 +109,32 @@
 .aui-marketing-label_desktop.aui-marketing-label_orange::after {
     border-top: 2px solid var(--orange);
     border-right: 2px solid var(--orange);
+}
+
+
+.aui-marketing-label_desktop.aui-marketing-label_red::after {
+    border-top: 2px solid var(--red);
+    border-right: 2px solid var(--red);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_red-dark-15::after {
+    border-top: 2px solid var(--red-d15);
+    border-right: 2px solid var(--red-d15);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_green-dark-10::after {
+    border-top: 2px solid var(--green-d10);
+    border-right: 2px solid var(--green-d10);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_blue::after {
+    border-top: 2px solid var(--blue);
+    border-right: 2px solid var(--blue);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_purple::after {
+    border-top: 2px solid var(--purple);
+    border-right: 2px solid var(--purple);
 }
 
 .aui-marketing-label_mobile {
