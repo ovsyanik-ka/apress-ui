@@ -4,6 +4,7 @@ import './button_huge.css';
 import './button_wide.css';
 import './button_transparent.css';
 import './button_transparent-grey.css';
+import './button_transparent-red.css';
 import './button_transparent-yellow.css';
 import './button_green.css';
 import './button_visit.css';
