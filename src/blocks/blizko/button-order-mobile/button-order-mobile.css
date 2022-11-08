@@ -1,0 +1,25 @@
+.button-order-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  background: var(--orange);
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--black-l20);
+  box-sizing: border-box;
+}
+
+.button-order-mobile:disabled {
+  background: var(--black-l75);
+}
+
+.button-order-mobile_background-color_amber {
+  background: var(--amber-l10);
+}
