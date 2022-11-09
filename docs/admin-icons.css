@@ -26,3 +26,26 @@
   background: url(7d0a27e65e218527931d44d94396c21a.svg) center no-repeat;
 }
 
+.aui-admin-icons__cross {
+  cursor: pointer;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+.aui-admin-icons__cross::before,
+.aui-admin-icons__cross::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  background: #c1c1c1;
+}
+.aui-admin-icons__cross::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.aui-admin-icons__cross::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
