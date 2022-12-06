@@ -24,7 +24,7 @@
 }
 
 @media (hover: hover) {
-  .aui-favorite-button:hover::after {
+  .aui-favorite-button[data-is-favorite="false"]:hover::after {
     background-image: url('./favorite_empty_hover.svg');
   }
 }
