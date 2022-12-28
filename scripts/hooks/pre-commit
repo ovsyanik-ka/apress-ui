@@ -6,4 +6,8 @@ npm run build || exit 1;
 echo clear the build artifacts;
 git clean -fd docs/;
 git checkout -- docs/;
+
+echo prettify files;
+npm run prettier;
+
 git add -A;
