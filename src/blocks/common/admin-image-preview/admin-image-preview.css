@@ -33,7 +33,7 @@
   content: '';
   display: block;
   width: 16px;
-  height: 16px;;
+  height: 16px;
   -webkit-mask-image: url(./aui-admin-image-preview.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;

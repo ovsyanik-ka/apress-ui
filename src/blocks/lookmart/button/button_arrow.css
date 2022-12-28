@@ -1,4 +1,4 @@
-.aui-button_arrow { 
+.aui-button_arrow {
   display: flex;
   justify-content: center;
   position: relative;
@@ -10,4 +10,3 @@
   content: url('./button_arrow.svg');
   margin: 2px 0 0 11px;
 }
-

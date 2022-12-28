@@ -13,7 +13,7 @@
 .aui-button_green:disabled,
 .aui-button_green:hover:disabled {
   background: #a3bd49;
-  opacity: .33;
+  opacity: 0.33;
 }
 
 @media (hover: hover) {

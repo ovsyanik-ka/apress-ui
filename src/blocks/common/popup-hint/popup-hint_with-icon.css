@@ -1,4 +1,6 @@
-.aui-popup-hint_with-icon { display: inline-block; }
+.aui-popup-hint_with-icon {
+  display: inline-block;
+}
 .aui-popup-hint_with-icon:before {
   content: '';
   display: inline-block;

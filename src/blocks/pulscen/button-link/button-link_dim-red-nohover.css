@@ -1,2 +1,6 @@
-.aui-button-link_dim-red-nohover { color: var(--dim-red); }
-.aui-button-link_dim-red-nohover:hover { color: var(--dim-red); }
+.aui-button-link_dim-red-nohover {
+  color: var(--dim-red);
+}
+.aui-button-link_dim-red-nohover:hover {
+  color: var(--dim-red);
+}

@@ -6,7 +6,7 @@
   border: 1px solid #028dd8;
   border-radius: 3px;
   box-sizing: border-box;
-  transition: .2s;
+  transition: 0.2s;
 }
 .aui-app-button:hover,
 .aui-app-button:focus,

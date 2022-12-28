@@ -1,17 +1,20 @@
-(function() {
-  if (window.apressImport) { return; }
+(function () {
+  if (window.apressImport) {
+    return;
+  }
 
   const loaders = {};
 
   function _initModules() {
-    for(let key in app.modules) {
+    for (let key in app.modules) {
       const module = app.modules[key];
-      !module.initiated && ['load', 'ready'].forEach((funName) => {
-        if (module[funName]) {
-          module.initiated = true;
-          module[funName]();
-        }
-      });
+      !module.initiated &&
+        ['load', 'ready'].forEach((funName) => {
+          if (module[funName]) {
+            module.initiated = true;
+            module[funName]();
+          }
+        });
     }
   }
 
@@ -23,7 +26,9 @@
     document.body.appendChild(script);
 
     return new Promise((resolve) => {
-      script.onload = () => { resolve(); };
+      script.onload = () => {
+        resolve();
+      };
     });
   }
 
@@ -34,15 +39,17 @@
     document.body.appendChild(link);
 
     return new Promise((resolve) => {
-      link.onload = () => { resolve(); };
+      link.onload = () => {
+        resolve();
+      };
     });
   }
 
   function _getLoader(url) {
     if (!loaders[url]) {
-      loaders[url] = url.includes('.js') ?
-        _createScriptLoader(url) :
-        _createStyleLoader(url);
+      loaders[url] = url.includes('.js')
+        ? _createScriptLoader(url)
+        : _createStyleLoader(url);
     }
 
     return loaders[url];

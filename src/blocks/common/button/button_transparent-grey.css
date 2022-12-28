@@ -10,5 +10,5 @@
 
 .aui-button_transparent-grey:disabled,
 .aui-button_transparent-grey:hover:disabled {
-  opacity: .33;
+  opacity: 0.33;
 }

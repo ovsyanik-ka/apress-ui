@@ -3,4 +3,6 @@
   color: #a1a1a1;
 }
 
-.aui-button-link:hover { color: var(--pink); }
+.aui-button-link:hover {
+  color: var(--pink);
+}

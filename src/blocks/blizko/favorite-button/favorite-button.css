@@ -10,7 +10,7 @@
 }
 
 .aui-favorite-button:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 18px;
   height: 18px;
@@ -19,12 +19,12 @@
   background-image: url('./favorite_empty.svg');
 }
 
-.aui-favorite-button[data-is-favorite="true"]::after {
+.aui-favorite-button[data-is-favorite='true']::after {
   background-image: url('./favorite_fill.svg');
 }
 
 @media (hover: hover) {
-  .aui-favorite-button[data-is-favorite="false"]:hover::after {
+  .aui-favorite-button[data-is-favorite='false']:hover::after {
     background-image: url('./favorite_empty_hover.svg');
   }
 }

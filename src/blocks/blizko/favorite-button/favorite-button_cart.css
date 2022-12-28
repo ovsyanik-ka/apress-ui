@@ -16,7 +16,7 @@
   background-color: var(--orange);
 }
 
-.aui-favorite-button_cart[data-is-favorite="true"] {
+.aui-favorite-button_cart[data-is-favorite='true'] {
   background-color: var(--orange);
   background-image: none;
 }

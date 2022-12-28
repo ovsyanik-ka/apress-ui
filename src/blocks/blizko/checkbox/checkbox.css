@@ -38,6 +38,6 @@
 }
 
 .aui-checkbox:disabled + .aui-checkbox__label {
-  opacity: .4;
+  opacity: 0.4;
   cursor: default;
 }

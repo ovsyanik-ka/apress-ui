@@ -1,21 +1,19 @@
 /*
-* скрываем ссылки от индексации
-*
-*/
-app.modules.spanToLinks = (function(self) {
+ * скрываем ссылки от индексации
+ *
+ */
+app.modules.spanToLinks = (function (self) {
   function _replace() {
     var $link = $('<a>');
-    $('span[data-to]').each(function() {
-      var
-        $a = $link.clone(),
+    $('span[data-to]').each(function () {
+      var $a = $link.clone(),
         self = this,
         attributes = self.attributes,
         parent = self.parentNode,
         child = $a[0];
 
-      $(attributes).each(function(i) {
-        var
-          attrName = attributes[i].nodeName,
+      $(attributes).each(function (i) {
+        var attrName = attributes[i].nodeName,
           attrValue = attributes[i].nodeValue;
         switch (attrName) {
           case 'data-alt':
@@ -36,7 +34,7 @@ app.modules.spanToLinks = (function(self) {
           default:
             try {
               $a.attr(attrName, attrValue);
-            } catch(e) {};
+            } catch (e) {}
             break;
         }
       });
@@ -49,7 +47,7 @@ app.modules.spanToLinks = (function(self) {
     document.dispatchEvent(new Event('load:spanToLinks'));
   }
 
-  self.load = function() {
+  self.load = function () {
     _replace();
     document.addEventListener('spansToLinks', _replace);
   };

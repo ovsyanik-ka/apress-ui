@@ -1,24 +1,24 @@
 .aui-marketing-label_rating-desktop {
-    padding: 2px 4px;
-    font-size: 12px;
-    line-height: 14px;
-    border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 4px;
 }
 
 .aui-marketing-label_rating-mobile {
-    padding: 0px;
-    font-size: 12px;
-    line-height: 14px;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .aui-marketing-label_rating-mobile_green-dark-20 {
-    color: var(--green-d20);
+  color: var(--green-d20);
 }
 
 .aui-marketing-label_rating-mobile_orange {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .aui-marketing-label_rating-mobile_amber {
-    color: var(--amber);
+  color: var(--amber);
 }

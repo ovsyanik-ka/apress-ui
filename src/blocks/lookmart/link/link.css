@@ -1,2 +1,6 @@
-.aui-link { color: #a1a1a1; }
-.aui-link:hover { color: var(--pink); }
+.aui-link {
+  color: #a1a1a1;
+}
+.aui-link:hover {
+  color: var(--pink);
+}

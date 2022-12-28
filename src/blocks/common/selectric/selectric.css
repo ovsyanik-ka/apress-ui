@@ -1,6 +1,10 @@
-.aui-selectric .selectric { background: #fff; }
+.aui-selectric .selectric {
+  background: #fff;
+}
 
-.aui-selectric .selectric-open { z-index: 1; }
+.aui-selectric .selectric-open {
+  z-index: 1;
+}
 
 .aui-selectric .selectric,
 .aui-selectric .selectric-hover .selectric,

@@ -10,22 +10,22 @@
 }
 
 .aui-button:active,
-.aui-button:link:active { 
-  background: var(--dark-blue); 
+.aui-button:link:active {
+  background: var(--dark-blue);
 }
 
 .aui-button:disabled,
 .aui-button:hover:disabled,
 .aui-button_disabled,
 .aui-button_disabled:hover {
-  opacity: .33;
+  opacity: 0.33;
   cursor: default;
   pointer-events: none;
 }
 
 @media (hover: hover) {
   .aui-button:hover,
-  .aui-button:link:hover { 
-    background: var(--dark-blue); 
+  .aui-button:link:hover {
+    background: var(--dark-blue);
   }
 }

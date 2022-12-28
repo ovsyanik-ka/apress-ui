@@ -1,7 +1,17 @@
 .aui-link,
 .aui-link:link,
-.aui-link:visited { color: var(--blue); text-decoration: none; cursor: pointer; }
-.aui-link:hover { color: var(--dark-blue); }
+.aui-link:visited {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+.aui-link:hover {
+  color: var(--dark-blue);
+}
 
-.aui-link:before { background-color: var(--blue); }
-.aui-link:hover:before { background-color: var(--dark-blue); }
+.aui-link:before {
+  background-color: var(--blue);
+}
+.aui-link:hover:before {
+  background-color: var(--dark-blue);
+}

@@ -1,14 +1,18 @@
-(function() {
+(function () {
   function _loadMainModules(eventName) {
     var moduleLoader = function () {
       for (var item in app.modules) {
-        if (!app.modules[item][eventName]) { continue; }
+        if (!app.modules[item][eventName]) {
+          continue;
+        }
 
         try {
-          if (app.modules[item].initiated) { return; }
+          if (app.modules[item].initiated) {
+            return;
+          }
           app.modules[item][eventName]();
           app.modules[item].initiated = true;
-        } catch(error) {
+        } catch (error) {
           console.trace(error);
         }
       }
@@ -26,7 +30,10 @@
   }
 
   function _listener() {
-    document.addEventListener('DOMContentLoaded', _loadMainModules.bind(null, 'ready'));
+    document.addEventListener(
+      'DOMContentLoaded',
+      _loadMainModules.bind(null, 'ready')
+    );
     window.addEventListener('load', _onWindowLoad);
   }
 
