@@ -4,7 +4,6 @@
   display: inline-block;
 }
 
-
 .aui-breadcrumbs_with-rubric__rubric_main-rubric:after,
 .aui-breadcrumbs_with-rubric__item-link:after {
   content: '';
@@ -26,17 +25,17 @@
   min-width: 208px;
   padding: var(--indent-m);
   background: var(--white);
-  box-shadow: 0px 5px 24px rgba(0, 0, 0, .15);
+  box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.15);
   box-sizing: content-box;
 }
 
 .aui-breadcrumbs_with-rubric__rubric {
-   position: relative;
-   display: block;
-   margin-top: var(--indent-s);
-   text-decoration: none;
-   line-height: 19px;
-   color: var(--dark-dark);
+  position: relative;
+  display: block;
+  margin-top: var(--indent-s);
+  text-decoration: none;
+  line-height: 19px;
+  color: var(--dark-dark);
 }
 
 .aui-breadcrumbs_with-rubric__rubric:hover {
@@ -63,7 +62,7 @@
   .aui-breadcrumbs_with-rubric__item-link {
     padding: 0 0 0 37px;
   }
- 
+
   .aui-breadcrumbs_with-rubric__item-link:after {
     right: auto;
     left: 9px;

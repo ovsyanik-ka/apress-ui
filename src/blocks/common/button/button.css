@@ -20,7 +20,9 @@
 }
 
 @media (hover: hover) {
-  .aui-button:hover { background: #aaa; }
+  .aui-button:hover {
+    background: #aaa;
+  }
 }
 
 .aui-button:disabled,

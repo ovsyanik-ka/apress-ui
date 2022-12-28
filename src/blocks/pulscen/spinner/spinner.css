@@ -4,8 +4,14 @@
   color: var(--medium-dark);
 }
 
-.aui-spinner .ui-spinner-button { border-color: var(--medium-gray) !important; }
+.aui-spinner .ui-spinner-button {
+  border-color: var(--medium-gray) !important;
+}
 
-.aui-spinner .ui-spinner-button .ui-icon { color: var(--extra-light-dark); }
+.aui-spinner .ui-spinner-button .ui-icon {
+  color: var(--extra-light-dark);
+}
 
-.aui-spinner_error .ui-spinner { border: 1px solid var(--red); }
+.aui-spinner_error .ui-spinner {
+  border: 1px solid var(--red);
+}

@@ -19,7 +19,7 @@
   cursor: default;
 }
 
-@media (hover:none) {
+@media (hover: none) {
   .aui-button-link:hover {
     text-decoration: none;
   }

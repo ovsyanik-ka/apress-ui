@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-@media (hover:none) {
+@media (hover: none) {
   .aui-link:hover {
     text-decoration: none;
   }

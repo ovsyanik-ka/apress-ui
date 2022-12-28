@@ -6,7 +6,7 @@
 }
 .aui-admin-icons__cross::before,
 .aui-admin-icons__cross::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 12px;
   height: 3px;

@@ -3,4 +3,6 @@
   color: var(--gray);
 }
 
-.aui-button-link:hover { color: var(--blue); }
+.aui-button-link:hover {
+  color: var(--blue);
+}

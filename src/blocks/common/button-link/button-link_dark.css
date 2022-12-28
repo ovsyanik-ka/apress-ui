@@ -1,3 +1,7 @@
-.aui-button-link_dark { color: #5e7491; }
+.aui-button-link_dark {
+  color: #5e7491;
+}
 
-.aui-button-link_dark:hover { color: #028dd8; }
+.aui-button-link_dark:hover {
+  color: #028dd8;
+}

@@ -44,10 +44,24 @@
   background-size: 100%;
 }
 
-.social-networks_old .social-networks__item_vk:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_odnoklassniki:hover { background-color: var(--red); }
-.social-networks_old .social-networks__item_youtube:hover { background-image: url('./images/old/tube-hovered.svg'); }
-.social-networks_old .social-networks__item_telegram:hover { background-image: url('./images/old/tg-hovered.svg'); }
-.social-networks_old .social-networks__item_yandex-zen:hover { background-image: url('./images/old/yz-hovered.svg'); }
-.social-networks_old .social-networks__item_pinterest:hover { background: url('./images/old/pt-hovered.svg') transparent; }
-.social-networks_old .social-networks__item_mail:hover { background: url('./images/old/mail-hovered.svg'); }
+.social-networks_old .social-networks__item_vk:hover {
+  background-color: var(--red);
+}
+.social-networks_old .social-networks__item_odnoklassniki:hover {
+  background-color: var(--red);
+}
+.social-networks_old .social-networks__item_youtube:hover {
+  background-image: url('./images/old/tube-hovered.svg');
+}
+.social-networks_old .social-networks__item_telegram:hover {
+  background-image: url('./images/old/tg-hovered.svg');
+}
+.social-networks_old .social-networks__item_yandex-zen:hover {
+  background-image: url('./images/old/yz-hovered.svg');
+}
+.social-networks_old .social-networks__item_pinterest:hover {
+  background: url('./images/old/pt-hovered.svg') transparent;
+}
+.social-networks_old .social-networks__item_mail:hover {
+  background: url('./images/old/mail-hovered.svg');
+}

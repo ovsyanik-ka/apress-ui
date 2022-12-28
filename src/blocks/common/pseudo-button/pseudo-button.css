@@ -1,6 +1,10 @@
-.aui-pseudo-button { display: inline-block; }
+.aui-pseudo-button {
+  display: inline-block;
+}
 
-.aui-pseudo-button__radio { display: none; }
+.aui-pseudo-button__radio {
+  display: none;
+}
 
 .aui-pseudo-button__label {
   display: block;
@@ -14,7 +18,7 @@
   border: 2px dashed #dde1ed;
   background: #fafafa;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .aui-pseudo-button__label:hover,

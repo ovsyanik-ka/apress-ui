@@ -9,8 +9,8 @@
 
 .social-networks__item {
   display: block;
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   cursor: pointer;
   text-decoration: none;
   margin-left: 10px;
@@ -23,15 +23,15 @@
   background-size: 50%;
 }
 .social-networks__item_odnoklassniki {
-  background: url('images/ok-icon.svg') center center no-repeat; 
-  background-size: 32%;    
+  background: url('images/ok-icon.svg') center center no-repeat;
+  background-size: 32%;
 }
 .social-networks__item_telegram {
-  background: url('images/tg-icon.svg') center center no-repeat; 
+  background: url('images/tg-icon.svg') center center no-repeat;
   background-size: 45%;
 }
 .social-networks__item_yandex-zen {
-  background: url('images/zen-icon.svg') center center no-repeat; 
+  background: url('images/zen-icon.svg') center center no-repeat;
   background-size: 52%;
 }
 .social-networks__item_pinterest {
