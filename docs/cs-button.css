@@ -28,7 +28,7 @@
 .aui-cs-button_disabled,
 .aui-cs-button_disabled:hover {
   background: var(--admin-checkbox-border-color);
-  opacity: .33;
+  opacity: 0.33;
   cursor: default;
   pointer-events: none;
 }

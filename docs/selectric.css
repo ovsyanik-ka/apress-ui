@@ -1,6 +1,10 @@
-.aui-selectric .selectric { background: #fff; }
+.aui-selectric .selectric {
+  background: #fff;
+}
 
-.aui-selectric .selectric-open { z-index: 1; }
+.aui-selectric .selectric-open {
+  z-index: 1;
+}
 
 .aui-selectric .selectric,
 .aui-selectric .selectric-hover .selectric,
@@ -59,12 +63,16 @@
   padding: 12px 24px;
 }
 
-.aui-selectric .selectric { background: var(--white); }
+.aui-selectric .selectric {
+  background: var(--white);
+}
 
 .aui-selectric .selectric,
 .aui-selectric .selectric-hover .selectric,
 .aui-selectric .selectric-focus .selectric,
-.aui-selectric .selectric-open .selectric { border-color: var(--medium-gray); }
+.aui-selectric .selectric-open .selectric {
+  border-color: var(--medium-gray);
+}
 
 .aui-selectric .selectric .label,
 .aui-selectric .selectric .button {
@@ -73,7 +81,9 @@
 }
 
 .aui-selectric .selectric .button:after,
-.selectric-hover .aui-selectric .selectric .button:after { border-color: var(--extra-light-dark); }
+.selectric-hover .aui-selectric .selectric .button:after {
+  border-color: var(--extra-light-dark);
+}
 
 .aui-selectric .selectric .label {
   color: var(--medium-dark);
@@ -85,9 +95,13 @@
   border-left: 1px solid var(--medium-gray);
 }
 
-.aui-selectric .selectric .button:hover { background: var(--light-gray) !important; }
+.aui-selectric .selectric .button:hover {
+  background: var(--light-gray) !important;
+}
 
-.aui-selectric .selectric .button:hover:after { border-color: var(--light-blue-dark); }
+.aui-selectric .selectric .button:hover:after {
+  border-color: var(--light-blue-dark);
+}
 
 .aui-selectric .selectric-items {
   border-color: var(--medium-gray);
@@ -99,11 +113,17 @@
   padding: var(--indent-s) var(--indent-m);
 }
 
-.aui-selectric .selectric-items li:hover { background: var(--light-gray); }
+.aui-selectric .selectric-items li:hover {
+  background: var(--light-gray);
+}
 
-.aui-selectric .selectric-group-label { padding: var(--indent-s) var(--indent-m); }
+.aui-selectric .selectric-group-label {
+  padding: var(--indent-s) var(--indent-m);
+}
 
-.aui-selectric_thin .selectric { border-radius: 3px; }
+.aui-selectric_thin .selectric {
+  border-radius: 3px;
+}
 
 .aui-selectric_thin .selectric .label,
 .aui-selectric_thin .selectric .button {
@@ -112,9 +132,13 @@
   color: var(--medium-dark);
 }
 
-.aui-selectric_thin .selectric .label { margin: 0 var(--indent-m) 0 var(--indent-s); }
+.aui-selectric_thin .selectric .label {
+  margin: 0 var(--indent-m) 0 var(--indent-s);
+}
 
-.aui-selectric_thin .selectric .button { width: var(--indent-l); }
+.aui-selectric_thin .selectric .button {
+  width: var(--indent-l);
+}
 
 .aui-selectric_thin .selectric .button:after,
 .aui-selectric_thin .selectric .button:hover:after {
@@ -126,5 +150,7 @@
   font-size: 14px;
 }
 
-.aui-selectric_thin .selectric-group-label { padding: var(--indent-s) var(--indent-m); }
+.aui-selectric_thin .selectric-group-label {
+  padding: var(--indent-s) var(--indent-m);
+}
 

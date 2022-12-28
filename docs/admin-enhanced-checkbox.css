@@ -37,14 +37,15 @@
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  transition: right .2s ease-out;
+  transition: right 0.2s ease-out;
 }
 
 .aui-admin-enhanced-checkbox__input {
   display: none;
 }
 
-.aui-admin-enhanced-checkbox__input:checked + .aui-admin-enhanced-checkbox__icon::after {
+.aui-admin-enhanced-checkbox__input:checked
+  + .aui-admin-enhanced-checkbox__icon::after {
   right: 2px;
   background: var(--admin-checkbox-color);
 }

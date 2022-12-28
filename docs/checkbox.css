@@ -1,7 +1,9 @@
 .aui-checkbox__checkbox {
   display: none;
 }
-.aui-checkbox__checkbox:checked + .aui-checkbox__label .aui-checkbox__box:after {
+.aui-checkbox__checkbox:checked
+  + .aui-checkbox__label
+  .aui-checkbox__box:after {
   content: '';
   width: 14px;
   height: 10px;

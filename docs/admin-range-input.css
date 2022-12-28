@@ -1,6 +1,6 @@
 .aui-admin-range-input {
-    width: 100%;
-  }
+  width: 100%;
+}
 
 .aui-admin-range-input__input {
   appearance: none;
@@ -11,8 +11,8 @@
   background: var(--admin-light-blue-runner);
 }
 
-.aui-admin-range-input__input::-webkit-slider-thumb {  
-  appearance: none; 
+.aui-admin-range-input__input::-webkit-slider-thumb {
+  appearance: none;
   width: 18px;
   height: 24px;
   top: -8px;
@@ -22,8 +22,8 @@
   cursor: pointer;
 }
 
-.aui-admin-range-input__input::-moz-range-thumb {  
-  appearance: none; 
+.aui-admin-range-input__input::-moz-range-thumb {
+  appearance: none;
   width: 18px;
   height: 24px;
   top: -8px;

@@ -24,8 +24,8 @@
   content: attr(data-popup-hint);
 }
 
-.aui-admin-hint_with-icon { 
-  display: inline-block; 
+.aui-admin-hint_with-icon {
+  display: inline-block;
 }
 
 .aui-admin-hint_with-icon::before {

@@ -55,11 +55,19 @@
   left: var(--indent-m);
 }
 
-.aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__item-link {
+.aui-rubricator
+  .aui-rubricator
+  .aui-rubricator
+  .aui-rubricator
+  .aui-rubricator__item-link {
   margin-left: var(--indent-xxl);
 }
 
-.aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator .aui-rubricator__toggler {
+.aui-rubricator
+  .aui-rubricator
+  .aui-rubricator
+  .aui-rubricator
+  .aui-rubricator__toggler {
   left: var(--indent-l);
 }
 
@@ -97,7 +105,7 @@
   height: 5px;
   margin-left: 5px;
   margin-top: -1px;
-  transition: .2s;
+  transition: 0.2s;
   border: 2px solid var(--extra-light-dark);
   border-top: 0;
   border-left: 0;

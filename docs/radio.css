@@ -39,7 +39,7 @@
   border: 5px solid var(--black-l90);
   background-color: var(--orange);
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
   box-sizing: content-box;
 }
 

@@ -1,6 +1,7 @@
 .aui-cs-message {
   position: relative;
-  padding: var(--indent-sm) var(--indent-sm) var(--indent-sm) var(--indent-xxxxl);
+  padding: var(--indent-sm) var(--indent-sm) var(--indent-sm)
+    var(--indent-xxxxl);
   border: 2px dashed var(--extra-light-dark);
   border-radius: 6px;
   color: var(--medium-dark);

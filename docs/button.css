@@ -20,7 +20,9 @@
 }
 
 @media (hover: hover) {
-  .aui-button:hover { background: #aaa; }
+  .aui-button:hover {
+    background: #aaa;
+  }
 }
 
 .aui-button:disabled,
@@ -29,7 +31,9 @@
   cursor: auto;
 }
 
-.aui-button_small { padding: 6px 12px; }
+.aui-button_small {
+  padding: 6px 12px;
+}
 
 .aui-button_huge,
 .aui-button_huge:link,
@@ -40,7 +44,9 @@
   font-weight: 600;
 }
 
-.aui-button_wide { width: 100%; }
+.aui-button_wide {
+  width: 100%;
+}
 
 .aui-button_transparent {
   background: transparent;
@@ -73,7 +79,7 @@
 
 .aui-button_transparent-grey:disabled,
 .aui-button_transparent-grey:hover:disabled {
-  opacity: .33;
+  opacity: 0.33;
 }
 
 .aui-button_transparent-red,
@@ -109,7 +115,7 @@
 
 .aui-button_transparent-yellow:disabled,
 .aui-button_transparent-yellow:hover:disabled {
-  opacity: .33;
+  opacity: 0.33;
 }
 
 .aui-button_green,
@@ -127,7 +133,7 @@
 .aui-button_green:disabled,
 .aui-button_green:hover:disabled {
   background: #a3bd49;
-  opacity: .33;
+  opacity: 0.33;
 }
 
 @media (hover: hover) {
@@ -230,23 +236,23 @@
 }
 
 .aui-button:active,
-.aui-button:link:active { 
-  background: var(--dark-blue); 
+.aui-button:link:active {
+  background: var(--dark-blue);
 }
 
 .aui-button:disabled,
 .aui-button:hover:disabled,
 .aui-button_disabled,
 .aui-button_disabled:hover {
-  opacity: .33;
+  opacity: 0.33;
   cursor: default;
   pointer-events: none;
 }
 
 @media (hover: hover) {
   .aui-button:hover,
-  .aui-button:link:hover { 
-    background: var(--dark-blue); 
+  .aui-button:link:hover {
+    background: var(--dark-blue);
   }
 }
 
@@ -303,10 +309,16 @@
   color: var(--blue);
 }
 
-.aui-button_transparent:active { background: var(--dark-blue); color: var(--white); }
+.aui-button_transparent:active {
+  background: var(--dark-blue);
+  color: var(--white);
+}
 
 @media (hover: hover) {
-  .aui-button_transparent:hover { background: var(--dark-blue); color: var(--white); }
+  .aui-button_transparent:hover {
+    background: var(--dark-blue);
+    color: var(--white);
+  }
 }
 
 .aui-button_transparent-grey,
@@ -405,7 +417,7 @@
 .aui-button_green:disabled,
 .aui-button_green:hover:disabled {
   background: var(--medium-green);
-  opacity: .33;
+  opacity: 0.33;
 }
 
 @media (hover: hover) {
@@ -437,7 +449,7 @@
   box-shadow: 0 0 0 3px rgba(168, 189, 71, 0), 0 0 0 6px rgba(238, 246, 210, 0);
   animation: chat-button-blinking 1.2s alternate infinite;
 }
-.aui-button_chat:active{
+.aui-button_chat:active {
   color: var(--white);
   background: var(--dark-blue);
 }
@@ -456,18 +468,31 @@
   .aui-button_chat:hover:before {
     background: var(--white);
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0),
+      0 0 0 6px rgba(255, 255, 255, 0);
     animation: chat-button-blinking-active 1.2s alternate infinite;
   }
 }
 
 @keyframes chat-button-blinking {
-  0% { box-shadow: 0 0 0 0 rgba(168, 189, 71, .2), 0 0 0 0 rgba(238, 246, 210, .5); }
-  100% { box-shadow: 0 0 0 3px rgba(168, 189, 71, .4), 0 0 0 6px rgba(238, 246, 210, 1); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(168, 189, 71, 0.2),
+      0 0 0 0 rgba(238, 246, 210, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 3px rgba(168, 189, 71, 0.4),
+      0 0 0 6px rgba(238, 246, 210, 1);
+  }
 }
 @keyframes chat-button-blinking-active {
-  0% { box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 6px rgba(255, 255, 255, 0); }
-  100% { box-shadow: 0 0 0 3px rgba(255, 255, 255, .5), 0 0 0 6px rgba(255, 255, 255, .2); }
+  0% {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0),
+      0 0 0 6px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5),
+      0 0 0 6px rgba(255, 255, 255, 0.2);
+  }
 }
 
 .aui-button_cart,
@@ -673,9 +698,11 @@
   }
 }
 @media (hover: hover) {
-  .aui-button_callback:hover { color: var(--white); }
-  .aui-button_callback:hover:before { 
-    background-color: var(--white); 
+  .aui-button_callback:hover {
+    color: var(--white);
+  }
+  .aui-button_callback:hover:before {
+    background-color: var(--white);
   }
 }
 
