@@ -8,7 +8,8 @@
   margin-bottom: 5px;
   box-sizing: border-box;
 }
-.aui-admin-rubric-select__wrapper:hover .aui-admin-rubric-select__button_default {
+.aui-admin-rubric-select__wrapper:hover
+  .aui-admin-rubric-select__button_default {
   display: block;
 }
 

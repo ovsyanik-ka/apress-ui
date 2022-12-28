@@ -38,7 +38,7 @@
   -webkit-appearance: none;
   margin: 0;
 }
-.aui-admin-number-input__field[type=number] {
+.aui-admin-number-input__field[type='number'] {
   -moz-appearance: textfield;
 }
 

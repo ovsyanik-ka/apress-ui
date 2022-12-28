@@ -40,7 +40,7 @@
 }
 
 .aui-marketing-label_transparent {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .aui-marketing-label_red {
@@ -64,117 +64,116 @@
 }
 
 .aui-marketing-label_desktop {
-    position: relative;
-    padding: 4px 8px;
-    border-radius: 4px 4px 4px 0px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    height: 24px;
+  position: relative;
+  padding: 4px 8px;
+  border-radius: 4px 4px 4px 0px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  height: 24px;
 }
 
 .aui-marketing-label_desktop::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    border: 2px solid transparent;
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  border: 2px solid transparent;
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_green-dark-20::after {
-    border-top: 2px solid var(--green-d20);
-    border-right: 2px solid var(--green-d20);
+  border-top: 2px solid var(--green-d20);
+  border-right: 2px solid var(--green-d20);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_red-dark-10::after {
-    border-top: 2px solid var(--red-d10);
-    border-right: 2px solid var(--red-d10);
+  border-top: 2px solid var(--red-d10);
+  border-right: 2px solid var(--red-d10);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_orange-dark-10::after {
-    border-top: 2px solid var(--orange-d10);
-    border-right: 2px solid var(--orange-d10);
+  border-top: 2px solid var(--orange-d10);
+  border-right: 2px solid var(--orange-d10);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_purple-dark-20::after {
-    border-top: 2px solid var(--purple-d20);
-    border-right: 2px solid var(--purple-d20);
+  border-top: 2px solid var(--purple-d20);
+  border-right: 2px solid var(--purple-d20);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_blue-dark-10::after {
-    border-top: 2px solid var(--blue-d10);
-    border-right: 2px solid var(--blue-d10);
+  border-top: 2px solid var(--blue-d10);
+  border-right: 2px solid var(--blue-d10);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_orange::after {
-    border-top: 2px solid var(--orange);
-    border-right: 2px solid var(--orange);
+  border-top: 2px solid var(--orange);
+  border-right: 2px solid var(--orange);
 }
 
-
 .aui-marketing-label_desktop.aui-marketing-label_red::after {
-    border-top: 2px solid var(--red);
-    border-right: 2px solid var(--red);
+  border-top: 2px solid var(--red);
+  border-right: 2px solid var(--red);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_red-dark-15::after {
-    border-top: 2px solid var(--red-d15);
-    border-right: 2px solid var(--red-d15);
+  border-top: 2px solid var(--red-d15);
+  border-right: 2px solid var(--red-d15);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_green-dark-10::after {
-    border-top: 2px solid var(--green-d10);
-    border-right: 2px solid var(--green-d10);
+  border-top: 2px solid var(--green-d10);
+  border-right: 2px solid var(--green-d10);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_blue::after {
-    border-top: 2px solid var(--blue);
-    border-right: 2px solid var(--blue);
+  border-top: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
 }
 
 .aui-marketing-label_desktop.aui-marketing-label_purple::after {
-    border-top: 2px solid var(--purple);
-    border-right: 2px solid var(--purple);
+  border-top: 2px solid var(--purple);
+  border-right: 2px solid var(--purple);
 }
 
 .aui-marketing-label_mobile {
-    padding: 2px 4px;
-    border-radius: 2px;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    height: 16px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  height: 16px;
 }
 
 .aui-marketing-label_rating-desktop {
-    padding: 2px 4px;
-    font-size: 12px;
-    line-height: 14px;
-    border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 4px;
 }
 
 .aui-marketing-label_rating-mobile {
-    padding: 0px;
-    font-size: 12px;
-    line-height: 14px;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .aui-marketing-label_rating-mobile_green-dark-20 {
-    color: var(--green-d20);
+  color: var(--green-d20);
 }
 
 .aui-marketing-label_rating-mobile_orange {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .aui-marketing-label_rating-mobile_amber {
-    color: var(--amber);
+  color: var(--amber);
 }
 
 .aui-marketing-label_discount {
-    padding: 4px;
-    font-size: 12px;
-    line-height: 14px;
-    border-radius: 4px;
+  padding: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 4px;
 }
 

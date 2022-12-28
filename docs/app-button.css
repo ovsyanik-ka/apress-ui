@@ -6,7 +6,7 @@
   border: 1px solid #028dd8;
   border-radius: 3px;
   box-sizing: border-box;
-  transition: .2s;
+  transition: 0.2s;
 }
 .aui-app-button:hover,
 .aui-app-button:focus,
@@ -125,7 +125,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  } 
+  }
   .aui-app-button_app-store_wide::before,
   .aui-app-button_google-play_wide::before {
     display: none;
