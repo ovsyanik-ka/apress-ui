@@ -28,3 +28,19 @@
   font-weight: 400;
 }
 
+.aui-admin-button_transparent,
+.aui-admin-button_transparent:visited,
+.aui-admin-button_transparent:link {
+  background: transparent;
+  border: 1px solid var(--admin-blue);
+  color: var(--admin-blue);
+  font-weight: 700;
+}
+
+@media (hover: hover) {
+  .aui-admin-button_transparent:hover {
+    background: var(--admin-blue);
+    color: var(--admin-white);
+  }
+}
+
