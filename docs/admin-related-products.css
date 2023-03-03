@@ -66,10 +66,6 @@
   color: var(--admin-blue);
   cursor: pointer;
 }
-.aui-admin-related-products__button_active:hover {
-  background-color: var(--admin-blue);
-  color: var(--admin-white);
-}
 
 .aui-admin-related-products__button_disabled {
   background-color: var(--admin-white);
@@ -84,9 +80,17 @@
   color: var(--admin-dim-red);
   cursor: pointer;
 }
-.aui-admin-related-products__button_remove:hover {
-  background-color: var(--admin-dim-red);
-  color: var(--admin-white);
+
+@media (hover: hover) {
+  .aui-admin-related-products__button_remove:hover {
+    background-color: var(--admin-dim-red);
+    color: var(--admin-white);
+  }
+
+  .aui-admin-related-products__button_active:hover {
+    background-color: var(--admin-blue);
+    color: var(--admin-white);
+  }
 }
 
 @media all and (max-width: 767px) {
