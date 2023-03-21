@@ -1,0 +1,42 @@
+.aui-admin-file-icon {
+  width: 21px;
+  min-width: 21px;
+  min-height: 24px;
+  height: 24px;
+}
+.aui-admin-file-icon_png {
+  background: url('./aui-admin-png.svg') center no-repeat;
+}
+.aui-admin-file-icon_docx {
+  background: url('./aui-admin-docx.svg') center no-repeat;
+}
+.aui-admin-file-icon_doc {
+  background: url('./aui-admin-doc.svg') center no-repeat;
+}
+.aui-admin-file-icon_bmp {
+  background: url('./aui-admin-bmp.svg') center no-repeat;
+}
+.aui-admin-file-icon_jpg {
+  background: url('./aui-admin-jpg.svg') center no-repeat;
+}
+.aui-admin-file-icon_pdf {
+  background: url('./aui-admin-pdf.svg') center no-repeat;
+}
+.aui-admin-file-icon_ppt {
+  background: url('./aui-admin-ppt.svg') center no-repeat;
+}
+.aui-admin-file-icon_pptx {
+  background: url('./aui-admin-pptx.svg') center no-repeat;
+}
+.aui-admin-file-icon_rar {
+  background: url('./aui-admin-rar.svg') center no-repeat;
+}
+.aui-admin-file-icon_xls {
+  background: url('./aui-admin-xls.svg') center no-repeat;
+}
+.aui-admin-file-icon_xlsx {
+  background: url('./aui-admin-xlsx.svg') center no-repeat;
+}
+.aui-admin-file-icon_zip {
+  background: url('./aui-admin-zip.svg') center no-repeat;
+}

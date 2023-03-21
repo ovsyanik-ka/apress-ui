@@ -1,0 +1,18 @@
+.aui-admin-icons__trash {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  -webkit-mask-image: url(./aui-admin-icons-trash.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./aui-admin-icons-trash.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: var(--admin-red);
+  cursor: pointer;
+}
+
+.aui-admin-icons__trash:hover {
+  opacity: 0.8;
+}
