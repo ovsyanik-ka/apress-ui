@@ -1,0 +1,43 @@
+.aui-admin-file-icon {
+  width: 21px;
+  min-width: 21px;
+  min-height: 24px;
+  height: 24px;
+}
+.aui-admin-file-icon_png {
+  background: url(3fbdccaa9b3128be2506e3bfae69ccf6.svg) center no-repeat;
+}
+.aui-admin-file-icon_docx {
+  background: url(dcb9504784d7145e63cc69c4b3b14818.svg) center no-repeat;
+}
+.aui-admin-file-icon_doc {
+  background: url(5a1a82c6d762ae8904905028afb60410.svg) center no-repeat;
+}
+.aui-admin-file-icon_bmp {
+  background: url(381ce11b1717c45651025e1d2b718b7b.svg) center no-repeat;
+}
+.aui-admin-file-icon_jpg {
+  background: url(068f32f9872e6a070b3e73f6fbc7e58d.svg) center no-repeat;
+}
+.aui-admin-file-icon_pdf {
+  background: url(a8d31bda8802c13c0ac542c9bebba091.svg) center no-repeat;
+}
+.aui-admin-file-icon_ppt {
+  background: url(5589c87252868edfec9e5db2dcf3d6d0.svg) center no-repeat;
+}
+.aui-admin-file-icon_pptx {
+  background: url(ed95e819e22c2f64af2b68102a2de6b8.svg) center no-repeat;
+}
+.aui-admin-file-icon_rar {
+  background: url(15ae1e6f5caec88b3a93e0f84f69ca30.svg) center no-repeat;
+}
+.aui-admin-file-icon_xls {
+  background: url(754acbe742fa45bc3760058376445a8c.svg) center no-repeat;
+}
+.aui-admin-file-icon_xlsx {
+  background: url(b669a6b01b1cbed42bf731fa86e442d8.svg) center no-repeat;
+}
+.aui-admin-file-icon_zip {
+  background: url(92969eeffdacd7207274e72bd1875e16.svg) center no-repeat;
+}
+
