@@ -1,6 +1,6 @@
 {
   "name": "@apress/apress-ui",
-  "version": "14.72.0",
+  "version": "14.73.0",
   "scripts": {
     "dev": "NPM_SCRIPT=dev ./scripts/npm-script.sh",
     "build": "NPM_SCRIPT=build ./scripts/npm-script.sh",
