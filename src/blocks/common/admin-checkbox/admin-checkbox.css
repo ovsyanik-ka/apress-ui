@@ -54,6 +54,10 @@
   top: -1px;
 }
 
+.aui-admin-checkbox__label_small {
+  padding-left: 24px;
+}
+
 .aui-admin-checkbox__label_without-text {
   display: inline;
 }
