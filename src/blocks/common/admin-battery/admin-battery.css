@@ -1,5 +1,5 @@
 .aui-admin-battery {
-  width: 170px;
+  width: 144px;
   box-sizing: border-box;
   display: flex;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -12,73 +12,84 @@
 }
 
 .aui-admin-battery__arrow {
-  background: url('./aui-admin-battery__arrow.svg') center no-repeat;
-  width: 35px;
+  width: 24px;
+  min-width: 24px;
   cursor: pointer;
+  position: relative;
+}
+
+.aui-admin-battery__arrow::before {
+  background: url('./aui-admin-battery__arrow.svg') center no-repeat;
+  width: 8px;
+  height: 24px;
+  content: '';
+  display: block;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  padding: 0 8px;
 }
 
 .aui-admin-battery__arrow_closed {
   transform: rotate(180deg);
 }
 
-.aui-admin-battery__title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 21px;
-  color: var(--admin-light-dark);
-  margin-bottom: 15px;
-  padding-top: 20px;
-}
-
 .aui-admin-battery__battery {
-  height: 120px;
-  width: 65px;
+  height: 34px;
+  width: 62px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
-  border: 3px solid var(--admin-battery-grey);
+  border: 2px solid var(--admin-battery-grey);
   border-radius: 6px;
   position: relative;
-  margin-left: 15px;
+  align-items: flex-start;
+  margin-top: 12px;
+  padding: 2px;
 }
 
 .aui-admin-battery__battery::before {
   content: '';
   position: absolute;
-  top: -7px;
-  left: 14px;
-  height: 5px;
-  width: 30px;
-  background-color: var(--admin-battery-grey);
-  border-top-left-radius: 3px;
+  top: 50%;
+  left: 58px;
+  height: 16px;
+  width: 5px;
+  background-color: var(--admin-battery-dusky-azure);
+  border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
+  transform: translateY(-50%);
 }
 
 .aui-admin-battery__fill {
-  width: 55px;
+  height: 100%;
   background-color: var(--admin-battery-fill);
-  margin-bottom: 2px;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 
 .aui-admin-battery__percent {
   color: var(--admin-blue);
-  font-size: 34px;
-  line-height: 46px;
-  font-weight: 700;
-  padding-left: 15px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .aui-admin-battery__conditions {
-  width: 80%;
-  font-size: 12px;
-  color: var(--admin-light-dark);
-  line-height: 18px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--admin-battery-dusky-azure);
+  line-height: 21px;
+  margin-top: 12px;
 }
 
 .aui-admin-battery__condition {
   display: flex;
+  margin-bottom: 6px;
 }
 
 .aui-admin-battery__condition-text {
@@ -96,7 +107,7 @@
 }
 
 .aui-admin-battery__contition-percent_two-signs {
-  margin-right: 6px;
+  margin-right: 4px;
 }
 
 .aui-admin-battery__link {
@@ -105,7 +116,7 @@
   line-height: 18px;
   position: relative;
   padding-left: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
   cursor: pointer;
 }
 .aui-admin-battery__link::before {
@@ -117,46 +128,34 @@
   left: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .aui-admin-battery {
-    width: 80px;
-  }
-  .aui-admin-battery__content {
-    padding-top: 18px;
+    width: 95px;
   }
   .aui-admin-battery__title {
     display: none;
   }
-  .aui-admin-battery__battery {
-    width: 40px;
-    height: 80px;
-    margin-left: 10px;
-  }
-  .aui-admin-battery__battery::before {
-    width: 18px;
-    left: 8px;
-  }
-  .aui-admin-battery__fill {
-    width: 34px;
-  }
   .aui-admin-battery__conditions {
-    padding-left: 5px;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 16px;
   }
   .aui-admin-battery__condition {
-    flex-direction: column;
-    margin-bottom: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .aui-admin-battery__link {
     display: none;
   }
-  .aui-admin-battery__percent {
-    font-size: 18px;
-    line-height: 25px;
-    padding-left: 10px;
-    margin-bottom: 6px;
-  }
   .aui-admin-battery__arrow {
-    width: 12px;
-    background-size: 70%;
+    width: 18px;
+    min-width: 18px;
+  }
+  .aui-admin-battery__arrow::before {
+    width: 6px;
+    height: 18px;
+    background-size: 90%;
+    margin: 0 6px;
+    padding: unset;
   }
 }
