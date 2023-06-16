@@ -16,7 +16,6 @@
   }
   .aui-app-button_app-store_wide:after {
     content: '';
-    -webkit-mask-box-image: url('app-store-logo.svg');
     mask-image: url('app-store-logo.svg');
     background-color: var(--white);
     width: 21px;
