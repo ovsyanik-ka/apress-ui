@@ -132,7 +132,6 @@
   }
   .aui-app-button_app-store_wide:after {
     content: '';
-    -webkit-mask-box-image: url(b1497af06ef528138f00231047a17540.svg);
     mask-image: url(b1497af06ef528138f00231047a17540.svg);
     background-color: var(--white);
     width: 21px;
