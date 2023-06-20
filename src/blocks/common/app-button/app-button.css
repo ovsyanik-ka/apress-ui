@@ -32,7 +32,6 @@
   left: 35px;
 }
 .aui-app-button_google-play:before {
-  -webkit-mask-box-image: url('google-play.svg');
   mask-image: url('google-play.svg');
   width: 81px;
   height: 29px;
@@ -40,7 +39,6 @@
   right: 32px;
 }
 .aui-app-button_app-store:before {
-  -webkit-mask-box-image: url('app-store.svg');
   mask-image: url('app-store.svg');
   width: 110px;
   height: 30px;
