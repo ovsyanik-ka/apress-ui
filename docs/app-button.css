@@ -32,7 +32,6 @@
   left: 35px;
 }
 .aui-app-button_google-play:before {
-  -webkit-mask-box-image: url(88ee9228f560b0512ed67952899218af.svg);
   mask-image: url(88ee9228f560b0512ed67952899218af.svg);
   width: 81px;
   height: 29px;
@@ -40,7 +39,6 @@
   right: 32px;
 }
 .aui-app-button_app-store:before {
-  -webkit-mask-box-image: url(cedfe8372f985d91695fcb203e7a8343.svg);
   mask-image: url(cedfe8372f985d91695fcb203e7a8343.svg);
   width: 110px;
   height: 30px;
