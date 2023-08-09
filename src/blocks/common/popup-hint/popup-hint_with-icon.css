@@ -1,15 +1,16 @@
 .aui-popup-hint_with-icon {
   display: inline-block;
 }
+
 .aui-popup-hint_with-icon:before {
   content: '';
   display: inline-block;
   width: 12px;
   height: 12px;
   background: #5e7491;
-  -webkit-mask-box-image: url('popup-hint-icon.svg');
   mask-image: url('popup-hint-icon.svg');
 }
+
 .aui-popup-hint_with-icon:hover:before {
   background: #028dd8;
 }

@@ -1,13 +1,13 @@
 .aui-checkbox__checkbox {
   display: none;
 }
+
 .aui-checkbox__checkbox:checked
   + .aui-checkbox__label
   .aui-checkbox__box:after {
   content: '';
   width: 14px;
   height: 10px;
-  -webkit-mask-box-image: url('checkbox.svg');
   mask-image: url('checkbox.svg');
   background-color: #424b5e;
   font-weight: bold;
@@ -22,6 +22,7 @@
   font-size: 14px;
   color: #5e7491;
 }
+
 .aui-checkbox__box {
   display: inline-block;
   position: relative;
