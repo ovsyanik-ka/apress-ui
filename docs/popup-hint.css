@@ -24,15 +24,16 @@
 .aui-popup-hint_with-icon {
   display: inline-block;
 }
+
 .aui-popup-hint_with-icon:before {
   content: '';
   display: inline-block;
   width: 12px;
   height: 12px;
   background: #5e7491;
-  -webkit-mask-box-image: url(d1af00103640e43844b0db55dbb1814c.svg);
   mask-image: url(d1af00103640e43844b0db55dbb1814c.svg);
 }
+
 .aui-popup-hint_with-icon:hover:before {
   background: #028dd8;
 }
