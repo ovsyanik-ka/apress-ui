@@ -38,6 +38,23 @@ app.modules.initPhoneMask = (function (self) {
         : _options[pattern],
       _options.params
     );
+
+    if (_options.notRemoveCode) {
+      $field.on('keydown', function (event) {
+        if (
+          (event.keyCode === 8 || event.keyCode === 107) &&
+          $field[0].selectionStart <= DEFAULT_CODE.length
+        ) {
+          event.preventDefault();
+        }
+      });
+
+      $field.click(function () {
+        if (!$(this).val()) {
+          $(this).val(DEFAULT_CODE);
+        }
+      });
+    }
   }
 
   function _init(element) {
