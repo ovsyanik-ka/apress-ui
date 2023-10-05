@@ -2,3 +2,8 @@
   border-width: 2px;
   padding: 9px 22px;
 }
+
+.aui-button_transparent:disabled {
+  background: transparent;
+  color: var(--black-l65);
+}

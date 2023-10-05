@@ -17,3 +17,9 @@ a.aui-button:hover {
   text-decoration: none;
   color: var(--white);
 }
+
+.aui-button:disabled,
+.aui-button:hover:disabled {
+  background: var(--black-l95);
+  color: var(--black-l65);
+}
