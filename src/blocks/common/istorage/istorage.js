@@ -69,6 +69,19 @@ window.IStorage =
       return iframeEl;
     }
 
+    function _isSsoUserTokenKey(key) {
+      return key.includes('ssoUserToken');
+    }
+
+    function _getCookie(name) {
+      const value = '; ' + document.cookie;
+      const parts = value.split('; ' + name + '=');
+
+      if (parts.length == 2) {
+        return parts.pop().split(';').shift();
+      }
+    }
+
     function _callEventListeners(eventName, data) {
       _listeners[eventName] &&
         _listeners[eventName].forEach(function (listener) {
@@ -84,7 +97,9 @@ window.IStorage =
           _postMessage(sourceWindow, {
             type: ACTION_TYPES.getResponse,
             payload: {
-              value: _localStorage.getItem(payload.key),
+              value:
+                _localStorage.getItem(payload.key) ||
+                (_isSsoUserTokenKey(payload.key) && _getCookie(payload.key)),
               requestID: payload.requestID,
             },
           });
@@ -92,6 +107,11 @@ window.IStorage =
 
         case ACTION_TYPES.setRequest:
           _localStorage.setItem(payload.key, payload.value);
+
+          if (_isSsoUserTokenKey(payload.key)) {
+            document.cookie = `${payload.key}=${payload.value}; Secure; Max-Age=31536000; Path=/; SameSite=None;`;
+          }
+
           _postMessage(sourceWindow, {
             type: ACTION_TYPES.setResponse,
             payload: {
