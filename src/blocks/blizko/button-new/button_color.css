@@ -1,0 +1,17 @@
+.aui-button-new_color_red-dark-101 {
+  background: var(--red-d101);
+}
+
+.aui-button-new_color_orange-light-10 {
+  background: var(--orange-l10);
+}
+
+.aui-button-new_clear-color_red-dark-101 {
+  border-color: var(--red-d101);
+  color: var(--red-d101);
+}
+
+.aui-button-new_clear-color_orange-light-10 {
+  border-color: var(--orange-l10);
+  color: var(--orange-l10);
+}

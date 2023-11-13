@@ -1,0 +1,21 @@
+.aui-button-new {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-family: Arial;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+}
+
+.aui-button-new:disabled {
+  background: var(--black-l95);
+  cursor: inherit;
+  color: var(--black-l65);
+  border: none;
+}

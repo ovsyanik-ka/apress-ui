@@ -7,6 +7,8 @@
       "red-l35": "#ffb3b3",
       "red-l25": "#ff8080",
       "red-d10": "#cc0000",
+      "red-d101": "#fc4000",
+      "red-d102": "#fa5f5f",
       "red-d15": "#990000",
       "red-d25": "#800000",
       "red-d30": "#660000",
@@ -17,6 +19,8 @@
       "orange-l20": "#ffa366",
       "orange-l10": "#ff8533",
       "orange-d10": "#cc5200",
+      "orange-d101": "#e37724",
+      "orange-d102": "#ff5c00",
       "orange-d15": "#b34700",
       "orange-d20": "#993d00",
 
@@ -33,12 +37,15 @@
       "green-l20": "#99ff66",
       "green-d10": "#44cc00",
       "green-d20": "#339900",
+      "green-d201": "#00a153",
+      "green-d202": "#00ab58",
 
       "purple": "#cc00ff",
       "purple-l45": "#fae5ff",
       "purple-l30": "#eB99ff",
       "purple-l20": "#e066ff",
       "purple-d10": "#a300cc",
+      "purple-d101": "#a882cf",
       "purple-d20": "#7a0099",
 
       "blue": "#0088cc",
@@ -48,6 +55,8 @@
       "blue-l20": "#33bbff",
       "blue-l10": "#00aaff",
       "blue-d10": "#006699",
+      "blue-d101": "#00a6a6",
+      "blue-d102": "#4899db",
       "blue-d20": "#004466",
 
       "black": "#000000",
@@ -71,11 +80,16 @@
       "amber-l10": "#ffce3a",
       "amber-d5": "#ffb907",
       "amber-d10": "#d39e00",
+      "amber-d101": "#f7a500",
       "amber-d15": "#ba8b00",
       "amber-d20": "#a07800",
       "amber-d30": "#6d5200",
 
-      "white": "#ffffff"
+      "white": "#ffffff",
+
+      "pink": "#f25e90",
+
+      "lilac": "#8987fa"
     }
   }
 }
