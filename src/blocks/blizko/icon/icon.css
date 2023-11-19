@@ -1,0 +1,99 @@
+.aui-icon::after,
+.aui-icon::before {
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
+.aui-icon_company::before,
+.aui-icon_company::after {
+  mask-image: url(./company.svg);
+  -webkit-mask-image: url(./company.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.aui-icon_company_color_black::before,
+.aui-icon_company_color_black::after {
+  background-color: var(--black-l20);
+}
+
+.aui-icon_company_color_orange::before,
+.aui-icon_company_color_orange::after {
+  background-color: var(--orange);
+}
+
+.aui-icon_phone::before,
+.aui-icon_phone::after {
+  mask-image: url(./phone.svg);
+  -webkit-mask-image: url(./phone.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_web::before,
+.aui-icon_web::after {
+  mask-image: url(./web.svg);
+  -webkit-mask-image: url(./web.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_email::before,
+.aui-icon_email::after {
+  mask-image: url(./email.svg);
+  -webkit-mask-image: url(./email.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_geo::before,
+.aui-icon_geo::after {
+  mask-image: url(./geo.svg);
+  -webkit-mask-image: url(./geo.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_schedule::before,
+.aui-icon_schedule::after {
+  mask-image: url(./schedule.svg);
+  -webkit-mask-image: url(./schedule.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_bring::before,
+.aui-icon_bring::after {
+  mask-image: url(./bring.svg);
+  -webkit-mask-image: url(./bring.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_pay::before,
+.aui-icon_pay::after {
+  mask-image: url(./pay.svg);
+  -webkit-mask-image: url(./pay.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
+
+.aui-icon_delivery::before,
+.aui-icon_delivery::after {
+  mask-image: url(./delivery.svg);
+  -webkit-mask-image: url(./delivery.svg);
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+}
