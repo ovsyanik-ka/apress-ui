@@ -6,14 +6,14 @@
   -webkit-mask-size: contain;
   mask-position: center;
   -webkit-mask-position: center;
+  width: 20px;
+  height: 20px;
 }
 
 .aui-icon_company::before,
 .aui-icon_company::after {
   mask-image: url(./company.svg);
   -webkit-mask-image: url(./company.svg);
-  width: 20px;
-  height: 20px;
 }
 
 .aui-icon_company_color_black::before,
@@ -30,8 +30,6 @@
 .aui-icon_phone::after {
   mask-image: url(./phone.svg);
   -webkit-mask-image: url(./phone.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -39,8 +37,6 @@
 .aui-icon_web::after {
   mask-image: url(./web.svg);
   -webkit-mask-image: url(./web.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -48,8 +44,6 @@
 .aui-icon_email::after {
   mask-image: url(./email.svg);
   -webkit-mask-image: url(./email.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -57,8 +51,6 @@
 .aui-icon_geo::after {
   mask-image: url(./geo.svg);
   -webkit-mask-image: url(./geo.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -66,8 +58,6 @@
 .aui-icon_schedule::after {
   mask-image: url(./schedule.svg);
   -webkit-mask-image: url(./schedule.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -75,8 +65,6 @@
 .aui-icon_bring::after {
   mask-image: url(./bring.svg);
   -webkit-mask-image: url(./bring.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -84,8 +72,6 @@
 .aui-icon_pay::after {
   mask-image: url(./pay.svg);
   -webkit-mask-image: url(./pay.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -93,7 +79,73 @@
 .aui-icon_delivery::after {
   mask-image: url(./delivery.svg);
   -webkit-mask-image: url(./delivery.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
+}
+
+.aui-icon_arrow-unwrap::after,
+.aui-icon_arrow-unwrap::before {
+  mask-image: url(./arrow-unwrap.svg);
+  -webkit-mask-image: url(./arrow-unwrap.svg);
+}
+
+.aui-icon_arrow-unwrap_color_black::after,
+.aui-icon_arrow-unwrap_color_black::before {
+  background-color: var(--black-l20);
+}
+
+.aui-icon_arrow-unwrap_color_gray::after,
+.aui-icon_arrow-unwrap_color_gray::before {
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-expand::after,
+.aui-icon_arrow-expand::before {
+  mask-image: url(./arrow-expand.svg);
+  -webkit-mask-image: url(./arrow-expand.svg);
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-back::after,
+.aui-icon_arrow-back::before {
+  mask-image: url(./arrow-back.svg);
+  -webkit-mask-image: url(./arrow-back.svg);
+}
+
+.aui-icon_arrow-back_color_black::after,
+.aui-icon_arrow-back_color_black::before {
+  background-color: var(--black-l20);
+}
+
+.aui-icon_arrow-back_color_gray::after,
+.aui-icon_arrow-back_color_gray::before {
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-outline::after,
+.aui-icon_arrow-outline::before {
+  background-image: url(./arrow-outline.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aui-icon_whatsapp::after,
+.aui-icon_whatsapp::before {
+  mask-image: url(./whatsapp.svg);
+  -webkit-mask-image: url(./whatsapp.svg);
+  background-color: var(--green-d10);
+}
+
+.aui-icon_viber::after,
+.aui-icon_viber::before {
+  mask-image: url(./viber.svg);
+  -webkit-mask-image: url(./viber.svg);
+  background-color: #7e57c2;
+}
+
+.aui-icon_telegram::after,
+.aui-icon_telegram::before {
+  mask-image: url(./telegram.svg);
+  -webkit-mask-image: url(./telegram.svg);
+  background-color: var(--blue);
 }
