@@ -6,14 +6,14 @@
   -webkit-mask-size: contain;
   mask-position: center;
   -webkit-mask-position: center;
+  width: 20px;
+  height: 20px;
 }
 
 .aui-icon_company::before,
 .aui-icon_company::after {
   mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
   -webkit-mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
-  width: 20px;
-  height: 20px;
 }
 
 .aui-icon_company_color_black::before,
@@ -30,8 +30,6 @@
 .aui-icon_phone::after {
   mask-image: url(a77b5c09838fcc943727cef5436abbbf.svg);
   -webkit-mask-image: url(a77b5c09838fcc943727cef5436abbbf.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -39,8 +37,6 @@
 .aui-icon_web::after {
   mask-image: url(762c791dcd653726fa8a01c75981416d.svg);
   -webkit-mask-image: url(762c791dcd653726fa8a01c75981416d.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -48,8 +44,6 @@
 .aui-icon_email::after {
   mask-image: url(ffc4fa64bf4263a2009f7b7a2c89e877.svg);
   -webkit-mask-image: url(ffc4fa64bf4263a2009f7b7a2c89e877.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -57,8 +51,6 @@
 .aui-icon_geo::after {
   mask-image: url(e7898789127865dff7e3b8277bcfdd15.svg);
   -webkit-mask-image: url(e7898789127865dff7e3b8277bcfdd15.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -66,8 +58,6 @@
 .aui-icon_schedule::after {
   mask-image: url(2e48ea0074bef3c324bcfd9e73fd9c2b.svg);
   -webkit-mask-image: url(2e48ea0074bef3c324bcfd9e73fd9c2b.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -75,8 +65,6 @@
 .aui-icon_bring::after {
   mask-image: url(919dd4dcd25352ed352476f6dc841078.svg);
   -webkit-mask-image: url(919dd4dcd25352ed352476f6dc841078.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -84,8 +72,6 @@
 .aui-icon_pay::after {
   mask-image: url(ce956e97da32633593b3d9f2d0795184.svg);
   -webkit-mask-image: url(ce956e97da32633593b3d9f2d0795184.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
 }
 
@@ -93,8 +79,74 @@
 .aui-icon_delivery::after {
   mask-image: url(9843883c0374c596f193599a7e505fc6.svg);
   -webkit-mask-image: url(9843883c0374c596f193599a7e505fc6.svg);
-  width: 20px;
-  height: 20px;
   background-color: var(--orange);
+}
+
+.aui-icon_arrow-unwrap::after,
+.aui-icon_arrow-unwrap::before {
+  mask-image: url(7e7436a2210e14d5456c64378833d3c0.svg);
+  -webkit-mask-image: url(7e7436a2210e14d5456c64378833d3c0.svg);
+}
+
+.aui-icon_arrow-unwrap_color_black::after,
+.aui-icon_arrow-unwrap_color_black::before {
+  background-color: var(--black-l20);
+}
+
+.aui-icon_arrow-unwrap_color_gray::after,
+.aui-icon_arrow-unwrap_color_gray::before {
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-expand::after,
+.aui-icon_arrow-expand::before {
+  mask-image: url(cac926d4544c9230349d28e3f4cd2ac2.svg);
+  -webkit-mask-image: url(cac926d4544c9230349d28e3f4cd2ac2.svg);
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-back::after,
+.aui-icon_arrow-back::before {
+  mask-image: url(fe641f6f3718d8ef2e47901ad0f87c31.svg);
+  -webkit-mask-image: url(fe641f6f3718d8ef2e47901ad0f87c31.svg);
+}
+
+.aui-icon_arrow-back_color_black::after,
+.aui-icon_arrow-back_color_black::before {
+  background-color: var(--black-l20);
+}
+
+.aui-icon_arrow-back_color_gray::after,
+.aui-icon_arrow-back_color_gray::before {
+  background-color: var(--black-l50);
+}
+
+.aui-icon_arrow-outline::after,
+.aui-icon_arrow-outline::before {
+  background-image: url(dabb998fe532176a6c1142360b11d44b.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aui-icon_whatsapp::after,
+.aui-icon_whatsapp::before {
+  mask-image: url(d9bae9fb48f89634cb3751181e1e9322.svg);
+  -webkit-mask-image: url(d9bae9fb48f89634cb3751181e1e9322.svg);
+  background-color: var(--green-d10);
+}
+
+.aui-icon_viber::after,
+.aui-icon_viber::before {
+  mask-image: url(a9cf6ab4a849510e2aed6a6ec2c3efa4.svg);
+  -webkit-mask-image: url(a9cf6ab4a849510e2aed6a6ec2c3efa4.svg);
+  background-color: #7e57c2;
+}
+
+.aui-icon_telegram::after,
+.aui-icon_telegram::before {
+  mask-image: url(e9d42a744ce774a6176d6c8b11fe6cbc.svg);
+  -webkit-mask-image: url(e9d42a744ce774a6176d6c8b11fe6cbc.svg);
+  background-color: var(--blue);
 }
 
