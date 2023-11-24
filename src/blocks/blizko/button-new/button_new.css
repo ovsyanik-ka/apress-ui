@@ -11,6 +11,7 @@
   box-sizing: border-box;
   cursor: pointer;
   width: 100%;
+  text-align: center;
 }
 
 .aui-button-new:disabled {
