@@ -95,6 +95,11 @@
   background-image: url(./arrow-unwrap-hide.svg);
 }
 
+.aui-icon_arrow-unwrap_hide[data-hide='false']::after,
+.aui-icon_arrow-unwrap_hide[data-hide='false']::before {
+  background-image: url(./arrow-unwrap-unhide.svg);
+}
+
 .aui-icon_arrow-unwrap_unhide::after,
 .aui-icon_arrow-unwrap_unhide::before {
   background-image: url(./arrow-unwrap-unhide.svg);
