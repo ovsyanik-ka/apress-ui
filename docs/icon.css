@@ -95,6 +95,11 @@
   background-image: url(7e7436a2210e14d5456c64378833d3c0.svg);
 }
 
+.aui-icon_arrow-unwrap_hide[data-hide='false']::after,
+.aui-icon_arrow-unwrap_hide[data-hide='false']::before {
+  background-image: url(0e6a0a08364a38543cc61d1972d8bb87.svg);
+}
+
 .aui-icon_arrow-unwrap_unhide::after,
 .aui-icon_arrow-unwrap_unhide::before {
   background-image: url(0e6a0a08364a38543cc61d1972d8bb87.svg);
