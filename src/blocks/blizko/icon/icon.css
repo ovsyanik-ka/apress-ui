@@ -8,6 +8,7 @@
   -webkit-mask-position: center;
   width: 20px;
   height: 20px;
+  flex-shrink: 0;
 }
 
 .aui-icon_company::before,
@@ -84,25 +85,34 @@
 
 .aui-icon_arrow-unwrap::after,
 .aui-icon_arrow-unwrap::before {
-  mask-image: url(./arrow-unwrap.svg);
-  -webkit-mask-image: url(./arrow-unwrap.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
-.aui-icon_arrow-unwrap_color_black::after,
-.aui-icon_arrow-unwrap_color_black::before {
-  background-color: var(--black-l20);
+.aui-icon_arrow-unwrap_hide::after,
+.aui-icon_arrow-unwrap_hide::before {
+  background-image: url(./arrow-unwrap-hide.svg);
 }
 
-.aui-icon_arrow-unwrap_color_gray::after,
-.aui-icon_arrow-unwrap_color_gray::before {
-  background-color: var(--black-l50);
+.aui-icon_arrow-unwrap_unhide::after,
+.aui-icon_arrow-unwrap_unhide::before {
+  background-image: url(./arrow-unwrap-unhide.svg);
+}
+
+.aui-icon_arrow-sort::after,
+.aui-icon_arrow-sort::before {
+  background-image: url(./arrow-sort.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .aui-icon_arrow-expand::after,
 .aui-icon_arrow-expand::before {
-  mask-image: url(./arrow-expand.svg);
-  -webkit-mask-image: url(./arrow-expand.svg);
-  background-color: var(--black-l50);
+  background-image: url(./arrow-expand.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .aui-icon_arrow-back::after,
@@ -148,4 +158,12 @@
   mask-image: url(./telegram.svg);
   -webkit-mask-image: url(./telegram.svg);
   background-color: var(--blue);
+}
+
+.aui-icon_star::after,
+.aui-icon_star::before {
+  background-image: url(./star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
