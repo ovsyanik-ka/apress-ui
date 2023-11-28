@@ -39,3 +39,27 @@
     </ul>
   </div>
 </div>
+<div class="aui-scroll aui-scroll_horizont">
+  <p>
+    Чтобы горизонатльный скролл заработал, необходимо повесить классы aui-scroll
+    и aui-scroll_horizont на контейнере, а на нужном элементе указать overflow и
+    ограничить его ширину.
+  </p>
+  <style>
+    .custom-aui-list-item {
+      flex-shrink: 0;
+    }
+  </style>
+  <div style="width: 250px; overflow: auto">
+    <ul class="aui-list aui-list_ordinary" style="display: flex; gap: 5px">
+      <li class="aui-list__item custom-aui-list-item">Item 1</li>
+      <li class="aui-list__item custom-aui-list-item">Item 2</li>
+      <li class="aui-list__item custom-aui-list-item">Item 3</li>
+      <li class="aui-list__item custom-aui-list-item">Item 4</li>
+      <li class="aui-list__item custom-aui-list-item">Item 5</li>
+      <li class="aui-list__item custom-aui-list-item aui-list__item_selected">
+        Item 6
+      </li>
+    </ul>
+  </div>
+</div>

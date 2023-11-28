@@ -16,3 +16,12 @@
   background-color: var(--scrollbar-color);
   border-radius: 4px;
 }
+
+.aui-scroll_horizont *::-webkit-scrollbar {
+  height: 3px;
+}
+
+.aui-scroll_horizont *::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 3px;
+}
