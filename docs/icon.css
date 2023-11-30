@@ -11,6 +11,12 @@
   flex-shrink: 0;
 }
 
+.aui-icon_small::after,
+.aui-icon_small::before {
+  width: 16px;
+  height: 16px;
+}
+
 .aui-icon_company::before,
 .aui-icon_company::after {
   mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
@@ -20,6 +26,11 @@
 .aui-icon_company_color_black::before,
 .aui-icon_company_color_black::after {
   background-color: var(--black-l20);
+}
+
+.aui-icon_company_color_light-black::before,
+.aui-icon_company_color_light-black::after {
+  background-color: var(--black-l33);
 }
 
 .aui-icon_company_color_orange::before,
