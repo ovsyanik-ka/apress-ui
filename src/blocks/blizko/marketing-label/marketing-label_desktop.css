@@ -41,32 +41,47 @@
   border-right: 2px solid var(--blue-d10);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_orange::after {
-  border-top: 2px solid var(--orange);
-  border-right: 2px solid var(--orange);
+.aui-marketing-label_desktop.aui-marketing-label_pink::after {
+  border-top: 2px solid var(--pink);
+  border-right: 2px solid var(--pink);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_red::after {
-  border-top: 2px solid var(--red);
-  border-right: 2px solid var(--red);
+.aui-marketing-label_desktop.aui-marketing-label_lilac::after {
+  border-top: 2px solid var(--lilac);
+  border-right: 2px solid var(--lilac);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_red-dark-15::after {
-  border-top: 2px solid var(--red-d15);
-  border-right: 2px solid var(--red-d15);
+.aui-marketing-label_desktop.aui-marketing-label_orange-d102::after {
+  border-top: 2px solid var(--orange-d102);
+  border-right: 2px solid var(--orange-d102);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_green-dark-10::after {
-  border-top: 2px solid var(--green-d10);
-  border-right: 2px solid var(--green-d10);
+.aui-marketing-label_desktop.aui-marketing-label_red-d102::after {
+  border-top: 2px solid var(--red-d102);
+  border-right: 2px solid var(--red-d102);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_blue::after {
-  border-top: 2px solid var(--blue);
-  border-right: 2px solid var(--blue);
+.aui-marketing-label_desktop.aui-marketing-label_orange-d101::after {
+  border-top: 2px solid var(--orange-d101);
+  border-right: 2px solid var(--orange-d101);
 }
 
-.aui-marketing-label_desktop.aui-marketing-label_purple::after {
-  border-top: 2px solid var(--purple);
-  border-right: 2px solid var(--purple);
+.aui-marketing-label_desktop.aui-marketing-label_amber-d101::after {
+  border-top: 2px solid var(--amber-d101);
+  border-right: 2px solid var(--amber-d101);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_blue-d101::after {
+  border-top: 2px solid var(--blue-d101);
+  border-right: 2px solid var(--blue-d101);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_purple-d101::after {
+  border-top: 2px solid var(--purple-d101);
+  border-right: 2px solid var(--purple-d101);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_blue-d102::after {
+  border-top: 2px solid var(--blue-d102);
+  border-right: 2px solid var(--blue-d102);
 }
