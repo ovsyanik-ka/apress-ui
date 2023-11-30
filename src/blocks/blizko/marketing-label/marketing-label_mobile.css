@@ -6,9 +6,19 @@
   line-height: 12px;
 }
 
-.aui-marketing-label_mobile[data-new-design='true'] {
+.aui-marketing-label_mobile_item-card-item,
+.aui-marketing-label_mobile_listing-item {
   border-radius: 4px;
+}
+
+.aui-marketing-label_mobile_item-card-item {
   font-size: 14px;
   min-height: 20px;
   line-height: 1.1;
+}
+
+.aui-marketing-label_mobile_listing-item {
+  padding: 1.5px 4px;
+  font-size: 11px;
+  line-height: 1; 
 }

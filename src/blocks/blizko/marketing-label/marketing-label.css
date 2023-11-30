@@ -11,14 +11,6 @@
   background-color: var(--green-d20);
 }
 
-.aui-marketing-label_green-dark-201 {
-  background-color: var(--green-d201);
-}
-
-.aui-marketing-label_green-dark-202 {
-  background-color: var(--green-d202);
-}
-
 .aui-marketing-label_red-dark-10 {
   background-color: var(--red-d10);
 }
@@ -51,22 +43,38 @@
   opacity: 0.75;
 }
 
-.aui-marketing-label_red {
-  background-color: var(--red);
+.aui-marketing-label_pink {
+  background-color: var(--pink);
 }
 
-.aui-marketing-label_red-dark-15 {
-  background-color: var(--red-d15);
+.aui-marketing-label_lilac {
+  background-color: var(--lilac);
 }
 
-.aui-marketing-label_green-dark-10 {
-  background-color: var(--green-d10);
+.aui-marketing-label_orange-d101 {
+  background-color: var(--orange-d101);
 }
 
-.aui-marketing-label_purple {
-  background-color: var(--purple);
+.aui-marketing-label_amber-d101 {
+  background-color: var(--amber-d101);
 }
 
-.aui-marketing-label_blue {
-  background-color: var(--blue);
+.aui-marketing-label_blue-d101 {
+  background-color: var(--blue-d101);
+}
+
+.aui-marketing-label_purple-d101 {
+  background-color: var(--purple-d101);
+}
+
+.aui-marketing-label_blue-d102 {
+  background-color: var(--blue-d102);
+}
+
+.aui-marketing-label_orange-d102 {
+  background-color: var(--orange-d102);
+}
+
+.aui-marketing-label_red-d102 {
+  background-color: var(--red-d102);
 }
