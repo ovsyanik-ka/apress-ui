@@ -85,3 +85,8 @@
   border-top: 2px solid var(--blue-d102);
   border-right: 2px solid var(--blue-d102);
 }
+
+.aui-marketing-label_desktop.aui-marketing-label_green-d202::after {
+  border-top: 2px solid var(--green-d202);
+  border-right: 2px solid var(--green-d202);
+}
