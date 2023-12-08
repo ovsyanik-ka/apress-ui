@@ -79,6 +79,10 @@
   background-color: var(--red-d102);
 }
 
+.aui-marketing-label_green-d202 {
+  background-color: var(--green-d202);
+}
+
 .aui-marketing-label_desktop {
   position: relative;
   padding: 4px 8px;
@@ -165,6 +169,11 @@
 .aui-marketing-label_desktop.aui-marketing-label_blue-d102::after {
   border-top: 2px solid var(--blue-d102);
   border-right: 2px solid var(--blue-d102);
+}
+
+.aui-marketing-label_desktop.aui-marketing-label_green-d202::after {
+  border-top: 2px solid var(--green-d202);
+  border-right: 2px solid var(--green-d202);
 }
 
 .aui-marketing-label_mobile {
