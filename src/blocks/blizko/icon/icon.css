@@ -45,6 +45,11 @@
   background-color: var(--orange);
 }
 
+.aui-icon_phone_color_red::before,
+.aui-icon_phone_color_red::after {
+  background-color: var(--red-d101);
+}
+
 .aui-icon_web::before,
 .aui-icon_web::after {
   mask-image: url(./web.svg);
@@ -57,6 +62,11 @@
   mask-image: url(./email.svg);
   -webkit-mask-image: url(./email.svg);
   background-color: var(--orange);
+}
+
+.aui-icon_email_color_red::before,
+.aui-icon_email_color_red::after {
+  background-color: var(--red-d101);
 }
 
 .aui-icon_geo::before,
@@ -140,6 +150,11 @@
 .aui-icon_arrow-back_color_black::after,
 .aui-icon_arrow-back_color_black::before {
   background-color: var(--black-l20);
+}
+
+.aui-icon_arrow-back_color_red::after,
+.aui-icon_arrow-back_color_red::before {
+  background-color: var(--red-d101);
 }
 
 .aui-icon_arrow-back_color_gray::after,
