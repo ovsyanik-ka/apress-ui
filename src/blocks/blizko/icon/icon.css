@@ -15,12 +15,48 @@
 .aui-icon_small::before {
   width: 16px;
   height: 16px;
+  background-size: contain;
+}
+
+.aui-icon_company-rank_5::before,
+.aui-icon_company-rank_4::before {
+  background-image: url(./platinum.svg);
+}
+
+.aui-icon_company-rank_3::before {
+  background-image: url(./gold.svg);
+}
+
+.aui-icon_company-rank_2::before {
+  background-image: url(./silver.svg);
+}
+
+.aui-icon_company-rank_1::before {
+  background-image: url(./platnyi.svg);
+}
+
+.aui-icon_company-rank_0::before {
+  background-image: url(./free.svg);
 }
 
 .aui-icon_company::before,
 .aui-icon_company::after {
   mask-image: url(./company.svg);
   -webkit-mask-image: url(./company.svg);
+}
+
+.aui-icon_favorite::before,
+.aui-icon_favorite::after {
+  background-image: url(./favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aui-icon_favorite[data-is-favorite='true']::before,
+.aui-icon_favorite[data-is-favorite='true']::after {
+  background-image: url(./favorite_active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .aui-icon_company_color_black::before,
