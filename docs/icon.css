@@ -15,12 +15,48 @@
 .aui-icon_small::before {
   width: 16px;
   height: 16px;
+  background-size: contain;
+}
+
+.aui-icon_company-rank_5::before,
+.aui-icon_company-rank_4::before {
+  background-image: url(ea3f1b258364829fac79c3cb05b16348.svg);
+}
+
+.aui-icon_company-rank_3::before {
+  background-image: url(5b8ed0751fbc3d5f207e2f55904f874d.svg);
+}
+
+.aui-icon_company-rank_2::before {
+  background-image: url(0fb63a2aed2d157d22d96b57b103d046.svg);
+}
+
+.aui-icon_company-rank_1::before {
+  background-image: url(caa66ffc050e43da1d050fb14e1aeadc.svg);
+}
+
+.aui-icon_company-rank_0::before {
+  background-image: url(804453881b01b040b7fd4206a36aee62.svg);
 }
 
 .aui-icon_company::before,
 .aui-icon_company::after {
   mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
   -webkit-mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
+}
+
+.aui-icon_favorite::before,
+.aui-icon_favorite::after {
+  background-image: url(314cee681301e9373f505c2d0b7189ef.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aui-icon_favorite[data-is-favorite='true']::before,
+.aui-icon_favorite[data-is-favorite='true']::after {
+  background-image: url(7cd453d80dc886339f00f0799e3f5822.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .aui-icon_company_color_black::before,
