@@ -1,0 +1,103 @@
+.aui-product-card-carousel {
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+}
+
+.aui-product-card-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.aui-product-card-carousel__product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 45%;
+  flex-shrink: 0;
+  padding-bottom: 4px;
+  font-family: var(--default-font-family);
+}
+
+.aui-product-card-carousel__product {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.aui-product-card-carousel__image-wrapper {
+  position: relative;
+  min-height: 144px;
+  max-height: 300px;
+  width: 100%;
+  height: 46vw;
+}
+
+.aui-product-card-carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: var(--black-l93);
+  border-radius: 4px;
+}
+
+.aui-product-card-carousel__favorite-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.aui-product-card-carousel__favorite-button::before {
+  content: '';
+}
+
+.aui-product-card-carousel__exist {
+  color: var(--orange-d10);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.aui-product-card-carousel__title {
+  color: var(--black-l20);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  display: -webkit-box;
+  word-break: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.aui-product-card-carousel__company-name-container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.aui-product-card-carousel__company-name {
+  color: var(--black-l50);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  display: -webkit-box;
+  word-break: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.aui-product-card-carousel__company-name-container::before {
+  content: '';
+}
