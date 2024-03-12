@@ -40,3 +40,6 @@
 .aui-admin-file-icon_zip {
   background: url('./aui-admin-zip.svg') center no-repeat;
 }
+.aui-admin-file-icon_yml {
+  background: url('./aui-admin-yml.svg') center no-repeat;
+}
