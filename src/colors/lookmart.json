@@ -14,6 +14,7 @@
       "d2021-white": "#fff",
 
       "d2021-red": "#eb5757",
+      "d2021-rich-red": "#d00",
 
       "d2021-orange": "#f2994a",
 
@@ -23,12 +24,16 @@
 
       "d2021-black": "#000",
       "d2021-matte-black": "#333333",
+      "d2021-rich-black": "#111",
+      "d2021-black-and-gray": "#222",
 
       "d2021-gray": "#f0f0f0",
       "d2021-light-gray": "#c4c4c4",
       "d2021-dark-gray": "#9e9e9e",
       "d2021-darkish-gray": "#7d7d7d",
       "d2021-translucent-gray": "#e2e2e2",
+      "d2021-charcoal-color": "#5f5f5f",
+      "d2021-copper": "#a6a6a6",
 
       "d2021-light-pink": "#ffe1f1",
       "d2021-light-yellow": "#f5eac3"
