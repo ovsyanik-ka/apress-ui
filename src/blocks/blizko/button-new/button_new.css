@@ -20,3 +20,11 @@
   color: var(--black-l65);
   border: none;
 }
+
+.aui-button-new::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 75%;
+  height: 45px;
+}

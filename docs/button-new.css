@@ -21,6 +21,14 @@
   border: none;
 }
 
+.aui-button-new::after {
+  content: '';
+  position: absolute;  
+  left: 0;
+  width: 75%;
+  height: 45px;
+}
+
 .aui-button-new_size_l {
   padding: 10px 0;
   height: 48px;
