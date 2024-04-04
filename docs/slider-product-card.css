@@ -16,6 +16,7 @@
   flex-shrink: 0;
   padding-bottom: 4px;
   font-family: var(--default-font-family);
+  position: relative;
 }
 
 .aui-product-card-carousel__product {
@@ -43,6 +44,7 @@
 
 .aui-product-card-carousel__favorite-button {
   position: absolute;
+  z-index: var(--z-index-absolute);
   right: 8px;
   top: 8px;
   display: flex;
