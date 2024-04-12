@@ -235,23 +235,9 @@
   background-size: contain;
 }
 
-.product-company_rank_5::before,
-.product-company_rank_4::before {
-  background-image: url(./platinum.svg);
-}
-
-.product-company_rank_3::before {
-  background-image: url(./gold.svg);
-}
-
-.product-company_rank_2::before {
-  background-image: url(./silver.svg);
-}
-
-.product-company_rank_1::before {
-  background-image: url(./platnyi.svg);
-}
-
-.product-company_rank_0::before {
-  background-image: url(./free.svg);
+.aui-icon_micro:after,
+.aui-icon_micro:before {
+  width: 13px;
+  height: 13px;
+  background-size: contain;
 }
