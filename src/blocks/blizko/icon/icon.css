@@ -18,6 +18,13 @@
   background-size: contain;
 }
 
+.aui-icon_micro:after,
+.aui-icon_micro:before {
+  width: 13px;
+  height: 13px;
+  background-size: contain;
+}
+
 .aui-icon_company-rank_5::before,
 .aui-icon_company-rank_4::before {
   background-image: url(./platinum.svg);
@@ -232,12 +239,5 @@
   background-image: url(./star.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.aui-icon_micro:after,
-.aui-icon_micro:before {
-  width: 13px;
-  height: 13px;
   background-size: contain;
 }
