@@ -1,0 +1,28 @@
+.aui-button-desktop_color_red {
+  background: var(--red-d101);
+}
+
+.aui-button-desktop_color_red:hover {
+  background: var(--orange);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.aui-button-desktop_clear-color_red {
+  border-color: var(--red-d101);
+  color: var(--red-d101);
+}
+
+.aui-button-desktop_clear-color_red::before {
+  background-color: var(--red-d101);
+}
+
+.aui-button-desktop_clear-color_red:hover {
+  border-color: var(--orange);
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.aui-button-desktop_clear-color_red:hover::before {
+  background-color: var(--orange);
+}
