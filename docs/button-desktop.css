@@ -1,0 +1,62 @@
+.aui-button-desktop {
+  all: unset;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: var(--white);
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  font-family: Arial;
+}
+
+.aui-button-desktop_clear {
+  border: 1.5px solid;
+  background: transparent;
+}
+
+.aui-button-desktop_color_red {
+  background: var(--red-d101);
+}
+
+.aui-button-desktop_color_red:hover {
+  background: var(--orange);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.aui-button-desktop_clear-color_red {
+  border-color: var(--red-d101);
+  color: var(--red-d101);
+}
+
+.aui-button-desktop_clear-color_red::before {
+  background-color: var(--red-d101);
+}
+
+.aui-button-desktop_clear-color_red:hover {
+  border-color: var(--orange);
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.aui-button-desktop_clear-color_red:hover::before {
+  background-color: var(--orange);
+}
+
+.aui-button-desktop_size_l {
+  height: 36px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.aui-button-desktop_icon::before {
+  content: '';
+}
+
