@@ -1,0 +1,17 @@
+.aui-button-desktop {
+  all: unset;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: var(--white);
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  font-family: Arial;
+}
