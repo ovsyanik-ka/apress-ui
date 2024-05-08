@@ -25,6 +25,13 @@
   background-size: contain;
 }
 
+.aui-icon_micro-small:after,
+.aui-icon_micro-small:before {
+  width: 14px;
+  height: 14px;
+  background-size: contain;
+}
+
 .aui-icon_micro:after,
 .aui-icon_micro:before {
   width: 13px;
@@ -62,13 +69,6 @@
 .aui-icon_favorite::before,
 .aui-icon_favorite::after {
   background-image: url(./favorite.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.aui-icon_favorite:hover::before,
-.aui-icon_favorite:hover::after {
-  background-image: url(./favorite_hover.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -274,4 +274,13 @@
 .aui-icon_star_color_blue::after,
 .aui-icon_star_color_blue::before {
   background-color: var(--blue);
+}
+
+@media (hover: none) {
+  .aui-icon_favorite:hover::before,
+  .aui-icon_favorite:hover::after {
+    background-image: url(./favorite_hover.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
