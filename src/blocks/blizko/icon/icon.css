@@ -57,7 +57,13 @@
 }
 
 .aui-icon_company-rank_0::before {
-  background-image: url(./free.svg);
+  mask-image: url(./company.svg);
+  -webkit-mask-image: url(./company.svg);
+  background-color: var(--black-l20);
+}
+
+.aui-icon_company-rank_light-black::before {
+  background-color: var(--black-l33);
 }
 
 .aui-icon_company::before,
@@ -276,7 +282,7 @@
   background-color: var(--blue);
 }
 
-@media (hover: none) {
+@media (hover: hover) {
   .aui-icon_favorite:hover::before,
   .aui-icon_favorite:hover::after {
     background-image: url(./favorite_hover.svg);
