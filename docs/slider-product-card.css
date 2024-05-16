@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 45%;
+  width: 138px;
   flex-shrink: 0;
   padding-bottom: 4px;
   font-family: var(--default-font-family);
@@ -31,7 +31,7 @@
   min-height: 144px;
   max-height: 300px;
   width: 100%;
-  height: 46vw;
+  height: 144px;
 }
 
 .aui-product-card-carousel__image {

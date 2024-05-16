@@ -57,7 +57,13 @@
 }
 
 .aui-icon_company-rank_0::before {
-  background-image: url(804453881b01b040b7fd4206a36aee62.svg);
+  mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
+  -webkit-mask-image: url(713e064c213e1c341cf2c8bb5e5f25e1.svg);
+  background-color: var(--black-l20);
+}
+
+.aui-icon_company-rank_light-black::before {
+  background-color: var(--black-l33);
 }
 
 .aui-icon_company::before,
@@ -276,7 +282,7 @@
   background-color: var(--blue);
 }
 
-@media (hover: none) {
+@media (hover: hover) {
   .aui-icon_favorite:hover::before,
   .aui-icon_favorite:hover::after {
     background-image: url(75161ce2f65e56624d27f7dbe7df8847.svg);
