@@ -15,3 +15,12 @@
   border-color: var(--orange-l10);
   color: var(--orange-l10);
 }
+
+.aui-button-new_color_red-main {
+  background: var(--red-main);
+}
+
+.aui-button-new_clear-color_red-main {
+  border-color: var(--red-main);
+  color: var(--red-main);
+}
