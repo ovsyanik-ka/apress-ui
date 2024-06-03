@@ -39,21 +39,32 @@
   background-size: contain;
 }
 
+.aui-icon_company-rank::after,
+.aui-icon_company-rank::before {
+  mask-image: url(./desktop-rank.svg);
+  -webkit-mask-image: url(./desktop-rank.svg);
+}
+
 .aui-icon_company-rank_5::before,
-.aui-icon_company-rank_4::before {
-  background-image: url(./platinum.svg);
+.aui-icon_company-rank_4::before,
+.aui-icon_company-rank_5::after,
+.aui-icon_company-rank_4::after {
+  background-color: var(--blue);
 }
 
-.aui-icon_company-rank_3::before {
-  background-image: url(./gold.svg);
+.aui-icon_company-rank_3::before,
+.aui-icon_company-rank_3::after {
+  background-color: var(--blue-l10);
 }
 
-.aui-icon_company-rank_2::before {
-  background-image: url(./silver.svg);
+.aui-icon_company-rank_2::before,
+.aui-icon_company-rank_2::after {
+  background-color: var(--blue-l30);
 }
 
-.aui-icon_company-rank_1::before {
-  background-image: url(./platnyi.svg);
+.aui-icon_company-rank_1::before,
+.aui-icon_company-rank_1::after {
+  background-color: var(--black-l75);
 }
 
 .aui-icon_company-rank_0::before {
