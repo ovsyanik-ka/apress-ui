@@ -294,8 +294,8 @@
 }
 
 @media (hover: hover) {
-  .aui-icon_favorite:hover::before,
-  .aui-icon_favorite:hover::after {
+  .aui-icon_favorite:not([data-is-favorite='true']):hover::before,
+  .aui-icon_favorite:not([data-is-favorite='true']):hover::after {
     background-image: url(75161ce2f65e56624d27f7dbe7df8847.svg);
     background-repeat: no-repeat;
     background-position: center;
