@@ -41,8 +41,8 @@
 
 .aui-icon_company-rank::after,
 .aui-icon_company-rank::before {
-  mask-image: url(./desktop-rank.svg);
-  -webkit-mask-image: url(./desktop-rank.svg);
+  mask-image: url(./company-rank.svg);
+  -webkit-mask-image: url(./company-rank.svg);
 }
 
 .aui-icon_company-rank_5::before,
@@ -294,8 +294,8 @@
 }
 
 @media (hover: hover) {
-  .aui-icon_favorite:hover::before,
-  .aui-icon_favorite:hover::after {
+  .aui-icon_favorite:not([data-is-favorite='true']):hover::before,
+  .aui-icon_favorite:not([data-is-favorite='true']):hover::after {
     background-image: url(./favorite_hover.svg);
     background-repeat: no-repeat;
     background-position: center;
