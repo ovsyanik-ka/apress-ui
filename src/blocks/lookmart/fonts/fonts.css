@@ -4,6 +4,7 @@
   src: local('RobotoSlab-Regular'), local('Roboto Slab Regular'),
     local('Roboto Slab'),
     url('RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+    url('RobotoSlab-Regular.woff2') format('woff2'),
     url('RobotoSlab-Regular.woff') format('woff'),
     url('RobotoSlab-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -14,6 +15,7 @@
   font-family: 'Open Sans';
   src: url('OpenSans-Regular.eot');
   src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-Regular.woff2') format('woff2'),
     url('OpenSans-Regular.woff') format('woff'),
     url('OpenSans-Regular.ttf') format('truetype');
 
@@ -25,6 +27,7 @@
   font-family: 'Open Sans';
   src: url('OpenSans-Bold.eot');
   src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-Bold.woff2') format('woff2'),
     url('OpenSans-Bold.woff') format('woff'),
     url('OpenSans-Bold.ttf') format('truetype');
   font-weight: bold;
