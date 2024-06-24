@@ -293,6 +293,17 @@
   background-color: var(--blue);
 }
 
+.aui-icon_edit::after,
+.aui-icon_edit::before {
+  mask-image: url('./edit-product.svg');
+  background-color: var(--blue);
+}
+
+.aui-icon_edit:hover::after,
+.aui-icon_edit:hover::before {
+  background-color: var(--blue-d10);
+}
+
 @media (hover: hover) {
   .aui-icon_favorite:not([data-is-favorite='true']):hover::before,
   .aui-icon_favorite:not([data-is-favorite='true']):hover::after {
