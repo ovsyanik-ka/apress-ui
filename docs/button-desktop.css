@@ -50,6 +50,15 @@
   background-color: var(--orange);
 }
 
+.aui-button-desktop_color_red-main {
+  background: var(--red-main);
+}
+
+.aui-button-desktop_clear-color_red-main {
+  border-color: var(--red-main);
+  color: var(--red-main);
+}
+
 .aui-button-desktop_size_l {
   height: 36px;
   font-size: 14px;

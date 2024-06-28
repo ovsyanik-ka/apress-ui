@@ -136,6 +136,11 @@
   background-color: var(--red-d101);
 }
 
+.aui-icon_phone-fill_white::before,
+.aui-icon_phone-fill_white::after {
+  background-color: var(--white);
+}
+
 .aui-icon_web::before,
 .aui-icon_web::after {
   mask-image: url(762c791dcd653726fa8a01c75981416d.svg);
