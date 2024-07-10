@@ -1,0 +1,48 @@
+<ul class="slider-root-widget__slider">
+  <li class="slider-root-widget__card">
+    <a class="aui-offer-short-card" href="#">
+      <div class="aui-offer-short-card__image-container">
+        <img
+          class="aui-offer-short-card__image"
+          alt="имя продукта"
+          src="./example-image-product.jpg"
+        />
+        <span class="aui-offer-short-card__label offer-type-label">
+          Подарок
+        </span>
+      </div>
+      <p class="aui-offer-short-card__card-title">
+        Цифровой фотоаппарат Olympus OM-D E-M1 Mark II Kit
+      </p>
+    </a>
+  </li>
+</ul>
+
+<style>
+  .slider-root-widget__slider {
+    display: flex;
+    padding: 24px 0 0;
+    list-style-type: none;
+  }
+
+  .slider-root-widget__card {
+    width: 200px;
+    min-height: 264px;
+    flex-shrink: 0;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .offer-type-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--green-d10);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+</style>
