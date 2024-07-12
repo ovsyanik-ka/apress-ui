@@ -309,6 +309,13 @@
   background-color: var(--blue-d10);
 }
 
+.aui-icon_expand::after,
+.aui-icon_expand::before {
+  background-image: url(./expand.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media (hover: hover) {
   .aui-icon_favorite:not([data-is-favorite='true']):hover::before,
   .aui-icon_favorite:not([data-is-favorite='true']):hover::after {
