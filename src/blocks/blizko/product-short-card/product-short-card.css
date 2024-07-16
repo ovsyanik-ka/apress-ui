@@ -20,6 +20,8 @@
   width: 184px;
   height: 184px;
   background: var(--black-l95);
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .aui-product-short-card__image {
