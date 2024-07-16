@@ -59,8 +59,14 @@
   color: var(--red-main);
 }
 
-.aui-button-desktop_size_l {
+.aui-button-desktop_size_m {
   height: 36px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.aui-button-desktop_size_s {
+  height: 32px;
   font-size: 14px;
   line-height: 16px;
 }
