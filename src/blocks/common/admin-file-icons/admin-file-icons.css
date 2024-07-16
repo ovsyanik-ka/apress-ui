@@ -46,3 +46,9 @@
 .aui-admin-file-icon_yrl {
   background: url('./aui-admin-yrl.svg') center no-repeat;
 }
+.aui-admin-file-icon_xml {
+  background: url('./aui-admin-xml.svg') center no-repeat;
+}
+.aui-admin-file-icon_edifact {
+  background: url('./aui-admin-edifact.svg') center no-repeat;
+}
