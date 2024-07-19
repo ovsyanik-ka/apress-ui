@@ -261,6 +261,13 @@
   background-size: contain;
 }
 
+.aui-icon_arrow-redirect-pcg::after,
+.aui-icon_arrow-redirect-pcg::before {
+  mask-image: url(b66612068504ff44ad6297de21978ae8.svg);
+  -webkit-mask-image: url(b66612068504ff44ad6297de21978ae8.svg);
+  background-color: var(--blue);
+}
+
 .aui-icon_whatsapp::after,
 .aui-icon_whatsapp::before {
   mask-image: url(d9bae9fb48f89634cb3751181e1e9322.svg);
