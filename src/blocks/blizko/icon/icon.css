@@ -261,6 +261,13 @@
   background-size: contain;
 }
 
+.aui-icon_arrow-redirect-pcg::after,
+.aui-icon_arrow-redirect-pcg::before {
+  mask-image: url(./arrow-redirect-pcg.svg);
+  -webkit-mask-image: url(./arrow-redirect-pcg.svg);
+  background-color: var(--blue);
+}
+
 .aui-icon_whatsapp::after,
 .aui-icon_whatsapp::before {
   mask-image: url(./whatsapp.svg);
