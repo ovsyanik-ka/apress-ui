@@ -39,6 +39,13 @@
   background-size: contain;
 }
 
+.aui-icon_nano:after,
+.aui-icon_nano:before {
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+}
+
 .aui-icon_company-rank::after,
 .aui-icon_company-rank::before {
   mask-image: url(5419a68cd05a0ede81a94a14a87fa24b.svg);
