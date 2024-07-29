@@ -1,4 +1,4 @@
-.aui-button-new {
+.aui-button-mobile {
   all: unset;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.aui-button-new:disabled {
+.aui-button-mobile:disabled {
   background: var(--black-l95);
   cursor: inherit;
   color: var(--black-l65);
