@@ -195,6 +195,13 @@
   background-color: var(--orange);
 }
 
+.aui-icon_online-payment::before,
+.aui-icon_online-payment::after {
+  background-image: url(./online-payment.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .aui-icon_delivery::before,
 .aui-icon_delivery::after {
   mask-image: url(./delivery.svg);
