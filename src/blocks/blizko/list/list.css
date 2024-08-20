@@ -28,3 +28,12 @@
 .aui-list__item:only-child .aui-radio__label:after {
   display: none;
 }
+
+.aui-list_online-integrations .aui-list__item_active {
+  border: 1px solid var(--black);
+  border-radius: 4px;
+}
+
+.aui-list__item_online-integration {
+  background-color: var(--white);
+}

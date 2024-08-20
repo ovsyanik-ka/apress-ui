@@ -11,7 +11,7 @@
   border-color: var(--orange-l20);
 }
 
-.aui-list_ordinary .aui-list__item_margin8:not(:last-of-type) {
+.aui-list_ordinary .aui-list_online-integration:not(:last-of-type) {
   margin-bottom: 8px;
 }
 
