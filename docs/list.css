@@ -29,6 +29,15 @@
   display: none;
 }
 
+.aui-list_online-integrations .aui-list__item_active {
+  border: 1px solid var(--black);
+  border-radius: 4px;
+}
+
+.aui-list__item_online-integration {
+  background-color: var(--white);
+}
+
 .aui-list_ordinary .aui-list__item {
   border-radius: 4px;
   background-color: var(--black-l98);
@@ -42,7 +51,7 @@
   border-color: var(--orange-l20);
 }
 
-.aui-list_ordinary .aui-list__item_margin8:not(:last-of-type) {
+.aui-list_ordinary .aui-list_online-integration:not(:last-of-type) {
   margin-bottom: 8px;
 }
 
