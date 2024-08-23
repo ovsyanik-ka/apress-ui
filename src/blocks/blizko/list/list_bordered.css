@@ -32,3 +32,8 @@
 .aui-list_bordered-all .aui-list__item:last-of-type {
   border-bottom: none;
 }
+
+.aui-list_bordered-all .aui-list__item:hover {
+  background-color: var(--black-l98);
+  cursor: pointer;
+}
